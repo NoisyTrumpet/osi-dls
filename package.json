@@ -1,6 +1,6 @@
 {
   "name": "@noisytrumpet/osi-dls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OSILIFE.com  | Design Language System",
   "dependencies": {
     "formik": "2.1.4",
