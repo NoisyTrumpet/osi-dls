@@ -119,7 +119,7 @@
     "url": "https://github.com/NoisyTrumpet/osi-dls/issues"
   },
   "homepage": "https://github.com/NoisyTrumpet/osi-dls#readme",
-  "main": "/lib",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
