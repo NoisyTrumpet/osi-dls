@@ -100,6 +100,7 @@ const Button = React.forwardRef(({
       onKeyDown={onKeyDown}
       onKeyUp={onKeyUp}
     >
+      
       {iconLeft && (
         <Icon
           name={iconLeft}
