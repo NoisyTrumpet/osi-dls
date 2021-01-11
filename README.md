@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Design Language System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Design System **Library** for the [osilife.com.com](osilife.com.com) brand in general, it contains several **React components** such as Primary buttons, text fields, etc which can be imported in React, and are **self-contained** with styling, storybook stories, test suites, functional JSX code, etc.
 
-## Available Scripts
+## Frameworks
 
-In the project directory, you can run:
+- Node Package Manager [link](https://www.npmjs.com/)
+- StorybookJS [link](https://storybook.js.org/)
+- Adobe DSM integration [link](https://support.invisionapp.com/hc/en-us/articles/360028510211-Configuring-the-Storybook-DSM-Integration)
+- React [link](https://reactjs.org/)
+- Gitlab NPM registry [link](https://docs.gitlab.com/ee/user/packages/npm_registry/)
+- Rollup JS [link](https://rollupjs.org/guide/en/)
+- Jest [link](https://jestjs.io/)
+- Eslint [link](https://eslint.org/)
 
-### `yarn start`
+## Local development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Install npm package manager: `brew install node`.
+- Install dependencies: `npm install`.
+- Run storybook: `npm run storybook`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Stories
 
-### `yarn test`
+- All stories are in individual component directories.
+- The file names must be in the format: `*.stories.js`.
+- Here are the guidelines for writing a particular story: [link](https://storybook.js.org/docs/guides/guide-react/#step-4-write-your-stories).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Widgets
 
-### `yarn build`
+- `widgets` are created under `src/widgets`
+- they need to be added to `src/widgets/index.js` to be able to export them into the `/lib` folder
+- to import them into another application `import { WIDGET_NAME } from "@dotcom/dls"`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Linting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `eslint` is used as a linting library.
+- Run lint using `npm run lint`.
+- Run lint and auto fix problems using `npm run lint:fix`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing
 
-### `yarn eject`
+- `jest` is used as a testing library, for running the tests, and _mocking_ where needed.
+- `enzyme` can be used at places to _shallow_ mount the components.
+- Run tests using `npm run test`.
+- Run tests with _live reload_ using `npm run test:watch`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Versioning
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The NPM library is versioned using the `version` key in the `package.json` file.
+- We use Semantic versioning, [link](https://semver.org/)
+- **NOTE:** _Major_ and _Minor_ versions must be in sync with design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Building the NPM package
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Requires tagging the commit to prompt the Gitlab pipeline to build the NPM packages.
+- The tag should be sumbitted as part of a push with other files.
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Relies on nginx config and assets in conf folder
+- The default health endpoint is copied to both the health and dls/ready paths
+- The DLS itself at the /dls path of the deployed site and is password protected with basic auth.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To stay out of the way of the unified CI pipeline, we have moved some stuff around:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Don't use a 'config' folder. Call it conf.
+- The ci is a local version of the global CI so we can override various jobs.
+- As we ponder the multiple needs of the single ci file. Must make a real commit, tagging a skipped
+- push won't do anything.
