@@ -120,9 +120,9 @@
   },
   "homepage": "https://github.com/NoisyTrumpet/osi-dls#readme",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "files": [
+    "lib"
+  ],
   "author": "CesarBenavides777",
   "license": "UNLICENSED"
 }
