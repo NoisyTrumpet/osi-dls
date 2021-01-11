@@ -23,7 +23,7 @@ $extended-colors: (brand-black: #000000,
 
 $pastel-colors: (pastel-yellow: #f9e182,
   pastel-blue: #ddecf8,
-  pastel-purple: #eeebf5,
+  // pastel-purple: #eeebf5,
   pastel-green: #e8f8f5);
 
 @function map-collect($maps...) {
