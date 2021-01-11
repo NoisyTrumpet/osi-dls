@@ -11,6 +11,8 @@ const Badge = ({ count, color }) => {
     return null;
   }
 
+  console.log('Testing NPM registry change')
+
   return (
     <div className={badgeClasses} color={color}>
       <Typography variant="caption" color="brand-white">
