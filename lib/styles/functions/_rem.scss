@@ -1,0 +1,18 @@
+// ---------------------------------------------------------
+// rem() function to convert all pixel (px) values into rem
+// ---------------------------------------------------------
+// 1px is returned as 1px due to sub-pixel anti-aliasing, all
+// others are output as rems
+// baseline is 16px, or 16px = rem, this is true for most
+// browsers but we'll specifically set it here
+// example : rem(32px) = 2rem
+// ---------------------------------------------------------
+
+@function rem($size) {
+  @if $size == 1px {
+    @return $size;
+  } @else {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+  }
+}

@@ -1,0 +1,45 @@
+// ---------------------------------------------------------
+// Typography mixin
+// ---------------------------------------------------------
+// typography variables to use when Beam is being called:
+//
+// $fallback:
+// - serif
+// - sans-serif
+//
+// $fb-family (fallback family):
+// - $beam-170
+// - $beam-114
+// - $beam-84
+//
+// $vf-family (variable family):
+// - $beam-vf
+// - hopefully Plex in the future..
+//
+// $weight:
+// - 170
+// - 114
+// - 84
+//
+// $width:
+// - 700
+// - add more if needed...
+// ---------------------------------------------------------
+
+@mixin fontSans($fb-family, $vf-family, $fallback, $weight, $width) {
+  // old support
+  font-family: $fb-family, $fallback;
+  font-weight: normal;
+
+  // new support
+  @supports (font-variation-settings: normal) {
+    font-family: $vf-family, $fallback;
+    font-variation-settings: 'wght' $weight, 'wdth' $width;
+  }
+}
+
+// Plex
+@mixin fontSerif {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: normal;
+}

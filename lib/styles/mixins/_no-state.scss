@@ -1,0 +1,48 @@
+// This is a trick for storybook
+// Per designs, no disabled state exists
+// This will display "State Does Not Exist" instead of any component parts
+@mixin state-does-not-exist($reason: 'By design') {
+  background: none;
+  border: 0;
+  box-shadow: 0 0 0 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: left;
+
+  > * {
+    display: none;
+  } 
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: none;
+    border: 0;
+    box-shadow: 0 0 0 0;
+  }
+
+  &:before,
+  &:after {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: map-get($colors, "gray5");
+  }
+
+  &:before {
+    content: '--- State does not exist* ---';
+    text-transform: capitalize;
+  }
+
+  &:after {
+    content: '* ' $reason;
+    font-size: 14px;
+    position: absolute;
+    top: $space-32;
+    left: 0;
+  }
+}

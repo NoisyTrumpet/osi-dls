@@ -1,0 +1,16 @@
+// Baseline media queries
+$mq-tablet-up: "(min-width: 768px)"; // pha-blet and up
+$mq-desktop-up: "(min-width: 1024px)"; // desktop and up, including landscape tablet width
+$mq-theme-max: "(min-width: 1280px)"; // max width for primary content in the site theme
+
+// For possible fine-tuning
+$mq-desktop-xl: "(min-width: 2048px)"; // desktop xl 2048 and up
+$mq-desktop-m: "(min-width: 1600px)"; // desktop medium 1600 and up
+$mq-desktop-s: "(min-width: 1366px)"; // desktop small 1366 and up
+$mq-desktop: "(min-width: 1025px)"; // desktop and up
+$mq-tablet-range: "(min-device-width: 768px) and (max-device-width: 1024px)";
+$mq-tablet-l: "(max-width: 1024px)"; // standard tablet : landscape
+$mq-tablet-p: "(max-width: 768px)"; // standard tablet : portrait
+$mq-mobile: "(max-width: 767px)"; // easy way to target phones
+$mq-mobile-l: "(max-width: 420px)"; // larger phones (iphone+, pixel2)
+$mq-mobile-s: "(max-width: 410px)"; // baby phones (iphone SE, s5)
