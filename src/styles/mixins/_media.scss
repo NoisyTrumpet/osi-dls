@@ -1,0 +1,14 @@
+// ---------------------------------------------------------
+// Mixin that basically interpolates the media query variable
+// ---------------------------------------------------------
+// allows you to pass multiple media queries if you need to
+// target two or more
+// ---------------------------------------------------------
+
+@mixin media($queries...) {
+  @each $query in $queries {
+    @media only screen and #{$query} {
+      @content;
+    }
+  }
+}

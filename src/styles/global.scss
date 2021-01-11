@@ -1,0 +1,15 @@
+.full-width {
+  width: 100%;
+}
+
+body[data-dialog='open'] {
+  overflow: hidden;
+  height: 100vh;
+}
+
+// Colors
+@each $name, $color in $colors {
+  &.background-color-#{$name} {
+    background-color: $color;
+  }
+}

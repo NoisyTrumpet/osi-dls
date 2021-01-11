@@ -1,0 +1,164 @@
+// Body
+.typography-body {
+  color: map-get($colors, 'gray5');
+  font-size: rem(15px);
+  letter-spacing: 0px;
+  @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
+}
+
+.typography-breadcrumb,
+.typography-body-medium,
+.typography-cta-tertiary,
+.typography-caption,
+.typography-eyebrow,
+.typography-helper,
+.typography-input-text,
+.typography-licensing,
+.typography-subtext,
+.typography-subtitle,
+.typography-field-label,
+.typography-text-link,
+.typography-price-unit,
+.typography-price-unit-strikethrough,
+.typography-price-sale {
+  @include fontSans($beam-114, $beam-vf, 'sans-serif', 114, 700);
+}
+
+// Call To Action
+.typography-cta {
+  color: map-get($colors, 'primary');
+  font-size: rem(14px);
+  letter-spacing: rem(0.7px);
+  text-transform: uppercase;
+  @include fontSans($beam-170, $beam-vf, 'sans-serif', 170, 700);
+}
+
+// Call To Action - Tertiary
+.typography-cta-tertiary {
+  color: map-get($colors, 'primary');
+  font-size: rem(14px);
+  letter-spacing: 0px;
+}
+
+//Caption
+.typography-caption {
+  color: map-get($colors, 'util-error');
+  font-size: rem(13px);
+  letter-spacing: 0px;
+}
+
+// Eyebrow
+.typography-eyebrow {
+  color: map-get($colors, 'gray5');
+  font-size: rem(14px);
+  text-transform: uppercase;
+  letter-spacing: rem(0.8px);
+}
+
+// Headline
+.typography-headline {
+  color: map-get($colors, 'primary');
+  @include fontSerif;
+}
+
+.typography-headline-1 {
+  font-size: rem(64px);
+  letter-spacing: rem(-1px);
+}
+
+.typography-headline-2 {
+  font-size: rem(46px);
+  letter-spacing: rem(-0.8px);
+}
+
+.typography-headline-3 {
+  font-size: rem(36px);
+  letter-spacing: rem(-0.5px);
+}
+
+.typography-headline-4 {
+  font-size: rem(31px);
+  letter-spacing: rem(-0.4px);
+}
+
+.typography-headline-5 {
+  font-size: rem(24px);
+  letter-spacing: rem(-0.2px);
+}
+
+.typography-headline-6 {
+  font-size: rem(22px);
+  letter-spacing: 0px;
+}
+
+// Price
+.typography-price-unit {
+  font-size: rem(22px);
+}
+
+.typography-price-unit-strikethrough {
+  text-decoration: line-through;
+  font-size: rem(16px);
+}
+
+.typography-price-sale {
+  font-size: rem(22px);
+}
+
+// Helper
+.typography-helper {
+  color: map-get($colors, 'gray5');
+  font-size: rem(14px);
+  letter-spacing: 0px;
+}
+
+// Input Text
+.typography-input-text {
+  color: map-get($colors, 'gray5');
+  font-size: rem(16px);
+  letter-spacing: 0px;
+}
+
+// Subtitle
+.typography-subtitle {
+  color: map-get($colors, 'primary');
+  font-size: rem(18px);
+  letter-spacing: 0px;
+}
+
+// Field Label
+.typography-field-label {
+  color: map-get($colors, 'gray4');
+  font-size: rem(15px);
+  letter-spacing: rem(0.3px);
+}
+
+// Text Link
+.typography-text-link {
+  color: map-get($colors, 'accentB');
+  font-size: rem(15px);
+  letter-spacing: 0px;
+  text-decoration: underline;
+}
+
+// Breadcrumb
+.typography-breadcrumb,
+.typography-licensing,
+.typography-subtext {
+  color: map-get($colors, 'gray5');
+  font-size: rem(13px);
+  letter-spacing: 0px;
+}
+
+// Screen Reader Text
+.screen-reader-text {
+  @extend %screen-reader-text;
+}
+
+// Colors
+@each $name, $color in $colors {
+  .color-#{$name},
+  .color-#{$name}:before {
+    color: $color;
+  }
+}

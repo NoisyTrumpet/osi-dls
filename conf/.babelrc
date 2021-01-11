@@ -1,0 +1,36 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": "> 0.25%, ie 11, not op_mini all, not dead",
+          "node": 8
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["@babel/preset-env", { "modules": "commonjs" }],
+        "@babel/preset-react"
+      ]
+    }
+  },
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "images": "./src/images",
+          "utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}

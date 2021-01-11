@@ -1,0 +1,679 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should not render when "variant" is provided an invalid variant 1`] = `<div />`;
+
+exports[`<Typography /> should not render when an invalid prop is provided 1`] = `<div />`;
+
+exports[`<Typography /> should not render when no props are provided 1`] = `<div />`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 1`] = `
+<div>
+  <h1
+    class="typography typography-headline typography-headline-1 color-white"
+  >
+    headline-1
+  </h1>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 2`] = `
+<div>
+  <h2
+    class="typography typography-headline typography-headline-2 color-white"
+  >
+    headline-2
+  </h2>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 3`] = `
+<div>
+  <h3
+    class="typography typography-headline typography-headline-3 color-white"
+  >
+    headline-3
+  </h3>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 4`] = `
+<div>
+  <h4
+    class="typography typography-headline typography-headline-4 color-white"
+  >
+    headline-4
+  </h4>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 5`] = `
+<div>
+  <h5
+    class="typography typography-headline typography-headline-5 color-white"
+  >
+    headline-5
+  </h5>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 6`] = `
+<div>
+  <h6
+    class="typography typography-headline typography-headline-6 color-white"
+  >
+    headline-6
+  </h6>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 7`] = `
+<div>
+  <span
+    class="typography typography-price-unit color-white"
+  >
+    price-unit
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 8`] = `
+<div>
+  <span
+    class="typography typography-price-unit-strikethrough color-white"
+  >
+    price-unit-strikethrough
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 9`] = `
+<div>
+  <span
+    class="typography typography-price-sale color-white"
+  >
+    price-sale
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 10`] = `
+<div>
+  <span
+    class="typography typography-cta color-white"
+  >
+    cta
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 11`] = `
+<div>
+  <span
+    class="typography typography-cta-tertiary color-white"
+  >
+    cta-tertiary
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 12`] = `
+<div>
+  <span
+    class="typography typography-subtitle color-white"
+  >
+    subtitle
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 13`] = `
+<div>
+  <span
+    class="typography typography-field-label color-white"
+  >
+    field-label
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 14`] = `
+<div>
+  <span
+    class="typography typography-body color-white"
+  >
+    body
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 15`] = `
+<div>
+  <span
+    class="typography typography-body typography-body-medium color-white"
+  >
+    body-medium
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 16`] = `
+<div>
+  <span
+    class="typography typography-eyebrow color-white"
+  >
+    eyebrow
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 17`] = `
+<div>
+  <span
+    class="typography typography-text-link color-white"
+  >
+    text-link
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 18`] = `
+<div>
+  <span
+    class="typography typography-input-text color-white"
+  >
+    input-text
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 19`] = `
+<div>
+  <span
+    class="typography typography-caption color-white"
+  >
+    caption
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 20`] = `
+<div>
+  <span
+    class="typography typography-helper color-white"
+  >
+    helper
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 21`] = `
+<div>
+  <span
+    class="typography typography-breadcrumb color-white"
+  >
+    breadcrumb
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 22`] = `
+<div>
+  <span
+    class="typography screen-reader-text color-white"
+  >
+    srt
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 23`] = `
+<div>
+  <span
+    class="typography typography-licensing color-white"
+  >
+    licensing
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with color prop passed 24`] = `
+<div>
+  <span
+    class="typography typography-subtext color-white"
+  >
+    subtext
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 1`] = `
+<div>
+  <h1
+    class="typography typography-headline typography-headline-1"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 2`] = `
+<div>
+  <h2
+    class="typography typography-headline typography-headline-2"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 3`] = `
+<div>
+  <h3
+    class="typography typography-headline typography-headline-3"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 4`] = `
+<div>
+  <h4
+    class="typography typography-headline typography-headline-4"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 5`] = `
+<div>
+  <h5
+    class="typography typography-headline typography-headline-5"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 6`] = `
+<div>
+  <h6
+    class="typography typography-headline typography-headline-6"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 7`] = `
+<div>
+  <span
+    class="typography typography-price-unit"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 8`] = `
+<div>
+  <span
+    class="typography typography-price-unit-strikethrough"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 9`] = `
+<div>
+  <span
+    class="typography typography-price-sale"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 10`] = `
+<div>
+  <span
+    class="typography typography-cta"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 11`] = `
+<div>
+  <span
+    class="typography typography-cta-tertiary"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 12`] = `
+<div>
+  <span
+    class="typography typography-subtitle"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 13`] = `
+<div>
+  <span
+    class="typography typography-field-label"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 14`] = `
+<div>
+  <span
+    class="typography typography-body"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 15`] = `
+<div>
+  <span
+    class="typography typography-body typography-body-medium"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 16`] = `
+<div>
+  <span
+    class="typography typography-eyebrow"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 17`] = `
+<div>
+  <span
+    class="typography typography-text-link"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 18`] = `
+<div>
+  <span
+    class="typography typography-input-text"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 19`] = `
+<div>
+  <span
+    class="typography typography-caption"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 20`] = `
+<div>
+  <span
+    class="typography typography-helper"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 21`] = `
+<div>
+  <span
+    class="typography typography-breadcrumb"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 22`] = `
+<div>
+  <span
+    class="typography screen-reader-text"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 23`] = `
+<div>
+  <span
+    class="typography typography-licensing"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with no text 24`] = `
+<div>
+  <span
+    class="typography typography-subtext"
+  />
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 1`] = `
+<div>
+  <h1
+    class="typography typography-headline typography-headline-1"
+  >
+    headline-1
+  </h1>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 2`] = `
+<div>
+  <h2
+    class="typography typography-headline typography-headline-2"
+  >
+    headline-2
+  </h2>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 3`] = `
+<div>
+  <h3
+    class="typography typography-headline typography-headline-3"
+  >
+    headline-3
+  </h3>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 4`] = `
+<div>
+  <h4
+    class="typography typography-headline typography-headline-4"
+  >
+    headline-4
+  </h4>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 5`] = `
+<div>
+  <h5
+    class="typography typography-headline typography-headline-5"
+  >
+    headline-5
+  </h5>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 6`] = `
+<div>
+  <h6
+    class="typography typography-headline typography-headline-6"
+  >
+    headline-6
+  </h6>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 7`] = `
+<div>
+  <span
+    class="typography typography-price-unit"
+  >
+    price-unit
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 8`] = `
+<div>
+  <span
+    class="typography typography-price-unit-strikethrough"
+  >
+    price-unit-strikethrough
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 9`] = `
+<div>
+  <span
+    class="typography typography-price-sale"
+  >
+    price-sale
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 10`] = `
+<div>
+  <span
+    class="typography typography-cta"
+  >
+    cta
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 11`] = `
+<div>
+  <span
+    class="typography typography-cta-tertiary"
+  >
+    cta-tertiary
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 12`] = `
+<div>
+  <span
+    class="typography typography-subtitle"
+  >
+    subtitle
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 13`] = `
+<div>
+  <span
+    class="typography typography-field-label"
+  >
+    field-label
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 14`] = `
+<div>
+  <span
+    class="typography typography-body"
+  >
+    body
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 15`] = `
+<div>
+  <span
+    class="typography typography-body typography-body-medium"
+  >
+    body-medium
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 16`] = `
+<div>
+  <span
+    class="typography typography-eyebrow"
+  >
+    eyebrow
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 17`] = `
+<div>
+  <span
+    class="typography typography-text-link"
+  >
+    text-link
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 18`] = `
+<div>
+  <span
+    class="typography typography-input-text"
+  >
+    input-text
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 19`] = `
+<div>
+  <span
+    class="typography typography-caption"
+  >
+    caption
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 20`] = `
+<div>
+  <span
+    class="typography typography-helper"
+  >
+    helper
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 21`] = `
+<div>
+  <span
+    class="typography typography-breadcrumb"
+  >
+    breadcrumb
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 22`] = `
+<div>
+  <span
+    class="typography screen-reader-text"
+  >
+    srt
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 23`] = `
+<div>
+  <span
+    class="typography typography-licensing"
+  >
+    licensing
+  </span>
+</div>
+`;
+
+exports[`<Typography /> variant "% s" should render with text 24`] = `
+<div>
+  <span
+    class="typography typography-subtext"
+  >
+    subtext
+  </span>
+</div>
+`;

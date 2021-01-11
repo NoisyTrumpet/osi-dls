@@ -1,0 +1,69 @@
+// ---------------------------------------------------------
+/*
+
+    storybook
+
+    styling used in the storybook application only
+
+*/
+// ---------------------------------------------------------
+
+.sb-show-main {
+  padding: $space-32;
+
+  .sb-no-padding {
+    margin: -$space-32;
+  }
+  .sb-full-height {
+    height: 100vh;
+  }
+}
+
+.sb-icon-container,
+.sb-icon {
+  align-items: center;
+  display: flex;
+}
+
+.sb-icon-container {
+  flex-wrap: wrap;
+
+  &.labels {
+    .sb-icon {
+      flex: 1 0 20%;
+    }
+
+    .icon {
+      padding: 0 $space-8;
+    }
+  }
+
+  &.no-labels {
+    .sb-icon {
+      justify-content: center;
+      width: $space-40;
+    }
+  }
+}
+
+.sb-icon {
+  margin: 0 $space-8 $space-8 0;
+  height: $space-40;
+}
+
+.sb-icon-name {
+  color: map-get($colors, 'primary');
+  font-size: rem(10px);
+  @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
+}
+
+// For the InlineSVG component
+.storybook-inlinesvg {
+  &:hover {
+    cursor: pointer;
+
+    path {
+      fill: map-get($colors, 'gray4');
+    }
+  }
+}

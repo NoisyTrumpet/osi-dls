@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> renders 1`] = `
+<div
+  class="badge background-color-primary"
+  color="primary"
+>
+  <span
+    class="typography typography-caption color-brand-white"
+  >
+    1
+  </span>
+</div>
+`;

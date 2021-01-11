@@ -1,0 +1,58 @@
+.icon {
+  @include icons;
+
+  &.error:before {
+    color: map-get($colors, 'util-error');
+  }
+
+  &.disabled:before {
+    color: map-get($colors, 'disabled');
+  }
+
+  &.badge {
+    width: 100%;
+    height: 0%;
+    position: relative;
+
+    .badge {
+      position: absolute;
+      transform: translateX(60%) translateY(-40%);
+    }
+  }
+}
+
+.icon-badge {
+  max-width: fit-content;
+}
+
+// colors
+@each $name,
+$color in $colors {
+  .icon-#{$name}:before {
+    color: $color;
+  }
+}
+
+// sizes
+$sizes: ('8': rem(8px),
+  '10': rem(10px),
+  '12': rem(12px),
+  '14': rem(14px),
+  '16': rem(16px),
+  '18': rem(18px),
+  '20': rem(20px),
+  '22': rem(22px),
+  '24': rem(24px),
+  '26': rem(26px),
+  '28': rem(28px),
+  '30': rem(30px),
+  '32': rem(32px),
+);
+
+@each $name,
+$size in $sizes {
+  .icon-#{$name}:before {
+    font-size: $size;
+    line-height: $size;
+  }
+}

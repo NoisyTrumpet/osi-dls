@@ -1,0 +1,15 @@
+.badge {
+  width: rem(20px);
+  height: rem(20px);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+
+}
+
+// Safari Only Hack to fix text-size-adjust not working
+_::-webkit-full-page-media,
+_:future,
+:root .badge {
+  padding-top: 2px !important;
+}
