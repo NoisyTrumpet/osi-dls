@@ -25,7 +25,8 @@
     "test:generate-output": " jest --json --outputFile=.jest-test-results.json",
     "test:watch": "jest --no-cache -u --watch",
     "test:coverage": "jest --no-cache -u --coverage",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "clean": "rm -r ./node_modules/.cache"
   },
   "devDependencies": {
     "@react-mock/fetch": "^0.3.0",

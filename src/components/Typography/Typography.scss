@@ -3,7 +3,7 @@
   color: map-get($colors, 'gray5');
   font-size: rem(15px);
   letter-spacing: 0px;
-  @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
+  @include fontSans($gtAmerican, $gtAmerican, 'sans-serif', 84, 700);
 }
 
 .typography-breadcrumb,
@@ -21,7 +21,7 @@
 .typography-price-unit,
 .typography-price-unit-strikethrough,
 .typography-price-sale {
-  @include fontSans($beam-114, $beam-vf, 'sans-serif', 114, 700);
+  @include fontSans($gtAmerican, $gtAmerican, 'sans-serif', 114, 700);
 }
 
 // Call To Action
@@ -30,7 +30,7 @@
   font-size: rem(14px);
   letter-spacing: rem(0.7px);
   text-transform: uppercase;
-  @include fontSans($beam-170, $beam-vf, 'sans-serif', 170, 700);
+  @include fontSans($gtAmerican, $gtAmerican, 'sans-serif', 700, 700);
 }
 
 // Call To Action - Tertiary
