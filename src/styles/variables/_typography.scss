@@ -4,15 +4,15 @@
 // Defined fonts for Beam (sans-serif) and IMB Plex (serif)
 // ---------------------------------------------------------
 
+// Baloo 2
+$baloo: 'Baloo 2';
+
 // beam
 $beam-vf: 'BeamNewHMK-VF';
 $beam-170: 'BeamNewHMK-170';
 $beam-114: 'BeamNewHMK-114';
 $beam-84: 'BeamNewHMK-84';
 
-// plex
-$plex: 'IBM Plex Serif';
-
 // simple defefinition
 $sans-serif: $beam-vf;
-$serif: $plex;
+$serif: $baloo;
