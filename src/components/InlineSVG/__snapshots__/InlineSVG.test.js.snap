@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineSVG /> Should render 1`] = `
+<InlineSVG
+  cacheRequests={true}
+  description=""
+  focus="false"
+  preProcessor={null}
+  role=""
+  src=""
+  title=""
+  uniquifyIDs={false}
+/>
+`;

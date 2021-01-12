@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageSource /> Should render 1`] = `<source />`;
+
+exports[`<ImageSource /> Should render with attributes 1`] = `
+<source
+  data-srcset="data1"
+  media="(min-width: 800px)"
+  srcSet="test1.jpg"
+/>
+`;

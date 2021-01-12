@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> picture attributes should render 1`] = `
+<LazyLoad
+  className="lazy-image-container"
+  debounce={false}
+  elementType="div"
+  offset={0}
+  offsetBottom={0}
+  offsetHorizontal={128}
+  offsetLeft={0}
+  offsetRight={0}
+  offsetTop={0}
+  offsetVertical={128}
+  throttle={250}
+>
+  <picture
+    className="pic-class"
+  >
+    <ImageSource
+      dataSrcSet="data1"
+      media="(min-width: 800px)"
+      srcSet="test1.jpg"
+    />
+    <img
+      alt="test-alt"
+      aria-hidden="true"
+      className="test-class"
+      src="test-src"
+    />
+  </picture>
+</LazyLoad>
+`;
+
+exports[`<Image /> props should render down to <img/> 1`] = `
+<LazyLoad
+  className="lazy-image-container"
+  debounce={false}
+  elementType="div"
+  offset={0}
+  offsetBottom={0}
+  offsetHorizontal={128}
+  offsetLeft={0}
+  offsetRight={0}
+  offsetTop={0}
+  offsetVertical={128}
+  throttle={250}
+>
+  <picture>
+    <img
+      alt="test-alt"
+      className="test-class"
+      src="test-src"
+    />
+  </picture>
+</LazyLoad>
+`;
+
+exports[`<Image /> soucre tags should render 1`] = `
+<LazyLoad
+  className="lazy-image-container"
+  debounce={false}
+  elementType="div"
+  offset={0}
+  offsetBottom={0}
+  offsetHorizontal={128}
+  offsetLeft={0}
+  offsetRight={0}
+  offsetTop={0}
+  offsetVertical={128}
+  throttle={250}
+>
+  <picture>
+    <ImageSource />
+    <ImageSource />
+    <img
+      alt="test-alt"
+      className="test-class"
+      src="test-src"
+    />
+  </picture>
+</LazyLoad>
+`;

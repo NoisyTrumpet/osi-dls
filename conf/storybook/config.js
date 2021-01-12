@@ -11,9 +11,8 @@ import results from '../../.jest-test-results.json';
 
 import './../../src/styles/reset.scss';
 import './../../src/styles/storybook/storybook.scss';
-// import "./fonts/Beam-New-HMK/Beam-New-HMK.css";
-// import "./fonts/IBM-Plex/css/ibm-plex.css";
 import "./fonts/icons/icomoon/style.css";
+import "./fonts/Baloo-2/css/baloo-2.css";
 
 addParameters({
   options: {
