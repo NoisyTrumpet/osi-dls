@@ -1,0 +1,360 @@
+.h4 {
+  color: rgba(map-get($colors, 'brand-black'), 1.0);
+  @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
+}
+
+pre {
+  background: #333;
+  color: white;
+  padding: $space-8;
+  margin: 0 0 $space-8 0;
+}
+
+.Layout {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 $space-12 0;
+  display: flex;
+  width: 100%;
+  @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
+  color: rgba(map-get($colors, 'primary'), 1.0);
+
+
+  &:before {
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 1.5px;
+    border-bottom-right-radius: 1.5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 1.5px;
+    border-top-right-radius: 1.5px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-shadow: rgb(97, 55, 144) 0px 0px 0px 2px, rgb(97, 55, 144) 0px 0px 0px 1px inset;
+    box-sizing: border-box;
+    color: rgb(97, 55, 144);
+    content: "";
+    display: block;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: $space-8;
+    width: 16px;
+  }
+
+}
+
+.Typography {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 $space-12 0;
+  display: flex;
+  width: 100%;
+  @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
+  color: rgba(map-get($colors, 'primary'), 1.0);
+
+  &:before {
+    box-sizing: border-box;
+    color: rgb(97, 55, 144);
+    content: "Aa";
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    height: 22px;
+    margin-right: 8px;
+    transform: matrix(1.15, 0, 0, 1.15, 0, 0);
+    width: 21.0312px;
+    margin: $space-12 $space-8 0 0;
+  }
+}
+
+.Color {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 $space-12 0;
+  display: flex;
+  width: 100%;
+  @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
+  color: rgba(map-get($colors, 'primary'), 1.0);
+
+  &:before {
+    background-color: rgba(map-get($colors, 'primary'), 1.0);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    bottom: 4px;
+    box-shadow: rgba(map-get($colors, 'primary'), 0.7) 4px 4px 0px 0px, rgba(map-get($colors, 'primary'), 0.5) 8px 8px 0px 0px;
+    box-sizing: border-box;
+    color: rgba(map-get($colors, 'primary'), 1.0);
+    content: "";
+    display: block;
+    height: 16px;
+    margin-right: 8px;
+    position: relative;
+    right: 4px;
+    width: 16px;
+    margin: $space-12 $space-8 0 0;
+  }
+}
+
+.design-tokens {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 100vw;
+
+
+
+
+  .token {
+    margin: $space-12 0;
+
+
+  }
+
+  .tab-list {
+    border-bottom: 1px solid #ccc;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px 1px;
+    grid-template-areas: ". . .";
+    place-items: center;
+  }
+
+  .tab-list-item {
+    display: flex;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+    color: rgba(map-get($colors, 'brand-black'), 0.64);
+    @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
+    width: 33%;
+    border: solid #ccc;
+    border-width: 0 0 1px 0;
+    text-align: center;
+    margin-right: 0;
+
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.Layout {
+      border-bottom: 1px solid #ccc;
+
+
+
+      &:before {
+        border-bottom-color: rgb(255, 255, 255);
+        border-bottom-left-radius: 1.5px;
+        border-bottom-right-radius: 1.5px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: rgb(255, 255, 255);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-color: rgb(255, 255, 255);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-color: rgb(255, 255, 255);
+        border-top-left-radius: 1.5px;
+        border-top-right-radius: 1.5px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-shadow: rgb(97, 55, 144) 0px 0px 0px 2px, rgb(97, 55, 144) 0px 0px 0px 1px inset;
+        box-sizing: border-box;
+        color: rgb(97, 55, 144);
+        content: "";
+        display: block;
+        height: 16px;
+        margin-right: 8px;
+        width: 16px;
+      }
+
+      .spacingGrid {
+        .grid-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: $space-12;
+
+
+        }
+
+
+
+
+      }
+    }
+
+    &.Color {
+      border-bottom: 1px solid #ccc;
+
+      &:before {
+        background-color: rgba(map-get($colors, 'primary'), 1.0);
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        bottom: 4px;
+        box-shadow: rgba(map-get($colors, 'primary'), 0.7) 4px 4px 0px 0px, rgba(map-get($colors, 'primary'), 0.5) 8px 8px 0px 0px;
+        box-sizing: border-box;
+        color: rgba(map-get($colors, 'primary'), 1.0);
+        content: "";
+        display: block;
+        height: 16px;
+        margin-right: 8px;
+        position: relative;
+        right: 4px;
+        width: 16px;
+        margin: 0 $space-8 0 0;
+      }
+    }
+
+  }
+
+  .tab-list-active {
+    background-color: white;
+    // border: solid #ccc;
+    // border-width: 1px 1px 0 1px;
+    border: none;
+    color: rgba(map-get($colors, 'primary'), 1.0);
+  }
+
+  .tab-content {
+    padding: $space-12 0;
+
+    .heading {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+  }
+}
+
+.spaceItem {
+  border: 1px solid rgba(map-get($colors, 'brand-black'), 0.5);
+  border-radius: 4px;
+  margin: 10px 0;
+  @include fontSans($baloo, $baloo, 'sans-serif', 114, 300);
+  color: rgba(map-get($colors, 'primary'), 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  transition: all ease 0.3s 1;
+
+  span {
+    transition: all ease 0.3s 1;
+    color: rgba(map-get($colors, 'primary'), 1.0)
+  }
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: $shadow-2;
+
+    transition: all ease 0.3s 1;
+
+    span {
+      transition: all ease 0.3s 1;
+      text-decoration: underline;
+    }
+  }
+
+
+
+  .width4 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-4;
+    height: $space-4;
+  }
+
+  .width8 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-8;
+    height: $space-4;
+  }
+
+  .width12 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-12;
+    height: $space-4;
+  }
+
+  .width16 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-16;
+    height: $space-4;
+  }
+
+  .width24 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-24;
+    height: $space-4;
+  }
+
+  .width32 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-32;
+    height: $space-4;
+  }
+
+  .width40 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-40;
+    height: $space-4;
+  }
+
+  .width48 {
+    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    margin: 0 0 $space-4 0;
+    border-width: 0 1px 1px 1px;
+    width: $space-48;
+    height: $space-4;
+  }
+}
+
+.props {
+  margin: $space-8 0;
+
+  .h4 {
+    color: rgba(map-get($colors, 'primary'), 1.0)
+  }
+
+}
+
+.info {
+  margin: $space-8 0;
+}

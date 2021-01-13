@@ -1,0 +1,36 @@
+const themes = {
+  main: {
+    primary: '#604099',
+    primary1: '#7447c3',
+    gray5: '#48464f',
+    gray4: '#74717e',
+    gray3: '#b3b0b9',
+    gray2: '#d6d6df',
+    gray1: '#ececf0',
+    gray0: '#f3f3f4',
+    accentA: '#ffcf3e',
+    accentA1: '#ffdd75',
+    accentB: '#095c9c',
+    accentB1: '#2679ba',
+    'util-error': '#c54c4c',
+    'util-success': '#2c8636',
+  },
+  xmas: {
+    primary: '#1FB105',
+    primary1: '#37D41B',
+    gray5: '#48464f',
+    gray4: '#74717e',
+    gray3: '#b3b0b9',
+    gray2: '#d6d6df',
+    gray1: '#ececf0',
+    gray0: '#f3f3f4',
+    accentA: '#FF5733',
+    accentA1: '#FF7D61',
+    accentB: '#0077B6',
+    accentB1: '#0D9DE9',
+    'util-error': '#c54c4c',
+    'util-success': '#65bd6f',
+  },
+};
+
+export default themes;

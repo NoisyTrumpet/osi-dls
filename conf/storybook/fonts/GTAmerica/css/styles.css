@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/GTAmerica-Regular.eot');
+    src: url('../fonts/GTAmerica-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTAmerica-Regular.woff2') format('woff2'),
+        url('../fonts/GTAmerica-Regular.woff') format('woff'),
+        url('../fonts/GTAmerica-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/GTAmerica-Bold.eot');
+    src: url('../fonts/GTAmerica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTAmerica-Bold.woff2') format('woff2'),
+        url('../fonts/GTAmerica-Bold.woff') format('woff'),
+        url('../fonts/GTAmerica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('../fonts/GTAmerica-BoldItalic.eot');
+    src: url('../fonts/GTAmerica-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTAmerica-BoldItalic.woff2') format('woff2'),
+        url('../fonts/GTAmerica-BoldItalic.woff') format('woff'),
+        url('../fonts/GTAmerica-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

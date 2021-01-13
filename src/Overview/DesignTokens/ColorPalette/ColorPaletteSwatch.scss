@@ -1,0 +1,49 @@
+.color-palette-swatch {
+  display: inline-block;
+  margin-bottom: $space-8;
+  height: rem(96px);
+  width: rem(128px);
+  position: relative;
+
+  .typography-helper {
+    position: absolute;
+    bottom: $space-4;;
+    left: $space-8;
+  }
+
+  .typography-field-label {
+    color: map-get($colors, 'brand-white');
+  }
+
+}
+
+.color-toggle {
+  border-radius: 50%;
+  height: $space-24;
+  width: $space-24;
+  opacity: .16;
+  outline: 0;
+  position: absolute;
+  top: $space-8;
+  right: $space-8;
+  z-index: 1;
+  @include appearance(none);
+
+  &:checked {
+    box-shadow: $shadow-0;
+    opacity: .56;
+
+    ~ .typography-helper {
+
+      .color-hex { display: none; }
+      .color-rgb { display: block; }
+
+    }
+
+  }
+
+}
+
+.color-rgb {
+  display: none;
+}

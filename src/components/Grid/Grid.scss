@@ -1,0 +1,84 @@
+// Our Grid is a 12 column grid sitewide
+
+// grid
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+// grid : columns
+// Value indicicates number of desired columns in one row
+// Ex: 3 means you want 3 columns in a row, each spanning 4/12 grid columns
+[grid="1"] > * { grid-column: span 12; } // container will span 12/12 columns
+[grid="2"] > * { grid-column: span 6; }  // container will span 6/12 columns
+[grid="3"] > * { grid-column: span 4; }  // container will span 4/12 columns
+[grid="4"] > * { grid-column: span 3; }  // container will span 3/12 columns
+[grid="6"] > * { grid-column: span 2; }  // container will span 2/12 columns
+
+// gridXL : columns
+// Value indicicates number of desired columns in one row
+// $mq-desktop-xl: "(min-width: 2048px)"; // desktop xl
+@include media($mq-desktop-xl) {
+  [gridXL="1"] > * { grid-column: span 12; } // container will span 12/12 columns
+  [gridXL="2"] > * { grid-column: span 6; }  // container will span 6/12 columns
+  [gridXL="3"] > * { grid-column: span 4; }  // container will span 4/12 columns
+  [gridXL="4"] > * { grid-column: span 3; }  // container will span 3/12 columns
+  [gridXL="6"] > * { grid-column: span 2; }  // container will span 2/12 columns
+}
+
+// media : tablet
+// Value indicicates number of desired columns in one row
+// $mq-tablet-l: "(max-width: 1024px)"; // standard tablet : landscape
+@include media($mq-tablet-l) {
+  [landscape="1"] > * { grid-column: span 12; } // container will span 12/12 columns
+  [landscape="2"] > * { grid-column: span 6; }  // container will span 6/12 columns
+  [landscape="3"] > * { grid-column: span 4; }  // container will span 4/12 columns
+  [landscape="4"] > * { grid-column: span 3; }  // container will span 3/12 columns
+  [landscape="6"] > * { grid-column: span 2; }  // container will span 2/12 columns
+}
+
+// media : portrait
+// This represents a tablet in portrait mode
+// This ONLY renders at EXACTLY 768px wide. Nothing smaller, nothing wider.
+// Value indicicates number of desired columns in one row
+// $mq-tablet-p: "(max-width: 768px)"; // standard tablet : portrait
+@include media($mq-tablet-p) {
+  [portrait="1"] > * { grid-column: span 12; } // container will span 12/12 columns
+  [portrait="2"] > * { grid-column: span 6; }  // container will span 6/12 columns
+  [portrait="3"] > * { grid-column: span 4; }  // container will span 4/12 columns
+  [portrait="4"] > * { grid-column: span 3; }  // container will span 3/12 columns
+  [portrait="6"] > * { grid-column: span 2; }  // container will span 2/12 columns
+}
+
+// media : mobile
+// $mq-mobile: "(max-width: 767px)"; // easy way to target phones
+// Value indicicates number of desired columns in one row
+@include media($mq-mobile) {
+  [mobile="1"] > * { grid-column: span 12; } // container will span 12/12 columns
+  [mobile="2"] > * { grid-column: span 6; }  // container will span 6/12 columns
+  [mobile="3"] > * { grid-column: span 4; }  // container will span 4/12 columns
+  [mobile="4"] > * { grid-column: span 3; }  // container will span 3/12 columns
+  [mobile="6"] > * { grid-column: span 2; }  // container will span 2/12 columns
+}
+
+// grid : CMS example
+// [grid] [fillX="2"][fillY="2"] {
+//   grid-column: span 6;
+//   grid-row: span 2;
+// }
+
+// grid : gap
+// Value indicicates number of pixels between columns
+// Rows always have 0 gap
+[gap="0"] { grid-gap: 0 0; }
+[gap="8"] { grid-gap: 0 $space-8; }
+[gap="16"] { grid-gap: 0 $space-16; }
+[gap="24"] { grid-gap: 0 $space-24; }
+[gap="32"] { grid-gap: 0 $space-32; }
+
+// Value indicicates number of pixels between rows
+[row-gap="0"]  { grid-row-gap: 0; }
+[row-gap="8"]  { grid-row-gap: $space-8; }
+[row-gap="16"] { grid-row-gap: $space-16; }
+[row-gap="24"] { grid-row-gap: $space-24; }
+[row-gap="32"] { grid-row-gap: $space-32; }

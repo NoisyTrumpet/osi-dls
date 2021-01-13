@@ -13,7 +13,7 @@ import "./../../src/styles/reset.scss";
 import "./../../src/styles/storybook/storybook.scss";
 import "./fonts/icons/icomoon/style.css";
 import "./fonts/Baloo-2/css/baloo-2.css";
-import "./fonts/GT-American-Regular/css/styles.css";
+import "./fonts/GTAmerica/css/styles.css";
 
 addParameters({
   options: {
@@ -38,7 +38,7 @@ const req = require.context("./../../src", true, /\.stories\.js$/);
 
 const loadStories = () => {
   // Loads Overview Tab first
-  // require('../../src/Overview/Overview.stories');
+  require("../../src/Overview/Overview.stories");
   req.keys().forEach(req);
 };
 
