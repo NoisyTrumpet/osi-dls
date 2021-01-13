@@ -15,7 +15,7 @@ exports[`<Overview /> Should render 1`] = `
     The Design Language System (DLS) contains several React components such as buttons, form fields, etc which can be imported in React and are self-contained with styling, test suites, functional JSX code, etc. For detailed readme, issues, suggestions, and related projects, view the
      
     <a
-      href="https://gitlab.hallmarklabs.com/dotcom/frontend/package/dls.git"
+      href="https://github.com/NoisyTrumpet/osi-dls#readme"
     >
        
       Project Source
