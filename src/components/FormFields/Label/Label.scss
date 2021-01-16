@@ -1,0 +1,33 @@
+.input-label {
+  color: map-get($colors, 'gray5');
+  padding-left: $space-8;
+  order: 2;
+
+  &.block {
+    display: block;
+  }
+
+  &.inline-block {
+    display: inline-block;
+  }
+
+  &.text {
+    position: absolute;
+    top: rem(-11px);
+    left: rem(2px);
+    transform: translate(0, 50%);
+
+    .optional {
+      font-size: rem(12px);
+      padding-left: rem(2px);
+      padding-right: 0px;
+      position: absolute;
+      background: #ffffff;
+    }
+    
+    .typography-field-label {
+      background: map-get($colors, 'brand-white');
+      padding: 0 $space-4;
+    }
+  }
+}

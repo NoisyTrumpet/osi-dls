@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Licensing /> Should render 1`] = `
+<div>
+  <div
+    class="licensing"
+  >
+    <div
+      class="licensing-logos"
+    >
+      <div
+        class="LazyLoad lazy-image-container"
+      />
+      <div
+        class="LazyLoad lazy-image-container"
+      />
+    </div>
+    <span
+      class="typography typography-licensing"
+    >
+      BATMAN V SUPERMAN: DAWN OF JUSTICE
+    </span>
+  </div>
+</div>
+`;

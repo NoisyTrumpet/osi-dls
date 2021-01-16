@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Textlink /> Should find and click of the component <TextLink />, based on text-query, resulting in page load of https://www.hallmark.com/ 1`] = `
+<div>
+  <a
+    class="text-link"
+    href="https://www.hallmark.com/"
+  >
+    <span
+      class="typography typography-text-link"
+    >
+      It renders a link!
+    </span>
+  </a>
+</div>
+`;
+
+exports[`<Textlink /> Should render an icon within the component <TextLink />, with required props (to, title) 1`] = `
+<div>
+  <a
+    class="text-link has-icon icon-right"
+    href="#"
+  >
+    <span
+      class="typography typography-text-link"
+    >
+      We have a right-aligned placeholder icon
+    </span>
+    <span
+      aria-hidden="true"
+      class="icon icon-placeholder-bold icon-accentB icon-14"
+      data-testid="icon"
+    />
+  </a>
+</div>
+`;
+
+exports[`<Textlink /> Should render the component <TextLink /> with minimum required props (to, title) 1`] = `
+<div>
+  <a
+    class="text-link"
+    href="#"
+  >
+    <span
+      class="typography typography-text-link"
+    >
+      Amazing Text!
+    </span>
+  </a>
+</div>
+`;

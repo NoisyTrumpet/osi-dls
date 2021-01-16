@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleContent /> Should not render icon or subhead 1`] = `
+<div>
+  <div
+    class="simplecontent-wrapper"
+  >
+    <div
+      class="simplecontent-body"
+    >
+      <div
+        class="simplecontent-content"
+      >
+        <button
+          type="submit"
+        >
+          button
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<SimpleContent /> Should render 1`] = `
+<div>
+  <div
+    class="simplecontent-wrapper"
+  >
+    <h3
+      class="typography typography-body typography-body-medium"
+    >
+      Test Title
+    </h3>
+    <div
+      class="simplecontent-body"
+    >
+      <div
+        class="simplecontent-icon"
+      >
+        <span
+          aria-hidden="true"
+          class="icon icon-home icon-16"
+          data-testid="icon"
+        />
+      </div>
+      <div
+        class="simplecontent-content"
+      >
+        <span
+          class="typography typography-body"
+        >
+          Test Subhead
+        </span>
+        <p>
+          <a
+            class="text-link"
+            href="https://www.hallmark.com"
+          >
+            <span
+              class="typography typography-text-link"
+            >
+              Test Link
+            </span>
+          </a>
+        </p>
+        <span
+          class="typography typography-body"
+        >
+          Test content
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

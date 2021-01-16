@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Range renders Range component 1`] = `
+<form
+  action="#"
+>
+  <div
+    class="input-range-container"
+  >
+    <label
+      class="input-label text inline"
+      for="range-id"
+    >
+      <span
+        class="typography typography-field-label"
+      >
+        Range Label
+      </span>
+    </label>
+    <div
+      class="input-range-slider-background"
+    />
+    <div
+      class="input-range-tick-container"
+    >
+      <div
+        class="input-range-tick"
+      />
+      <div
+        class="input-range-tick"
+      />
+    </div>
+    <input
+      class="input-field"
+      id="range-id"
+      max="100"
+      min="0"
+      name="test-name"
+      placeholder=""
+      step="1"
+      type="range"
+      value="1"
+    />
+  </div>
+</form>
+`;
+
+exports[`Range renders with formik" 1`] = `
+<form
+  action="#"
+>
+  <div
+    class="input-range-container"
+  >
+    <label
+      class="input-label text inline"
+      for="test-id"
+    >
+      <span
+        class="typography typography-field-label"
+      />
+    </label>
+    <div
+      class="input-range-slider-background"
+    />
+    <div
+      class="input-range-tick-container"
+    >
+      <div
+        class="input-range-tick"
+      />
+      <div
+        class="input-range-tick"
+      />
+    </div>
+    <input
+      class="input-field"
+      id="test-id"
+      max="100"
+      min="0"
+      name="test-name"
+      placeholder=""
+      step="1"
+      type="range"
+      value="55"
+    />
+  </div>
+  <button
+    data-testid="submit-button"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

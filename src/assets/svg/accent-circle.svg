@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="60px" viewBox="0 0 69 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>95DE4D24-F79F-4C0E-89DF-9FA6E1DBCE29@1.00x</title>
+    <g id="Specs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Feature-Modals" transform="translate(-471.000000, -3020.000000)">
+            <g id="Modal-Icon" transform="translate(472.000000, 3021.000000)">
+                <g id="Glitter" stroke="#00adbb" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M45.4785156,4.91666667 C45.7535793,4.91666667 45.9765625,5.13865881 45.9765625,5.4125" id="Shape"></path>
+                    <path d="M44.9804688,5.4125 C44.9804688,5.13865881 45.2034519,4.91666667 45.4785156,4.91666667" id="Shape"></path>
+                    <path d="M45.4785156,5.90833333 C45.2034519,5.90833333 44.9804688,5.68634119 44.9804688,5.4125" id="Shape"></path>
+                    <path d="M45.9765625,5.4125 C45.9765625,5.68634119 45.7535793,5.90833333 45.4785156,5.90833333" id="Shape"></path>
+                    <path d="M0.498046875,45 C0.773110569,45 0.99609375,45.2219921 0.99609375,45.4958333" id="Shape"></path>
+                    <path d="M0,45.4958333 C0,45.2219921 0.222983181,45 0.498046875,45" id="Shape"></path>
+                    <path d="M0.498046875,45.9916667 C0.222983181,45.9916667 0,45.7696745 0,45.4958333" id="Shape"></path>
+                    <path d="M0.99609375,45.4958333 C0.99609375,45.7696745 0.773110569,45.9916667 0.498046875,45.9916667" id="Shape"></path>
+                    <line x1="8.95703125" y1="53.975" x2="8.95703125" y2="57.9416667" id="Shape"></line>
+                    <line x1="10.9492188" y1="55.9583333" x2="6.96484375" y2="55.9583333" id="Shape"></line>
+                    <line x1="34.9921875" y1="0" x2="34.9921875" y2="3.96666667" id="Shape"></line>
+                    <line x1="36.984375" y1="1.98333333" x2="33" y2="1.98333333" id="Shape"></line>
+                    <path d="M57.1386719,53 C57.4137356,53 57.6367188,53.2219921 57.6367188,53.4958333" id="Shape" transform="translate(57.802734, 53.661111) scale(-1, 1) translate(-57.802734, -53.661111) "></path>
+                    <path d="M57.6367188,53.4958333 C57.6367188,53.2219921 57.8597019,53 58.1347656,53" id="Shape" transform="translate(58.300781, 53.661111) scale(-1, 1) translate(-58.300781, -53.661111) "></path>
+                    <path d="M58.1347656,53.9916667 C57.8597019,53.9916667 57.6367188,53.7696745 57.6367188,53.4958333" id="Shape" transform="translate(58.300781, 54.156944) scale(-1, 1) translate(-58.300781, -54.156944) "></path>
+                    <path d="M57.6367188,53.4958333 C57.6367188,53.7696745 57.4137356,53.9916667 57.1386719,53.9916667" id="Shape" transform="translate(57.802734, 54.156944) scale(-1, 1) translate(-57.802734, -54.156944) "></path>
+                    <line x1="63.6796875" y1="40.975" x2="63.6796875" y2="44.9416667" id="Shape" transform="translate(64.343750, 42.958333) scale(-1, 1) translate(-64.343750, -42.958333) "></line>
+                    <line x1="67" y1="42.9583333" x2="63.015625" y2="42.9583333" id="Shape" transform="translate(65.007812, 43.619444) scale(-1, 1) translate(-65.007812, -43.619444) "></line>
+                </g>
+                <circle id="Fill" fill="#00adbb" cx="34" cy="34" r="24"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

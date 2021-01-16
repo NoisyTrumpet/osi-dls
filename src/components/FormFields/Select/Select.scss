@@ -1,0 +1,50 @@
+.input-field {
+  color: map-get($colors, 'gray5');
+  border: rem(2px) solid map-get($colors, 'gray3');
+  border-radius: $space-8;
+  order: 1;
+  padding: $space-12;
+  @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
+  width: 100%;
+
+  &:focus {
+    border-color: map-get($colors, 'primary');
+    outline: none;
+  }
+
+  &:disabled {
+    color: map-get($colors, 'disabled');
+    cursor: default;
+    border-color: map-get($colors, 'disabled');
+
+    ~ .input-label {
+      cursor: default;
+
+      .typography {
+        color: map-get($colors, 'disabled');
+      }
+    }
+
+    ~ .indicator {
+      border-color: map-get($colors, 'disabled');
+
+      &:after {
+        background-color: map-get($colors, 'disabled');
+      }
+    }
+  }
+
+  &.error {
+    border-color: map-get($colors, 'util-error');
+
+    &:focus {
+      border-color: map-get($colors, 'util-error');
+    }
+  }
+}
+
+.input-label {
+  cursor: pointer;
+  line-height: $space-24;
+  @include user-select;
+}

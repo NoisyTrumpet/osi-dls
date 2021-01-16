@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AudioPlayer /> should render 1`] = `
+<div
+  className="audio-player"
+>
+  <audio>
+    <AudioPlayerSource
+      src="http://soundbible.com/mp3/Tinkle-Lisa_Redfern-1916445296.mp3"
+      type="audio/mpeg"
+    />
+  </audio>
+  <div
+    className="audio-player__button-container"
+  >
+    <svg
+      alt=""
+      aria-hidden="true"
+      focusable="false"
+      height={40}
+      role="img"
+      width={40}
+    >
+      <title>
+        Audio Progress Circle
+      </title>
+      <circle
+        cx={20}
+        cy={20}
+        r={20}
+        strokeDasharray="125.66370614359172 125.66370614359172"
+        strokeWidth={2}
+        style={
+          Object {
+            "strokeDashoffset": 125.66370614359172,
+          }
+        }
+      />
+    </svg>
+    <ForwardRef
+      click={[Function]}
+      disabled={false}
+      icon="playsmall-bold"
+      size={16}
+      srtAriaLive="polite"
+      variant="tiny"
+    >
+      0% played, press play to continue
+    </ForwardRef>
+  </div>
+  <Typography
+    variant="body-medium"
+  >
+    Play Audio
+  </Typography>
+</div>
+`;
+
+exports[`<AudioPlayer /> should render mulitple sources 1`] = `
+<div
+  className="audio-player"
+>
+  <audio>
+    <AudioPlayerSource
+      src="http://soundbible.com/mp3/Tinkle-Lisa_Redfern-1916445296.mp3"
+      type="audio/mpeg"
+    />
+    <AudioPlayerSource
+      src="http://soundbible.com/wav/Tinkle-Lisa_Redfern-1916445296.wav"
+      type="audio/wav"
+    />
+  </audio>
+  <div
+    className="audio-player__button-container"
+  >
+    <svg
+      alt=""
+      aria-hidden="true"
+      focusable="false"
+      height={40}
+      role="img"
+      width={40}
+    >
+      <title>
+        Audio Progress Circle
+      </title>
+      <circle
+        cx={20}
+        cy={20}
+        r={20}
+        strokeDasharray="125.66370614359172 125.66370614359172"
+        strokeWidth={2}
+        style={
+          Object {
+            "strokeDashoffset": 125.66370614359172,
+          }
+        }
+      />
+    </svg>
+    <ForwardRef
+      click={[Function]}
+      disabled={false}
+      icon="playsmall-bold"
+      size={16}
+      srtAriaLive="polite"
+      variant="tiny"
+    >
+      0% played, press play to continue
+    </ForwardRef>
+  </div>
+  <Typography
+    variant="body-medium"
+  >
+    Play Audio
+  </Typography>
+</div>
+`;

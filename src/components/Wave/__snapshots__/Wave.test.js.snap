@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Wave /> should render wave component 1`] = `
+<div
+  className="wave"
+>
+  <InlineSVG
+    className="wave-inlinesvg color-top-brand-white color-bottom-gray1 reverse-direction"
+    description="Decorative wave image"
+    focus={false}
+    path="[object Object]"
+    preProcessor={null}
+    role="img"
+    title="Wave svg"
+  />
+</div>
+`;

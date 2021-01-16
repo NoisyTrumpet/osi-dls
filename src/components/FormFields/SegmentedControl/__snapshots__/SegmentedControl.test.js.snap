@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Segmented Control /> renders 1`] = `
+<form
+  action="#"
+>
+  <div
+    class="segmented-control-holder selected-2"
+    test-id="segmented-control-test-id"
+  >
+    <div
+      class="input-fieldset fieldset-container no-helpertext"
+    >
+      <fieldset
+        name="example"
+      >
+        <legend
+          class="screen-reader-text"
+        />
+        <ul
+          class="segmented-control"
+        >
+          <li
+            class="segmented-control-item"
+          >
+            <input
+              class="input-field"
+              id="brands-apple-bold"
+              name="example"
+              placeholder=""
+              type="radio"
+              value="brands-apple-bold"
+            />
+            <label
+              class="segmented-control-label"
+              for="brands-apple-bold"
+            >
+              <span
+                class="typography screen-reader-text"
+              />
+              <span
+                aria-hidden="true"
+                class="icon icon-undefined icon-24"
+                data-testid="icon"
+              />
+            </label>
+          </li>
+          <li
+            class="segmented-control-item"
+          >
+            <input
+              class="input-field"
+              id="brands-google-bold"
+              name="example"
+              placeholder=""
+              type="radio"
+              value="brands-google-bold"
+            />
+            <label
+              class="segmented-control-label"
+              for="brands-google-bold"
+            >
+              <span
+                class="typography screen-reader-text"
+              />
+              <span
+                aria-hidden="true"
+                class="icon icon-undefined icon-24"
+                data-testid="icon"
+              />
+            </label>
+          </li>
+          <li
+            class="segmented-control-item"
+          >
+            <input
+              class="input-field"
+              id="calendar-calendar-bold"
+              name="example"
+              placeholder=""
+              type="radio"
+              value="calendar-calendar-bold"
+            />
+            <label
+              class="segmented-control-label"
+              for="calendar-calendar-bold"
+            >
+              <span
+                class="typography screen-reader-text"
+              />
+              <span
+                aria-hidden="true"
+                class="icon icon-undefined icon-24"
+                data-testid="icon"
+              />
+            </label>
+          </li>
+          <li
+            class="segmented-control-item"
+          >
+            <input
+              class="input-field"
+              id="card-front-bold"
+              name="example"
+              placeholder=""
+              type="radio"
+              value="card-front-bold"
+            />
+            <label
+              class="segmented-control-label"
+              for="card-front-bold"
+            >
+              <span
+                class="typography screen-reader-text"
+              />
+              <span
+                aria-hidden="true"
+                class="icon icon-undefined icon-24"
+                data-testid="icon"
+              />
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+    </div>
+  </div>
+</form>
+`;

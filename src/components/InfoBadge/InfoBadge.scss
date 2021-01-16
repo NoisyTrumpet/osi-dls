@@ -1,0 +1,16 @@
+.info-badge {
+  &-item {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: $space-8;
+  }
+  
+  &-icon {
+    padding-right: $space-8;
+  }  
+
+  .icon:before {
+    top: rem(2px);
+    position: relative;
+  }
+}

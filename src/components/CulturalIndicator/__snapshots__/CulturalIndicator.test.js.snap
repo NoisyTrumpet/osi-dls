@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CulturalIndicator /> should render  1`] = `
+<Image
+  alt="Hallmark"
+  className="cultural-indicator"
+  lazyLoad={true}
+  lazyOffsetHorizontal={128}
+  lazyOffsetVertical={128}
+  src="https://webfileswest.uswest.os.ctl.io/corporate.hallmark.com/wp-content/uploads/2018/06/Hallmark-Greetings-Logo-black-160x160.jpg"
+/>
+`;

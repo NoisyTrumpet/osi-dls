@@ -1,0 +1,97 @@
+{ 
+  "cards": [
+    { 
+      "title": {
+        "title1": "title 1"
+      },
+      "copy" : {
+        "copy1": "copy 1",
+        "copy2": "copy 2",
+        "copy3": "copy 3"
+      },
+      "href": {
+        "url": "https://www.hallmark.com",
+        "target": "_blank",
+        "rel": ""
+      },
+      "image": {
+        "alt": "Hallmark Logo",
+        "size": {
+          "mobile": "https://ideas.hallmark.com/wp-content/uploads/2020/06/2.jpg",
+          "tablet": "https://ideas.hallmark.com/wp-content/uploads/2020/06/2.jpg",
+          "desktop": "https://ideas.hallmark.com/wp-content/uploads/2020/06/2.jpg"
+        }
+      }
+    },
+    {
+      "title": {
+        "title1": "title 1",
+        "title2": "title 2",
+        "title3": "title 3"
+      },
+      "copy" : {
+        "copy1": "copy 1",
+        "copy2": "copy 2"
+      },
+      "href": {
+        "url": "https://www.hallmark.com",
+        "target": "_blank",
+        "rel": ""
+      },
+      "image": {
+        "alt": "Hallmark Logo",
+        "size": {
+          "mobile": "https://ideas.hallmark.com/wp-content/uploads/2020/04/Gratitude-messages-MC.jpg",
+          "tablet": "https://ideas.hallmark.com/wp-content/uploads/2020/04/Gratitude-messages-MC.jpg",
+          "desktop": "https://ideas.hallmark.com/wp-content/uploads/2020/04/Gratitude-messages-MC.jpg"
+        }
+      }
+    },
+    {
+      "title": {
+        "title1": "title 1",
+        "title2": "title 2",
+        "title3": "title 3"
+      },
+      "copy" : {
+        "copy1": "copy 1",
+        "copy2": "copy 2",
+        "copy3": "copy 3"
+      },
+      "href": {
+        "url": "https://www.hallmark.com",
+        "target": "_blank",
+        "rel": ""
+      },
+      "image": {
+        "alt": "Hallmark Logo",
+        "size": {
+          "mobile": "https://ideas.hallmark.com/wp-content/uploads/2016/12/Color-Dad-happy-600.jpg",
+          "tablet": "https://ideas.hallmark.com/wp-content/uploads/2016/12/Color-Dad-happy-600.jpg",
+          "desktop": "https://ideas.hallmark.com/wp-content/uploads/2016/12/Color-Dad-happy-600.jpg"
+        }
+      }
+    },
+    {
+      "title": {
+        "title1": "title 1"
+      },
+      "copy" : {
+        "copy1": "copy 1"
+      },
+      "href": {
+        "url": "https://www.hallmark.com",
+        "target": "_blank",
+        "rel": ""
+      },
+      "image": {
+        "alt": "Hallmark Logo",
+        "size": {
+          "mobile": "https://ideas.hallmark.com/wp-content/uploads/2020/04/Ideas__MediaCards_ElevatingSpecialOccasions1-General-Gratitude.jpg",
+          "tablet": "https://ideas.hallmark.com/wp-content/uploads/2020/04/Ideas__MediaCards_ElevatingSpecialOccasions1-General-Gratitude.jpg",
+          "desktop": "https://ideas.hallmark.com/wp-content/uploads/2020/04/Ideas__MediaCards_ElevatingSpecialOccasions1-General-Gratitude.jpg"
+        }
+      }
+    }
+  ]
+}

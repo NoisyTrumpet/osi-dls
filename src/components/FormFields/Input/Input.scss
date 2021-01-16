@@ -1,0 +1,130 @@
+.input-field {
+  color: map-get($colors, 'gray5');
+  border: rem(2px) solid map-get($colors, 'gray3');
+  border-radius: $space-8;
+  order: 1;
+  padding: $space-12;
+  @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
+
+  &:focus {
+    border-color: map-get($colors, 'primary');
+    outline: none;
+  }
+
+  &[type='checkbox'],
+  &[type='radio'] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    @include appearance(none);
+  }
+
+  &[type='checkbox'],
+  &[type='radio'] {
+    height: rem(18px);
+    width: rem(18px);
+  }
+
+  &[type='text'] {
+    width: 100%;
+  }
+
+  &:disabled {
+    color: map-get($colors, 'disabled');
+    cursor: default;
+    border-color: map-get($colors, 'disabled');
+
+    ~ .input-label {
+      cursor: default;
+
+      .typography {
+        color: map-get($colors, 'disabled');
+      }
+    }
+
+    ~ .indicator {
+      border-color: map-get($colors, 'disabled');
+
+      &:after {
+        background-color: map-get($colors, 'disabled');
+      }
+    }
+  }
+
+  &.error {
+    border-color: map-get($colors, 'util-error');
+
+    &:focus {
+      border-color: map-get($colors, 'util-error');
+    }
+  }
+}
+
+.input-field-text {
+  .helper-text {
+    padding-left: 15px;
+  }
+}
+
+.input-field-select {
+  .helper-text {
+    padding-left: 15px;
+  }
+}
+
+// container ... normally goes in a forms.scss
+.input-field-checkbox,
+.input-field-radio {
+  align-items: center;
+  display: flex;
+  position: relative;
+
+  .input-field,
+  .input-label {
+    &:hover {
+      ~ .indicator {
+        background-color: map-get($colors, 'gray1');
+      }
+    }
+  }
+
+  .input-field {
+    &:checked {
+      ~ .indicator {
+        background-color: map-get($colors, 'primary');
+
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+
+    &:disabled {
+      ~ .indicator {
+        background-color: map-get($colors, 'brand-transparent');
+      }
+    }
+  }
+
+  .input-label {
+    cursor: pointer;
+    line-height: $space-24;
+    @include user-select;
+
+    &.isDisabled {
+      cursor: auto;
+    }
+  }
+}
+
+.input-field-checkbox {
+  .helper-text {
+    margin: 0 auto 6px -26px;
+  }
+}
+
+// Prevent visual toggle when helpertext appears
+.no-helpertext {
+  margin-bottom: 30px;
+}

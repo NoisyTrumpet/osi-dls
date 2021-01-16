@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should contain list of ordered items  1`] = `
+<div>
+  <ol
+    class=""
+  >
+    <li
+      class="list-item"
+    >
+      <span>
+        Text
+      </span>
+    </li>
+    <li
+      class="list-item"
+    >
+      <span>
+        Text
+      </span>
+    </li>
+    <li
+      class="list-item"
+    >
+      <span>
+        Text
+      </span>
+    </li>
+  </ol>
+</div>
+`;
+
+exports[`<List /> should renders without props  1`] = `
+<div>
+  <ul
+    class=""
+  >
+    <li
+      class="list-item"
+    >
+      <span>
+        Text
+      </span>
+    </li>
+    <li
+      class="list-item"
+    >
+      <span>
+        Text
+      </span>
+    </li>
+    <li
+      class="list-item"
+    >
+      <span>
+        Text
+      </span>
+    </li>
+  </ul>
+</div>
+`;

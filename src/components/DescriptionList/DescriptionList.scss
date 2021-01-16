@@ -1,0 +1,19 @@
+.description-list-icon {
+  margin-right: rem(6px);
+}
+
+.description-list-title {
+  display: flex;
+  align-items: center;
+}
+
+.description-list-description {
+  margin-bottom: rem(24px);
+}
+
+dl.has-icons {
+  dt.no-icon,
+  dd {
+    margin-left: rem(30px);
+  }
+}

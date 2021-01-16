@@ -1,0 +1,14 @@
+.edit-preferred-store {
+  margin-left: $space-12;
+}
+address {
+  font-style: normal;
+  .address-line {
+    display: block;
+  }
+  .address-title-bold {
+    @include fontSans($beam-114, $beam-vf, 'sans-serif', 114, 700);
+    margin-bottom: $space-8;
+    display: inline-block;
+  }
+}

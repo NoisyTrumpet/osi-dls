@@ -1,0 +1,33 @@
+.list-horizontal {
+  display: flex;
+}
+
+.list-ordered,
+.list-unordered {
+  margin-bottom: $space-12;
+
+  > li {
+    margin-top: $space-8;
+    margin-left: $space-16;
+  }
+}
+
+.list-ordered {
+  list-style-type: decimal;
+
+  // .list-ordered {
+  //   list-style-type: lower-latin;
+  // }
+}
+
+.list-unordered {
+  list-style-type: disc;
+
+  // .list-ordered {
+  //   list-style-type: circle;
+  // }
+}
+
+ul.list-ordered {
+  @include state-does-not-exist('Unordered list cannot be ordered');
+}

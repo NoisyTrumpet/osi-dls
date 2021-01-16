@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccentIcon /> renders 1`] = `
+<div
+  class="accent-icon"
+>
+  <svg
+    class="accent-icon-accent-svg"
+    focus="false"
+    role="img"
+  />
+  <div
+    class="icon-wrapper"
+  >
+    <span
+      aria-hidden="true"
+      class="icon icon-achievement icon-brand-purple icon-24"
+      data-testid="icon"
+    />
+  </div>
+</div>
+`;

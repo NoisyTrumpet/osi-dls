@@ -1,0 +1,80 @@
+.btn-icon {
+  padding: 0;
+
+  &:hover {
+    cursor: pointer;
+
+    .icon:before {
+      color: map-get($colors, 'primary1');
+    }
+  }
+
+  &:disabled {
+    border-color: map-get($colors, 'disabled');
+    cursor: default;
+
+    .icon:before {
+      color: map-get($colors, 'disabled');
+    }
+  }
+}
+
+.btn-icon-tiny {
+  width: $space-32;
+  height: $space-32;
+  background: map-get($colors, 'brand-white');
+  border: rem(1px) solid map-get($colors, 'gray1');
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  outline: none;
+
+  &:focus,
+  &:hover {
+    box-shadow: $shadow-1;
+  }
+}
+
+.btn-icon-simple {
+  border: 0;
+  background: none;
+}
+
+.btn-icon-circular,
+.btn-icon-circular-shadow {
+  align-items: center;
+  border: rem(2px) solid map-get($colors, 'gray2');
+  background: map-get($colors, 'brand-white');
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: $space-40;
+  width: $space-40;
+
+  &:hover {
+    border-color: map-get($colors, 'primary1');
+  }
+
+  &:disabled {
+    border-color: map-get($colors, 'disabled');
+
+    .icon:before {
+      color: map-get($colors, 'disabled');
+    }
+  }
+}
+
+.btn-icon-circular-shadow {
+  border: none;
+  background: map-get($colors, 'brand-white');
+  filter: drop-shadow(0 0 $space-4 map-get($colors, 'gray2'));
+
+  &:hover {
+    filter: drop-shadow(0 0 $space-4 map-get($colors, 'primary'));
+  }
+
+  &:disabled {
+    filter: drop-shadow(0 0 $space-4 map-get($colors, 'disabled'));
+  }
+}

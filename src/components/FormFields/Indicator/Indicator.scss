@@ -1,0 +1,99 @@
+.indicator {
+  background-color: map-get($colors, 'brand-transparent');
+  border: rem(2px) solid map-get($colors, 'primary');
+  height: rem(18px);
+  width: rem(18px);
+  transition: $timing-0;
+
+  &:after {
+    content: "";
+    opacity: 0;
+    position: absolute;
+    transition: inherit;
+  }
+
+  &-radio {
+    border-radius: 50%;
+  }
+
+  &-checkbox {
+    border-radius: $space-4;
+  }
+}
+
+// checkbox
+.input-field-checkbox {
+
+  .indicator:after {
+    border: solid map-get($colors, 'brand-white');
+    border-width: 0 rem(2px) rem(2px) 0;
+    height: rem(10px);
+    width: rem(6px);
+    top: rem(4px);
+    left: rem(5px);
+    transform: rotate(45deg);
+  }
+
+}
+
+// radio
+.input-field-radio {
+
+  .indicator:after {
+    background: map-get($colors, 'primary');
+    border: solid rem(2px) map-get($colors, 'brand-white');
+    border-radius: 50%;
+    height: rem(10px);
+    width: rem(10px);
+    top: rem(5px);
+    left: rem(2px);
+  }
+
+}
+
+// toggle
+.indicator-toggle {
+  position: absolute;
+  cursor: pointer;
+  margin-left: $space-12;
+  height: $space-24;
+  width: $space-48;
+  background-color: map-get($colors, 'brand-transparent');
+  -webkit-transition: $timing-1;
+  transition: $timing-1;
+  border-radius: $space-12;
+  border: rem(2px) solid map-get($colors, 'primary');
+
+  &:before {
+    position: absolute;
+    content: "";
+    height: $space-16;
+    width: $space-16;
+    left: rem(2px);
+    bottom: rem(2px);
+    background-color: map-get($colors, 'primary');
+    -webkit-transition: $timing-1;
+    transition: $timing-1;
+    border-radius: 50%;
+  }
+}
+
+.input-field:checked + .indicator-toggle {
+  background-color: map-get($colors, 'primary');
+
+  &:before {
+    background-color: map-get($colors, 'gray1');
+    -webkit-transform: translateX($space-24);
+    -ms-transform: translateX($space-24);
+    transform: translateX($space-24);
+  }
+}
+
+.input-field:focus + .indicator-toggle {
+  box-shadow: 0 0 rem(1px) map-get($colors, 'accentB1');
+}
+
+.indicator-hidden {
+  position: fixed;
+  opacity: 0;
+}

@@ -1,0 +1,28 @@
+.text-link {
+  text-decoration: none;
+
+  &.has-icon {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-bottom: 3px;
+  }
+
+  &.icon-left {
+    flex-direction: row-reverse;
+
+    .icon {
+      margin-right: 8px;
+    }
+  }
+
+  &.icon-right {
+    .icon {
+      margin-left: 8px;
+    }
+  }
+
+  &:disabled {
+    @include state-does-not-exist;
+  }
+}

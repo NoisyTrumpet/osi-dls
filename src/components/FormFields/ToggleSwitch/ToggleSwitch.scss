@@ -1,0 +1,37 @@
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+
+  .input-label {
+    position: relative;
+    top: rem(2px);
+    padding-left: 0;
+  }
+
+  .input-field {
+    position: absolute;
+    display: inline-block;
+    width: $space-48;
+    height: $space-24;
+    margin: auto rem(12px);
+    opacity: 0;
+  }
+
+  .helper-text {
+    padding-left: 0;
+  }
+}
+
+.toggle-switch--right {
+  .input-label {
+    left: rem(61px);
+  }
+
+  .input-field {
+    left: -$space-12;
+  }
+
+  .indicator {
+    left: -$space-12;
+  }
+}

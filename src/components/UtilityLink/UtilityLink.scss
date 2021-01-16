@@ -1,0 +1,45 @@
+.utility-link {
+  a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 6px; // solve for some layout weirdness
+
+    &:hover {
+      .icon:before {
+        color: map-get($colors, "primary1");
+      }
+      
+      .typography {
+        text-decoration: underline;
+      }
+    }
+  }
+  button {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: flex-start;
+    width: auto;
+    border: none;
+    .icon {
+      margin: 0 $space-8 0 rem(-6px);
+    }
+    &:hover {
+      .icon:before {
+        color: map-get($colors, 'primary1');
+      }
+      .typography {
+        text-decoration: underline;
+      }
+    }
+  }
+
+    .icon {
+      width: $space-40;
+    }
+
+
+  .icon {
+    width: $space-40;
+  }
+}

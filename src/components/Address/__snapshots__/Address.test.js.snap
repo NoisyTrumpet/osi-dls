@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Address /> should render content  1`] = `
+<div>
+  <address
+    class="typography typography-body"
+  >
+    <span
+      class="address-line  address-title-bold"
+      data-testid="address-title"
+    >
+      Trudy's Hallmark Shop
+      <button
+        class="btn-icon btn-icon-simple edit-preferred-store"
+        type="button"
+      >
+        <span
+          class="screen-reader-text"
+        >
+          <span
+            class="typography screen-reader-text"
+          >
+            Change preferred store
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="icon icon-edit-bold icon-16"
+          data-testid="icon"
+        />
+      </button>
+    </span>
+    <span
+      class="address-line"
+    >
+      2901 S Capitol of Texas Highway
+    </span>
+    <span
+      class="address-line"
+    >
+      Barton Creek Square
+    </span>
+    <span
+      class="address-line"
+    >
+      Ste D10
+    </span>
+  </address>
+</div>
+`;

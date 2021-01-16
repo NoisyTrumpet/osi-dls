@@ -1,0 +1,11 @@
+.section {
+  padding-top: $space-24;
+  padding-bottom: $space-24;
+  position: relative; // may remove later
+
+  // example
+  // &.section-crown-rewards {
+  //   background-color: map-get($colors, 'primary');
+  //   color: map-get($colors, 'brand-white');
+  // }
+}

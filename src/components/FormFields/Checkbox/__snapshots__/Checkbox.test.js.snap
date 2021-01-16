@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> Should render 1`] = `
+<Formik
+  initialValues={
+    Object {
+      "checkBox": "",
+    }
+  }
+>
+  <Form>
+    <form
+      action="#"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <Checkbox
+        click={null}
+        helperText="helperText"
+        isDisabled={false}
+        isFieldSet={false}
+        name="checkBox"
+      >
+        <div
+          className="input-field-container input-field-checkbox"
+        >
+          <Input
+            checked={false}
+            click={null}
+            domId=""
+            error={false}
+            isChecked={false}
+            isDisabled={false}
+            name="checkBox"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            type="checkbox"
+            value=""
+          >
+            <input
+              aria-invalid={false}
+              checked={false}
+              className="input-field"
+              defaultValue=""
+              disabled={false}
+              id=""
+              name="checkBox"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={null}
+              placeholder=""
+              type="checkbox"
+            />
+          </Input>
+          <Indicator
+            error={false}
+            type="checkbox"
+          >
+            <span
+              aria-hidden="true"
+              className="indicator indicator-checkbox"
+            />
+          </Indicator>
+          <div>
+            <Label
+              color=""
+              disabled={false}
+              display="inline-block"
+              fieldType="checkbox"
+              isDisabled={false}
+              required={true}
+            >
+              <label
+                className="input-label checkbox inline-block"
+              >
+                <Typography
+                  color=""
+                  variant="field-label"
+                >
+                  <span
+                    className="typography typography-field-label"
+                  >
+                    Label
+                  </span>
+                </Typography>
+              </label>
+            </Label>
+            <HelperText>
+              <div
+                className="helper-text"
+              >
+                <Typography
+                  variant="helper"
+                >
+                  <span
+                    className="typography typography-helper"
+                  >
+                    helperText
+                  </span>
+                </Typography>
+              </div>
+            </HelperText>
+          </div>
+        </div>
+      </Checkbox>
+    </form>
+  </Form>
+</Formik>
+`;

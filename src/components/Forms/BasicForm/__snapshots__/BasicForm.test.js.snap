@@ -1,0 +1,885 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BasicForm /> should render 1`] = `
+<div
+  class="form-wrapper"
+>
+  <form
+    action="#"
+  >
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Text fields
+    </h6>
+    <div
+      class="input-field-container input-field-text"
+      data-testid="test-id-input"
+    >
+      <input
+        aria-required="true"
+        class="input-field"
+        id="basic-form-first-name"
+        name="firstName"
+        placeholder="Test"
+        type="text"
+        value=""
+      />
+      <label
+        class="input-label text block"
+        for="basic-form-first-name"
+      >
+        <span
+          class="typography typography-field-label color-gray4"
+        >
+          First Name
+        </span>
+      </label>
+      <div
+        class="helper-text"
+      >
+        <span
+          class="typography typography-helper"
+        >
+          Example Helper Text
+        </span>
+      </div>
+    </div>
+    <div
+      class="input-field-container input-field-text"
+      data-testid="test-id-input"
+    >
+      <input
+        aria-required="true"
+        class="input-field"
+        id="basic-form-last-name"
+        name="lastName"
+        placeholder="Test"
+        type="text"
+        value=""
+      />
+      <label
+        class="input-label text block"
+        for="basic-form-last-name"
+      >
+        <span
+          class="typography typography-field-label color-gray4"
+        >
+          Last Name
+        </span>
+      </label>
+      <div
+        class="helper-text"
+      >
+        <span
+          class="typography typography-helper"
+        >
+          Example Helper Text
+        </span>
+      </div>
+    </div>
+    <div
+      class="input-field-container input-field-text no-helpertext"
+      data-testid="test-id-input"
+    >
+      <input
+        aria-required="true"
+        class="input-field"
+        id="basic-form-email"
+        name="email"
+        placeholder="test@hallmark.com"
+        type="email"
+        value=""
+      />
+      <div
+        class="tooltip-wrapper"
+      >
+        <button
+          class="tooltip tooltip-trigger center-align"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            class="icon icon-info-bold icon-24"
+            data-testid="icon"
+          />
+          <span
+            class="typography typography-body typography-body-medium"
+          >
+            <span
+              class="typography screen-reader-text"
+            >
+              More info
+            </span>
+          </span>
+          <div
+            class="tooltip-content"
+          >
+            <div
+              aria-hidden="true"
+              class="tooltip-overlay bottom center-align text-align-left info-bold"
+              data-animate="modal"
+              data-open="false"
+              data-type="modal"
+              role="tooltip"
+              tabindex="-1"
+            >
+              
+              <span
+                class="typography typography-helper"
+              >
+                Must be a valid email
+              </span>
+              <i
+                class="caret"
+              />
+            </div>
+          </div>
+        </button>
+      </div>
+      <label
+        class="input-label text block"
+        for="basic-form-email"
+      >
+        <span
+          class="typography typography-field-label color-gray4"
+        >
+          Email Address
+        </span>
+      </label>
+    </div>
+    <div
+      class="input-field-container input-field-text no-helpertext"
+      data-testid="test-id-input"
+    >
+      <input
+        aria-required="true"
+        class="input-field"
+        id="basic-form-password"
+        maxlength="12"
+        name="password"
+        placeholder="6 characters minimum"
+        type="password"
+        value=""
+      />
+      <label
+        class="input-label text block"
+        for="basic-form-password"
+      >
+        <span
+          class="typography typography-field-label color-gray4"
+        >
+          Password
+        </span>
+      </label>
+    </div>
+    <div
+      class="input-field-container input-field-text no-helpertext"
+      data-testid="test-id-input"
+    >
+      <input
+        aria-required="true"
+        class="input-field"
+        id="basic-form-crown-rewards"
+        maxlength="12"
+        name="crownRewards"
+        placeholder=""
+        type="text"
+        value=""
+      />
+      <label
+        class="input-label text block"
+        for="basic-form-crown-rewards"
+      >
+        <span
+          class="typography typography-field-label color-gray4"
+        >
+          Crown Rewards
+        </span>
+      </label>
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Dropdown
+    </h6>
+    <div
+      class="input-field-container input-field-select has-icon icon-right variant-default no-helpertext"
+    >
+      <select
+        aria-invalid="false"
+        aria-required="true"
+        class="input-field"
+        id="basic-form-select"
+        name="select"
+      >
+        <option
+          default=""
+          disabled=""
+          value="Choose an Option"
+        >
+          Choose an Option
+        </option>
+        <option
+          value="option1"
+        >
+          Option 1
+        </option>
+        <option
+          value="option2"
+        >
+          Option 2
+        </option>
+        <option
+          value="option3"
+        >
+          Option 3
+        </option>
+      </select>
+      <label
+        class="input-label text block"
+        for="basic-form-select"
+      >
+        <span
+          class="typography typography-field-label color-gray4"
+        >
+          Select Dropdown
+        </span>
+      </label>
+      <span
+        aria-hidden="true"
+        class="icon icon-arrows-norgiedown-bold icon-8"
+        data-testid="icon"
+      />
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Checkbox
+    </h6>
+    <div
+      class="input-field-container input-field-checkbox no-helpertext"
+    >
+      <input
+        aria-invalid="false"
+        aria-required="true"
+        class="input-field"
+        id="basic-form-checkbox"
+        name="acceptedTerms"
+        placeholder=""
+        type="checkbox"
+        value="false"
+      />
+      <span
+        aria-hidden="true"
+        class="indicator indicator-checkbox"
+      />
+      <div>
+        <label
+          class="input-label checkbox inline-block"
+          for="basic-form-checkbox"
+        >
+          <span
+            class="typography typography-field-label"
+          >
+            I accept the terms and conditions
+          </span>
+        </label>
+      </div>
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Toggle Switch
+    </h6>
+    <div
+      class="toggle-switch"
+    >
+      <label
+        class="input-label checkbox inline"
+        for="toggleSwitch"
+      >
+        <span
+          class="typography typography-field-label"
+        >
+          Label
+        </span>
+      </label>
+      <input
+        aria-invalid="false"
+        checked=""
+        class="input-field"
+        id="toggleSwitch"
+        name="toggle"
+        placeholder=""
+        type="checkbox"
+        value="true"
+      />
+      <span
+        aria-hidden="true"
+        class="indicator indicator-toggle"
+      />
+      <div
+        class="helper-text"
+      >
+        <span
+          class="typography typography-helper"
+        >
+          Select an option
+        </span>
+      </div>
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Radio Button Group
+    </h6>
+    <div
+      class="input-fieldset fieldset-container no-helpertext"
+    >
+      <fieldset
+        id="radioGroup"
+        name="signUp"
+        required=""
+        value="radioBtn2"
+      >
+        <legend
+          class="screen-reader-text"
+        >
+          RadioButton
+        </legend>
+        <div
+          class="input-field-container input-field-radio"
+        >
+          <input
+            class="input-field"
+            id="radioBtn1"
+            name="signUp"
+            placeholder=""
+            type="radio"
+            value="radioBtn1"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-radio"
+          />
+          <div
+            class="radio-button-labels undefined"
+          >
+            <label
+              class="input-label radio inline-block"
+              for="radioBtn1"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                Sign me up for Crown Rewards
+              </span>
+            </label>
+            
+          </div>
+        </div>
+        <div
+          class="input-field-container input-field-radio"
+        >
+          <input
+            checked=""
+            class="input-field"
+            id="radioBtn2"
+            name="signUp"
+            placeholder=""
+            type="radio"
+            value="radioBtn2"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-radio"
+          />
+          <div
+            class="radio-button-labels undefined"
+          >
+            <label
+              class="input-label radio inline-block"
+              for="radioBtn2"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                I'm already a Crown Rewards member
+              </span>
+            </label>
+            
+          </div>
+        </div>
+        <div
+          class="input-field-container input-field-radio"
+        >
+          <input
+            class="input-field"
+            id="radioBtn3"
+            name="signUp"
+            placeholder=""
+            type="radio"
+            value="radioBtn3"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-radio"
+          />
+          <div
+            class="radio-button-labels undefined"
+          >
+            <label
+              class="input-label radio inline-block"
+              for="radioBtn3"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                No thanks, not right now
+              </span>
+            </label>
+            
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Radio Button Blank Card
+    </h6>
+    <div
+      class="input-fieldset fieldset-container no-helpertext"
+    >
+      <fieldset
+        id="myRadioButton"
+        name="myRadioButton"
+      >
+        <legend
+          class="screen-reader-text"
+        >
+          Card RadioButton
+        </legend>
+        <div
+          class="input-field-container input-field-radio input-field-radio-card"
+        >
+          <input
+            class="input-field"
+            id="myDomId"
+            name="myRadioGroup"
+            placeholder=""
+            type="radio"
+            value="Option 1"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-radio"
+          />
+          <div
+            style="margin-right: 16px;"
+          >
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div
+            style="margin-right: 16px;"
+          >
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div>
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div
+            class="radio-button-labels undefined"
+          >
+            <label
+              class="input-label radio inline-block"
+              for="myDomId"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                image1
+              </span>
+            </label>
+            
+          </div>
+        </div>
+        <div
+          class="input-field-container input-field-radio input-field-radio-card"
+        >
+          <input
+            class="input-field"
+            id="myDomId2"
+            name="myRadioGroup"
+            placeholder=""
+            type="radio"
+            value="Option 2"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-radio"
+          />
+          <div
+            style="margin-right: 16px;"
+          >
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div
+            style="margin-right: 16px;"
+          >
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div>
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div
+            class="radio-button-labels undefined"
+          >
+            <label
+              class="input-label radio inline-block"
+              for="myDomId2"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                image2
+              </span>
+            </label>
+            
+          </div>
+        </div>
+        <div
+          class="input-field-container input-field-radio input-field-radio-card"
+        >
+          <input
+            class="input-field"
+            id="myDomId3"
+            name="myRadioGroup"
+            placeholder=""
+            type="radio"
+            value="Option 3"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-radio"
+          />
+          <div
+            style="margin-right: 16px;"
+          >
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div
+            style="margin-right: 16px;"
+          >
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div>
+            <div
+              class="LazyLoad lazy-image-container"
+            />
+          </div>
+          <div
+            class="radio-button-labels undefined"
+          >
+            <label
+              class="input-label radio inline-block"
+              for="myDomId3"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                image3
+              </span>
+            </label>
+            
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Checkbox Group
+    </h6>
+    <div
+      class="input-fieldset fieldset-container no-helpertext"
+    >
+      <fieldset
+        id="checkboxGroup"
+        name="checkboxGroup"
+        required=""
+        value=""
+      >
+        <legend
+          class="screen-reader-text"
+        >
+          Checkbox Group
+        </legend>
+        <div
+          class="input-field-container input-field-checkbox"
+        >
+          <input
+            aria-invalid="false"
+            class="input-field"
+            id="option1checkbox"
+            name="checkboxGroup"
+            placeholder=""
+            type="checkbox"
+            value="option 1"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-checkbox"
+          />
+          <div>
+            <label
+              class="input-label checkbox inline-block"
+              for="option1checkbox"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                Option 1
+              </span>
+            </label>
+          </div>
+        </div>
+        <div
+          class="input-field-container input-field-checkbox"
+        >
+          <input
+            aria-invalid="false"
+            class="input-field"
+            id="option2checkbox"
+            name="checkboxGroup"
+            placeholder=""
+            type="checkbox"
+            value="option 2"
+          />
+          <span
+            aria-hidden="true"
+            class="indicator indicator-checkbox"
+          />
+          <div>
+            <label
+              class="input-label checkbox inline-block"
+              for="option2checkbox"
+            >
+              <span
+                class="typography typography-field-label"
+              >
+                Option 2
+              </span>
+            </label>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <h6
+      class="typography typography-headline typography-headline-6"
+    >
+      Range
+    </h6>
+    <div
+      class="input-range-container"
+    >
+      <label
+        class="input-label text inline"
+        for="example-range-id"
+      >
+        <span
+          class="typography typography-field-label"
+        >
+          Size
+        </span>
+      </label>
+      <div
+        class="input-range-slider-background"
+      />
+      <div
+        class="input-range-tick-container"
+      >
+        <div
+          class="input-range-tick"
+        />
+        <div
+          class="input-range-tick"
+        />
+      </div>
+      <input
+        class="input-field"
+        id="example-range-id"
+        max="10"
+        min="0"
+        name="rangeInput"
+        placeholder=""
+        step="1"
+        type="range"
+        value="5"
+      />
+    </div>
+    <div
+      class="segmented-control-holder selected-2"
+      test-id="segmented-control-test-id"
+    >
+      <div
+        class="input-fieldset fieldset-container no-helpertext"
+      >
+        <fieldset
+          id="segmentedControl"
+          name="segmentedcontrol"
+          value="calendar"
+        >
+          <legend
+            class="screen-reader-text"
+          >
+            Segmented Control
+          </legend>
+          <ul
+            class="segmented-control"
+          >
+            <li
+              class="segmented-control-item"
+            >
+              <input
+                class="input-field"
+                id="apple"
+                name="segmentedcontrol"
+                placeholder=""
+                type="radio"
+                value="apple"
+              />
+              <label
+                class="segmented-control-label"
+                for="apple"
+              >
+                <span
+                  class="typography screen-reader-text"
+                >
+                  Apple
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="icon icon-brands-apple-bold icon-24"
+                  data-testid="icon"
+                />
+              </label>
+            </li>
+            <li
+              class="segmented-control-item"
+            >
+              <input
+                class="input-field"
+                id="google"
+                name="segmentedcontrol"
+                placeholder=""
+                type="radio"
+                value="google"
+              />
+              <label
+                class="segmented-control-label"
+                for="google"
+              >
+                <span
+                  class="typography screen-reader-text"
+                >
+                  Google
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="icon icon-brands-google-bold icon-24"
+                  data-testid="icon"
+                />
+              </label>
+            </li>
+            <li
+              class="segmented-control-item"
+            >
+              <input
+                class="input-field"
+                id="calendar"
+                name="segmentedcontrol"
+                placeholder=""
+                type="radio"
+                value="calendar"
+              />
+              <label
+                class="segmented-control-label"
+                for="calendar"
+              >
+                <span
+                  class="typography screen-reader-text"
+                >
+                  Calendar
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="icon icon-calendar-calendar-bold icon-24"
+                  data-testid="icon"
+                />
+              </label>
+            </li>
+            <li
+              class="segmented-control-item"
+            >
+              <input
+                class="input-field"
+                id="card"
+                name="segmentedcontrol"
+                placeholder=""
+                type="radio"
+                value="card"
+              />
+              <label
+                class="segmented-control-label"
+                for="card"
+              >
+                <span
+                  class="typography screen-reader-text"
+                >
+                  Card
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="icon icon-card-front-bold icon-24"
+                  data-testid="icon"
+                />
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="submit"
+    >
+      
+      <span
+        class="typography typography-cta color-brand-white"
+      >
+        Submit
+      </span>
+      
+    </button>
+  </form>
+</div>
+`;

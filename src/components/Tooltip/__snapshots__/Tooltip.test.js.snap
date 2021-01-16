@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tooltip /> should renders without props  1`] = `
+<div
+  className="tooltip-wrapper"
+>
+  <button
+    className="tooltip tooltip-trigger center-align"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <Typography
+      variant="body-medium"
+    />
+    <div
+      className="tooltip-content"
+    >
+      <div
+        aria-hidden={true}
+        className="tooltip-overlay bottom center-align text-align-left"
+        data-animate="modal"
+        data-open={false}
+        data-type="modal"
+        role="tooltip"
+        tabIndex="-1"
+      >
+        <Typography
+          variant="helper"
+        />
+        <i
+          className="caret"
+        />
+      </div>
+    </div>
+  </button>
+</div>
+`;

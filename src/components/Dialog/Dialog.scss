@@ -1,0 +1,401 @@
+@import './DialogAnimations.scss';
+@import './DialogExposedTrigger.scss';
+
+.dialog-overlay {
+  display: none;
+  position: fixed;
+  background: rgba(map-get($colors, 'brand-black'), 0.64);
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hide-overlay .dialog-overlay {
+  background: rgba(map-get($colors, 'brand-black'), 0);
+}
+
+[data-open='true'] {
+  .dialog-overlay {
+    display: flex;
+
+    .dialog-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .dialog-scroll {
+    overflow-y: auto;
+  }
+}
+
+/**
+ * Dialog - Modal
+ */
+[data-type='modal'] {
+  background: map-get($colors, 'brand-white');
+  border-radius: $space-4;
+  box-shadow: $shadow-2;
+  width: 100%;
+  max-height: calc(100vh - 102px - 160px);
+  max-width: rem(448px);
+  opacity: 0;
+  transform: translate(0, $space-32);
+
+  @include media($mq-mobile) {
+    margin: $space-56 $space-24;
+  }
+
+  .dialog-content {
+    padding: $space-32;
+  }
+
+  .dialog-title-icon {
+    display: inline-block;
+    margin: $space-12;
+  }
+
+  .dialog-close {
+    position: absolute;
+    top: -$space-12;
+    right: $space-16;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  .typography-headline {
+    display: inline-block;
+    margin-bottom: $space-16;
+  }
+}
+
+/**
+ * Dialog - Feature Modal
+ */
+[data-type='feature-modal'] {
+  background: map-get($colors, 'brand-white');
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  overflow-y: visible;
+  max-height: calc(100vh - 48px - 56px);
+  max-width: none;
+  width: 100%;
+  text-align: center;
+
+  &.dialog-wrapper-gray {
+    background: map-get($colors, 'gray0');
+
+    .dialog-top-curve g,
+    .dialog-bottom-curve g {
+      fill: map-get($colors, 'gray0');
+    }
+  }
+
+  .dialog-top-curve g,
+  .dialog-bottom-curve g {
+    fill: map-get($colors, 'brand-white');
+  }
+
+  .dialog-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: $space-16;
+    margin-top: $space-8;
+  }
+
+  .dialog-content {
+    padding: 0 $space-24 rem(10px) $space-24;
+  }
+
+  .dialog-accent-icon {
+    position: absolute;
+    top: -6.4vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dialog-close {
+    position: absolute;
+    right: rem(20px);
+    top: rem(-20px);
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  .dialog-top-curve {
+    transform: translate(0, -100%);
+    margin-top: 1px; // Fixes the space between the dialog and the svg
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 6.4vw;
+  }
+
+  @include media($mq-tablet-up) {
+    bottom: auto;
+    max-height: calc(100vh - 102px - 160px);
+    max-width: rem(475px);
+
+    .dialog-accent-icon {
+      position: absolute;
+      top: - $space-48;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .dialog-close {
+      top: rem(-42px);
+    }
+
+    .dialog-title {
+      display: inline-block;
+    }
+
+    .dialog-top-curve {
+      width: 100%;
+      max-width: rem(475px);
+      height: auto;
+    }
+
+    .dialog-bottom-curve {
+      position: absolute;
+      bottom: 2px;
+      display: block;
+      transform: translate(0, 100%);
+      width: 100%;
+      max-width: rem(475px);
+    }
+  }
+}
+
+[data-type='feature-modal'] {
+  &:not(.exposed-trigger) {
+    opacity: 0;
+    transform: translate(0, calc(100% - 52px));
+    @include media($mq-tablet-up) {
+      transform: translate(0, $space-32);
+    }
+  }
+}
+
+/**
+ * Dialog - Toast
+ */
+[data-type='toast'] {
+  background: map-get($colors, 'brand-white');
+  border-radius: $space-8;
+  box-shadow: $shadow-1;
+  padding: $space-16;
+  margin: $space-24;
+  width: 100%;
+  max-width: rem(672px);
+  opacity: 0;
+  transform: translate(0, $space-32);
+
+  @include media($mq-mobile) {
+    margin: $space-16;
+  }
+
+  .dialog-close {
+    position: absolute;
+    top: $space-16;
+    right: $space-16;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  .typography-headline {
+    margin-bottom: $space-4;
+  }
+}
+
+/**
+ * Dialog - Drawer (left/right/bottom)
+ */
+[data-type^='drawer'] {
+  @media only screen and (max-width: 407px) {
+    max-width: calc(100% - 32px);
+  }
+
+  @media only screen and (max-width: 375px) {
+    max-width: calc(100% - 24px);
+  }
+
+  background: map-get($colors, 'gray0');
+  box-shadow: $shadow-1;
+  padding: 0;
+  width: 100%;
+  max-width: rem(375px);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  &[data-type$='-left'] {
+    left: 0;
+    transform: translate(-100%, 0);
+
+    .dialog-title {
+      @extend %screen-reader-text;
+    }
+  }
+
+  &[data-type$='-right'] {
+    right: 0;
+    transform: translate(100%, 0);
+
+    .dialog-title {
+      @extend %screen-reader-text;
+    }
+  }
+
+  &[data-type$='-bottom'] {
+    overflow-y: visible;
+    transform: translate(0, 100%);
+    background: map-get($colors, 'brand-white');
+    margin-top: $space-48;
+    max-width: none;
+    max-height: calc(100vh - 48px - 56px);
+    width: 100%;
+    top: auto;
+    text-align: center;
+
+    .dialog-top-curve g {
+      fill: map-get($colors, 'brand-white');
+    }
+
+    .dialog-title {
+      margin-top: $space-12;
+    }
+
+    .dialog-title-icon {
+      position: absolute;
+      top: -$space-24;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .dialog-close {
+      position: absolute;
+      top: rem(-20px);
+      right: rem(20px);
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+      }
+    }
+
+    .dialog-top-curve {
+      transform: translate(0, -100%);
+      margin-top: 1px; // Fixes the space between the dialog and the svg
+      display: block;
+      position: absolute;
+    }
+  }
+
+  &[data-type$='-top'] {
+    overflow-y: visible;
+    transform: translate(0, -100%);
+    background: map-get($colors, 'brand-white');
+    margin-bottom: $space-48;
+    max-width: none;
+    max-height: calc(100vh - 48px - 56px);
+    width: 100%;
+    bottom: auto;
+    text-align: center;
+
+    .dialog-top-curve g {
+      fill: map-get($colors, 'brand-white');
+    }
+
+    .dialog-top-curve {
+      transform: translate(0, -100%) rotate(180deg);
+      bottom: -$space-48;
+      margin-top: 1px; // Fixes the space between the dialog and the svg
+      display: block;
+      position: absolute;
+
+    }
+
+    .dialog-title {
+      margin-top: $space-12;
+    }
+
+    .dialog-title-icon {
+      position: absolute;
+      bottom: rem(-70px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .dialog-close {
+      position: absolute;
+      top: $space-12;
+      right: $space-24;
+      border: none;
+
+      &:hover, &:focus {
+        box-shadow: none;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+      }
+    }
+
+    .dialog-bottom-curve {
+      transform: translate(0, 100%);
+      margin-top: 1px; // Fixes the space between the dialog and the svg
+      display: block;
+      position: absolute;
+    }
+  }
+}
+
+// drawer-left / drawer-right top spacing
+[data-animate='drawer-right'],
+[data-animate='drawer-left'] {
+  .dialog-overlay {
+    top: $space-56;
+  }
+}

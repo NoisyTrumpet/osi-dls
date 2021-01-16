@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogExample /> renders Dialog component 1`] = `
+<div>
+  <div
+    style="padding-bottom: 8px;"
+  >
+    <button
+      class="btn-icon btn-icon-circular"
+      type="button"
+    >
+      <span
+        class="screen-reader-text"
+      >
+        Dialog Trigger
+      </span>
+      <span
+        aria-hidden="true"
+        class="icon icon-placeholder icon-16"
+        data-testid="icon"
+      />
+    </button>
+  </div>
+  <ul>
+    <li
+      style="padding-bottom: 8px;"
+    >
+      <button
+        class="btn btn-text-link"
+        type="button"
+      >
+        
+        <span
+          class="typography typography-text-link color-accentB"
+        >
+          Dialog Trigger 2
+        </span>
+        
+      </button>
+    </li>
+    <li
+      style="padding-bottom: 8px; text-align: center;"
+    >
+      some text separating unique trigger elements…
+    </li>
+    <li
+      style="padding-bottom: 8px;"
+    >
+      <button
+        class="btn btn-quick-action-activated"
+        type="button"
+      >
+        
+        <span
+          class="typography typography-cta-tertiary color-primary"
+        >
+          Dialog Trigger 3
+        </span>
+        
+      </button>
+    </li>
+    <li
+      style="padding-bottom: 8px; text-align: center;"
+    >
+      some text separating unique trigger elements…
+    </li>
+    <li
+      style="padding-bottom: 8px;"
+    >
+      <button
+        class="btn btn-secondary"
+        type="button"
+      >
+        
+        <span
+          class="typography typography-cta color-primary"
+        >
+          Dialog Trigger 4
+        </span>
+        
+      </button>
+    </li>
+  </ul>
+  <div
+    style="padding-bottom: 8px;"
+  >
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      
+      <span
+        class="typography typography-cta color-brand-white"
+      >
+        Dialog Trigger 5
+      </span>
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<FeatureModalExample /> renders Feature Modal component 1`] = `
+<div>
+  <div
+    class="feature-modal-exposed-trigger"
+  >
+    <div
+      class="dialog-scroll"
+      data-testid="featureTrigger"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="dialog-accent-icon"
+      >
+        <div
+          class="accent-icon"
+        >
+          <div
+            class="icon-wrapper"
+          >
+            <span
+              aria-hidden="true"
+              class="icon icon-[object Object] icon-brand-white icon-24"
+              data-testid="triggerAccentIcon"
+            />
+          </div>
+        </div>
+      </div>
+      <h6
+        class="typography typography-headline typography-headline-6 dialog-title"
+      >
+        Dialog Window
+      </h6>
+    </div>
+    <button
+      class="btn-icon btn-icon-tiny dialog-close"
+      data-testid="closeExposedTrigger"
+      type="button"
+    >
+      <span
+        class="screen-reader-text"
+      >
+        Close
+      </span>
+      <span
+        aria-hidden="true"
+        class="icon icon-menuclose-bold icon-16"
+        data-testid="icon"
+      />
+    </button>
+  </div>
+</div>
+`;

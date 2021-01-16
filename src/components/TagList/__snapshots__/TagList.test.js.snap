@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagList renders 1`] = `
+<div>
+  <ul
+    class="taglist list-horizontal"
+  >
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/camel"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          camel
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/friendship"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          friendship
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/funny"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          funny
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/glossy"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          glossy
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/green"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          green
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/shoebox"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          shoebox
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/send"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          sign-and-send
+        </span>
+      </a>
+    </li>
+    <li
+      class="list-item"
+    >
+      <a
+        class="btn btn-quick-action-deactivated"
+        href="/zinger"
+      >
+        <span
+          class="typography typography-cta-tertiary"
+        >
+          zinger
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

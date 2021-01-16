@@ -1,0 +1,132 @@
+.input-range-container {
+  position: relative;
+  .input-label {
+    display: block;
+    position: initial;
+    transform: none;
+    top: auto;
+    left: auto;
+    pointer-events: none;
+    margin-bottom: $space-16;
+    padding: 0 0 0 rem(2px);
+  }
+
+  .input-range-slider-background {
+    position: absolute;
+    height: $space-4;
+    background: map-get($colors, 'gray3');
+    margin-top: rem(11px);
+    left: $space-8;
+    right: $space-8;
+    z-index: -1;
+  }
+
+  .input-range-tick-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: $space-8;
+    margin-top: rem(9px);
+    padding: 0 $space-8;
+    z-index: -1;
+
+    .input-range-tick {
+      height: $space-8;
+      width: $space-8;
+      background-color: map-get($colors, 'gray3');
+      border-radius: 50%;
+    }
+  }
+}
+
+@mixin range-thumb {
+  cursor: pointer;
+  height: $space-24;
+  width: $space-24;
+  background: map-get($colors, 'brand-white');
+  border-radius: rem(12px);
+  border: 1px solid map-get($colors, 'primary');
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+@mixin range-track {
+  cursor: pointer;
+  border: none;
+  z-index: 1;
+}
+input[type='range'] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  width: 100%;
+  border: 1px solid map-get($colors, 'brand-white');
+  background: transparent; /* Otherwise white in Chrome */
+  padding: 0;
+  color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+
+  // Webkit - thumb
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    @include range-thumb;
+  }
+
+  // Webkit - track
+  &::-webkit-slider-runnable-track {
+    @include range-track;
+  }
+
+  // Firefox - thumb
+  &::-moz-range-thumb {
+    @include range-thumb;
+  }
+
+  // Firefox - track
+  &:focus::-moz-range-track {
+    background: transparent;
+    z-index: -1;
+  }
+
+  &:-moz-focusring {
+    outline: 1px solid transparent;
+    outline-offset: -1px;
+  }
+
+  // ms - thumb
+  &::-ms-thumb {
+    @include range-thumb;
+  }
+
+  // ms - track
+  &::-ms-track {
+    cursor: pointer;
+    width: 100%;
+    height: $space-8;
+    background: transparent;
+    border-color: transparent;
+    border-width: $space-24;
+    color: transparent;
+  }
+
+  &::-ms-fill-lower {
+    background: map-get($colors, 'gray3');
+    border-radius: 50%;
+    box-shadow: none;
+  }
+  &::-ms-fill-upper {
+    background: map-get($colors, 'gray3');
+    border-radius: 50%;
+    box-shadow: none;
+  }
+
+  &:focus::-ms-fill-lower {
+    background: map-get($colors, 'gray3');
+  }
+  &:focus::-ms-fill-upper {
+    background: map-get($colors, 'gray3');
+  }
+}

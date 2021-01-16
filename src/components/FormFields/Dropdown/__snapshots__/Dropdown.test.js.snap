@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> Should render Default 1`] = `
+<Formik
+  initialValues={
+    Object {
+      "dropdown": "",
+    }
+  }
+>
+  <Form>
+    <form
+      action="#"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <Dropdown
+        color="gray4"
+        domId="exampleDropdown"
+        helperText="Optional helper text"
+        label="label"
+        name="dropdown"
+        variant="default"
+      >
+        <div
+          className="input-field-container input-field-select has-icon icon-right variant-default"
+        >
+          <Select
+            domId="exampleDropdown"
+            error={false}
+            isDisabled={false}
+            name="dropdown"
+            onBlur={[Function]}
+            onChange={[Function]}
+            value=""
+            variant="default"
+          >
+            <select
+              aria-invalid={false}
+              aria-required="true"
+              className="input-field"
+              disabled={false}
+              id="exampleDropdown"
+              name="dropdown"
+              onBlur={[Function]}
+              onChange={[Function]}
+              style={Object {}}
+            />
+          </Select>
+          <Label
+            color="gray4"
+            display="block"
+            fieldType="text"
+            forId="exampleDropdown"
+            isDisabled={false}
+          >
+            <label
+              className="input-label text block"
+              htmlFor="exampleDropdown"
+            >
+              <Typography
+                color="gray4"
+                variant="field-label"
+              >
+                <span
+                  className="typography typography-field-label color-gray4"
+                >
+                  label
+                </span>
+              </Typography>
+              <Typography
+                addClass="optional"
+                variant="helper"
+              >
+                <span
+                  className="typography typography-helper optional"
+                >
+                  (Optional)
+                </span>
+              </Typography>
+            </label>
+          </Label>
+          <Icon
+            badgeColor="primary"
+            name="arrows-norgiedown-bold"
+            size={8}
+            testId="icon"
+          >
+            <span
+              aria-hidden="true"
+              className="icon icon-arrows-norgiedown-bold icon-8"
+              data-testid="icon"
+            />
+          </Icon>
+          <HelperText>
+            <div
+              className="helper-text"
+            >
+              <Typography
+                variant="helper"
+              >
+                <span
+                  className="typography typography-helper"
+                >
+                  Optional helper text
+                </span>
+              </Typography>
+            </div>
+          </HelperText>
+        </div>
+      </Dropdown>
+    </form>
+  </Form>
+</Formik>
+`;
+
+exports[`<Dropdown /> Should render Font Dropdown 1`] = `
+<Formik
+  initialValues={
+    Object {
+      "dropdown": "",
+    }
+  }
+>
+  <Form>
+    <form
+      action="#"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <Dropdown
+        color="gray4"
+        domId="myDomId"
+        helperText="Optional helper text"
+        label="Font"
+        name="myInputName"
+        options={
+          Array [
+            Object {
+              "label": "All My Best",
+              "value": "allMyBest",
+            },
+            Object {
+              "label": "Buh Bye",
+              "value": "buhBye",
+            },
+          ]
+        }
+        required={true}
+        variant="font"
+      >
+        <div
+          className="input-field-container input-field-select has-icon icon-right variant-font font-select"
+        >
+          <div
+            className="font-dropdown"
+          >
+            <InlineSVG
+              aria-hidden="true"
+              className="font-dropdown"
+              description="Font select option"
+              focus={false}
+              focusable="false"
+              path=""
+              preProcessor={null}
+              role=""
+              title="Font"
+            >
+              <InlineSVG
+                aria-hidden="true"
+                cacheRequests={true}
+                className="font-dropdown"
+                description="Font select option"
+                focus="false"
+                focusable="false"
+                preProcessor={null}
+                role=""
+                src=""
+                title="Font"
+                uniquifyIDs={false}
+              />
+            </InlineSVG>
+          </div>
+          <Select
+            domId="myDomId"
+            error={false}
+            isDisabled={false}
+            name="myInputName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": "All My Best",
+                  "value": "allMyBest",
+                },
+                Object {
+                  "label": "Buh Bye",
+                  "value": "buhBye",
+                },
+              ]
+            }
+            variant="font"
+          >
+            <select
+              aria-invalid={false}
+              aria-required="true"
+              className="input-field"
+              disabled={false}
+              id="myDomId"
+              name="myInputName"
+              onBlur={[Function]}
+              onChange={[Function]}
+              style={Object {}}
+            >
+              <option
+                key="allMyBest"
+                value="allMyBest"
+              >
+                All My Best
+              </option>
+              <option
+                key="buhBye"
+                value="buhBye"
+              >
+                Buh Bye
+              </option>
+            </select>
+          </Select>
+          <Label
+            color="gray4"
+            display="block"
+            fieldType="text"
+            forId="myDomId"
+            isDisabled={false}
+            required={true}
+          >
+            <label
+              className="input-label text block"
+              htmlFor="myDomId"
+            >
+              <Typography
+                color="gray4"
+                variant="field-label"
+              >
+                <span
+                  className="typography typography-field-label color-gray4"
+                >
+                  Font
+                </span>
+              </Typography>
+            </label>
+          </Label>
+          <Icon
+            badgeColor="primary"
+            name="arrows-norgiedown-bold"
+            size={8}
+            testId="icon"
+          >
+            <span
+              aria-hidden="true"
+              className="icon icon-arrows-norgiedown-bold icon-8"
+              data-testid="icon"
+            />
+          </Icon>
+          <HelperText>
+            <div
+              className="helper-text"
+            >
+              <Typography
+                variant="helper"
+              >
+                <span
+                  className="typography typography-helper"
+                >
+                  Optional helper text
+                </span>
+              </Typography>
+            </div>
+          </HelperText>
+        </div>
+      </Dropdown>
+    </form>
+  </Form>
+</Formik>
+`;

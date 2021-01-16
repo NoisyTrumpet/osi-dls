@@ -1,0 +1,44 @@
+.toast-wrapper {
+  .typography-subtext {
+    padding: 0 8px;
+  }
+}
+
+.dialog-toast {
+  font-size: rem(15px);
+
+  &.success {
+    .dialog-wrapper {
+      background: map-get($colors, 'util-success');
+    }
+  }
+
+  &.error {
+    .dialog-wrapper {
+      background: map-get($colors, 'util-error');
+    }
+  }
+
+  .dialog-overlay {
+    background: transparent;
+    align-items: flex-start;
+  }
+
+  .typography-subtext {
+    color: map-get($colors, 'brand-white');
+  }
+
+  .dialog-content {
+    .typography {
+      color: map-get($colors, 'brand-white');
+    }
+  }
+
+  .icon:before {
+    color: map-get($colors, 'brand-white');
+  }
+
+  .btn-icon:hover .icon:before {
+    color: map-get($colors, 'gray3');
+  }
+}

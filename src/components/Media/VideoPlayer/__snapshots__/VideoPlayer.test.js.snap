@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VideoPlayer /> decoration video 1`] = `
+<video
+  autoPlay={true}
+  className="video-player"
+  controls={false}
+  controlslist="nodownload"
+  crossOrigin="anonymous"
+  loop={true}
+  muted={true}
+  onEnded={null}
+  onPause={null}
+  onPlay={null}
+  playsInline={false}
+  poster=""
+  preload="metadata"
+  src="testSrc3.mp4"
+  width={720}
+>
+  Your browser does not support the video tag.
+</video>
+`;
+
+exports[`<VideoPlayer /> should render Video Player with a source and track and poster 1`] = `
+<video
+  autoPlay={false}
+  className="video-player"
+  controls={true}
+  controlslist="nodownload"
+  crossOrigin="anonymous"
+  data-interactable={true}
+  loop={false}
+  muted={false}
+  onEnded={[Function]}
+  onPause={[Function]}
+  onPlay={[Function]}
+  playsInline={true}
+  poster="testPoster.jpg"
+  preload="metadata"
+  src="testSrc.mp4"
+  width={720}
+>
+  <track
+    default={true}
+    kind="captions"
+    src="testTrack.vtt"
+    srcLang="en"
+  />
+  Your browser does not support the video tag.
+</video>
+`;
+
+exports[`<VideoPlayer /> should render Video Player with override source 1`] = `
+<video
+  autoPlay={false}
+  className="video-player"
+  controls={true}
+  controlslist="nodownload"
+  crossOrigin="anonymous"
+  data-interactable={true}
+  loop={false}
+  muted={false}
+  onEnded={[Function]}
+  onPause={[Function]}
+  onPlay={[Function]}
+  playsInline={true}
+  poster="testPoster.jpg"
+  preload="metadata"
+  src="override.mp4"
+  width={480}
+>
+  <track
+    default={true}
+    kind="captions"
+    src="testTrack.vtt"
+    srcLang="en"
+  />
+  Your browser does not support the video tag.
+</video>
+`;

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Fieldset /> Should render Radio Buttons 1`] = `
+<Formik
+  initialValues={
+    Object {
+      "radioGroup": "",
+    }
+  }
+>
+  <Form>
+    <form
+      action="#"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <Fieldset
+        domId="radioGroup"
+        helperText="helperText"
+        label="RadioButton"
+        name="radioGroup"
+      >
+        <div
+          className="input-fieldset fieldset-container"
+        >
+          <fieldset
+            id="radioGroup"
+            label="RadioButton"
+            name="radioGroup"
+            onBlur={[Function]}
+            onChange={[Function]}
+            value=""
+          >
+            <legend
+              className="screen-reader-text"
+            />
+            <RadioButton
+              domId="radioBtn1"
+              isCard={false}
+              isDisabled={false}
+              label="Radio Btn 1"
+              name="radioGroup"
+              type="radio"
+              value="radioBtn1"
+            >
+              <div
+                className="input-field-container input-field-radio"
+              >
+                <Input
+                  checked={false}
+                  className="radio-button"
+                  domId="radioBtn1"
+                  isChecked={false}
+                  isDisabled={false}
+                  name="radioGroup"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder=""
+                  type="radio"
+                  value="radioBtn1"
+                >
+                  <input
+                    checked={false}
+                    className="input-field"
+                    defaultValue="radioBtn1"
+                    disabled={false}
+                    id="radioBtn1"
+                    name="radioGroup"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder=""
+                    type="radio"
+                  />
+                </Input>
+                <Indicator
+                  type="radio"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="indicator indicator-radio"
+                  />
+                </Indicator>
+                <div
+                  className="radio-button-labels undefined"
+                >
+                  <Label
+                    color=""
+                    display="inline-block"
+                    fieldType="radio"
+                    forId="radioBtn1"
+                    isDisabled={false}
+                    required={true}
+                  >
+                    <label
+                      className="input-label radio inline-block"
+                      htmlFor="radioBtn1"
+                    >
+                      <Typography
+                        color=""
+                        variant="field-label"
+                      >
+                        <span
+                          className="typography typography-field-label"
+                        >
+                          Radio Btn 1
+                        </span>
+                      </Typography>
+                    </label>
+                  </Label>
+                </div>
+              </div>
+            </RadioButton>
+            <RadioButton
+              domId="radioBtn2"
+              isCard={false}
+              isDisabled={false}
+              label="Radio Btn 2"
+              name="radioGroup"
+              type="radio"
+              value="radioBtn2"
+            >
+              <div
+                className="input-field-container input-field-radio"
+              >
+                <Input
+                  checked={false}
+                  className="radio-button"
+                  domId="radioBtn2"
+                  isChecked={false}
+                  isDisabled={false}
+                  name="radioGroup"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder=""
+                  type="radio"
+                  value="radioBtn2"
+                >
+                  <input
+                    checked={false}
+                    className="input-field"
+                    defaultValue="radioBtn2"
+                    disabled={false}
+                    id="radioBtn2"
+                    name="radioGroup"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder=""
+                    type="radio"
+                  />
+                </Input>
+                <Indicator
+                  type="radio"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="indicator indicator-radio"
+                  />
+                </Indicator>
+                <div
+                  className="radio-button-labels undefined"
+                >
+                  <Label
+                    color=""
+                    display="inline-block"
+                    fieldType="radio"
+                    forId="radioBtn2"
+                    isDisabled={false}
+                    required={true}
+                  >
+                    <label
+                      className="input-label radio inline-block"
+                      htmlFor="radioBtn2"
+                    >
+                      <Typography
+                        color=""
+                        variant="field-label"
+                      >
+                        <span
+                          className="typography typography-field-label"
+                        >
+                          Radio Btn 2
+                        </span>
+                      </Typography>
+                    </label>
+                  </Label>
+                </div>
+              </div>
+            </RadioButton>
+          </fieldset>
+          <HelperText>
+            <div
+              className="helper-text"
+            >
+              <Typography
+                variant="helper"
+              >
+                <span
+                  className="typography typography-helper"
+                >
+                  helperText
+                </span>
+              </Typography>
+            </div>
+          </HelperText>
+        </div>
+      </Fieldset>
+    </form>
+  </Form>
+</Formik>
+`;

@@ -1,0 +1,16 @@
+.simplecontent-wrapper {
+  line-height: 25px;
+
+  > .typography {
+    margin-bottom: rem(2px);
+  }
+
+  .simplecontent-body {
+    display: flex;
+
+    .simplecontent-icon {
+      min-width: rem(26px);
+    }
+  }
+
+}

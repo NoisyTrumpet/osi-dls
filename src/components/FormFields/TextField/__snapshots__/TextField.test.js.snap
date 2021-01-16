@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> Should render 1`] = `
+<Formik
+  initialValues={
+    Object {
+      "textField": "",
+    }
+  }
+>
+  <Form>
+    <form
+      action="#"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <TextField
+        domId="textFieldId"
+        helperText="Optional helper text"
+        iconOnClick={null}
+        label="label"
+        name="textField"
+      >
+        <div
+          className="input-field-container input-field-text"
+          data-testid="test-id-input"
+        >
+          <Input
+            domId="textFieldId"
+            name="textField"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            type="text"
+            value=""
+          >
+            <input
+              className="input-field"
+              defaultValue=""
+              id="textFieldId"
+              name="textField"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder=""
+              type="text"
+            />
+          </Input>
+          <Label
+            color="gray4"
+            display="block"
+            fieldType="text"
+            forId="textFieldId"
+            isDisabled={false}
+          >
+            <label
+              className="input-label text block"
+              htmlFor="textFieldId"
+            >
+              <Typography
+                color="gray4"
+                variant="field-label"
+              >
+                <span
+                  className="typography typography-field-label color-gray4"
+                >
+                  label
+                </span>
+              </Typography>
+              <Typography
+                addClass="optional"
+                variant="helper"
+              >
+                <span
+                  className="typography typography-helper optional"
+                >
+                  (Optional)
+                </span>
+              </Typography>
+            </label>
+          </Label>
+          <HelperText>
+            <div
+              className="helper-text"
+            >
+              <Typography
+                variant="helper"
+              >
+                <span
+                  className="typography typography-helper"
+                >
+                  Optional helper text
+                </span>
+              </Typography>
+            </div>
+          </HelperText>
+        </div>
+      </TextField>
+    </form>
+  </Form>
+</Formik>
+`;

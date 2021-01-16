@@ -6,6 +6,7 @@
 
 // Baloo-2
 $baloo: 'Baloo-2';
+$gtAmerican: 'GT America';
 
 // beam
 $beam-vf: 'BeamNewHMK-VF';
@@ -13,9 +14,6 @@ $beam-170: 'BeamNewHMK-170';
 $beam-114: 'BeamNewHMK-114';
 $beam-84: 'BeamNewHMK-84';
 
-// plex
-$plex: 'IBM Plex Serif';
-
 // simple defefinition
-$sans-serif: $beam-vf;
-$serif: $plex;
+$sans-serif: $gtAmerican;
+$serif: $baloo;

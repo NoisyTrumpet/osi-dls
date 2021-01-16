@@ -1,0 +1,27 @@
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  .list-item {
+    .breadcrumb-link {
+      text-decoration: none;
+
+      &:hover,
+      &:hover span {
+        color: map-get($colors, 'primary');
+      }
+
+      &:active,
+      &:active span {
+        color: map-get($colors, 'primary1');
+      }
+    }
+    &:after {
+      display: inline-block;
+      margin: 0 $space-8 rem(-4px) $space-8;
+      transform: rotate(25deg);
+      border-right: rem(1px) solid map-get($colors, 'gray3');
+      height: rem(16px);
+      content: '';
+    }
+  }
+}

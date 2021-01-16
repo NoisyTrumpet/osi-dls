@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoBadge /> renders and matches snapshot 1`] = `
+<div
+  class="info-badge"
+>
+  <span
+    aria-hidden="true"
+    class="icon icon-check-default-bold icon-util-success icon-15 info-badge-icon"
+    data-testid="icon"
+  />
+  <span
+    class="typography typography-caption color-util-success"
+  >
+    test
+  </span>
+</div>
+`;

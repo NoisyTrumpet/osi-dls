@@ -19,6 +19,13 @@
 .env.test.local
 .env.production.local
 
+yarn.lock
+src/index.js
+lib/
+.jest-test-results.json
+storybook-output
+ci_files/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

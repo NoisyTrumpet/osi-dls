@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UtilityLink renders Utility Link component 1`] = `
+<div
+  class="utility-link"
+>
+  <a
+    href="https://www.hallmark.com/"
+  >
+    <span
+      aria-hidden="true"
+      class="icon icon-undefined icon-24"
+      data-testid="icon"
+    />
+    <span
+      class="typography typography-body typography-body-medium"
+    >
+      utility link
+    </span>
+  </a>
+</div>
+`;

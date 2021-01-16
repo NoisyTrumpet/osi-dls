@@ -1,0 +1,23 @@
+.progress-bar {
+  width: 100%;
+  height: 100%;
+}
+
+.percentage-bar-container {
+  background-color: map-get($colors, 'gray2');
+  height: $space-12;
+  border-radius: $space-12;
+  margin: $space-16 0 0 $space-4;
+  overflow: hidden;
+  
+  // @include media($mq-tablet-up) {
+  //   max-width: rem(320px);
+  // }
+}
+
+.percentage-bar {
+  background: map-get($colors, 'primary');
+  height: 100%;
+  border-radius: $space-4 0 0 $space-4;
+  transition: $timing-0;
+}

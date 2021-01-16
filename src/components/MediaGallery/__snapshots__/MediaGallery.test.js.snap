@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MediaGallery /> should render 1`] = `
+<div
+  className="media-gallery"
+>
+  <Carousel
+    arrows={
+      Object {
+        "next": "#undefined-next",
+        "prev": "#undefined-prev",
+      }
+    }
+    disableDragging={true}
+    duration={0.5}
+    enableRewindLooping={true}
+    onNewItemVisible={[Function]}
+    scrollLockDelay={100}
+    slidesToShow={1}
+  />
+  <div
+    className="media-gallery__nav"
+  >
+    <div
+      className="slide-counter"
+    >
+      <Typography
+        variant="breadcrumb"
+      >
+        1 / 0
+      </Typography>
+    </div>
+    <div
+      className="carousel__controls-container"
+    >
+      <List
+        addClass="carousel__controls"
+        horizontal={true}
+      >
+        <ListItem>
+          <ForwardRef
+            addClass="carousel__controls-prev"
+            disabled={false}
+            icon="arrows-tailleft-bold"
+            id="undefined-prev"
+            size={16}
+            variant="circular"
+          >
+            Previous
+          </ForwardRef>
+        </ListItem>
+        <ListItem>
+          <ForwardRef
+            addClass="carousel__controls-next"
+            disabled={false}
+            icon="arrows-tailright-bold"
+            id="undefined-next"
+            size={16}
+            variant="circular"
+          >
+            Next
+          </ForwardRef>
+        </ListItem>
+      </List>
+    </div>
+  </div>
+</div>
+`;

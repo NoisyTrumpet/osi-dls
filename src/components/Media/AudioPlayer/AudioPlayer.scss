@@ -1,0 +1,34 @@
+.audio-player {
+  height: $space-48;
+  line-height: $space-48;
+
+  .audio-player__button-container {
+    height: $space-48;
+    width: $space-48;
+    padding: $space-4;
+    float: left;
+
+    svg {
+      position: absolute;
+      overflow: visible;
+
+      circle {
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+        stroke-linecap: round;
+        stroke: map-get($colors, 'primary');
+        fill: transparent;
+      }
+    }
+
+    .btn-icon {
+      position: absolute;
+      margin: $space-4;
+    }
+  }
+
+  .typography {
+    margin-left: $space-8;
+    line-height: $space-24;
+  }
+}

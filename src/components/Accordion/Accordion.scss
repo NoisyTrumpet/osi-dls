@@ -1,0 +1,122 @@
+$accordion-border-color: map-get($colors, 'gray3');
+$accordion-hover-bgcolor: map-get($colors, 'gray0');
+
+//Animate
+@mixin slideRight($num) {
+  transition: $timing-0;
+  padding-left: $num + px;
+}
+
+.accordion {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid $accordion-border-color;
+  width: 100%;
+
+  .accordion-section-title {
+    border-top: 1px solid $accordion-border-color;
+
+    .accordion-title {
+      display: block;
+      pointer-events: none;
+      padding-right: $space-48;
+    }
+
+    .typography {
+      line-height: 28px;
+    }
+
+    .accordion-category-link {
+      padding: $space-16 0;
+      text-decoration: none;
+    }
+
+    button {
+      padding: $space-16 0;
+      border-style: none;
+
+      &:focus,
+      &:hover {
+        @include slideRight(4);
+        & .typography {
+          color: map-get($colors, 'primary1');
+        }
+      }
+    }
+    a {
+      &:focus,
+      &:hover {
+        @include slideRight(4);
+        color: map-get($colors, 'primary1');
+      }
+    }
+    .icon {
+      border: 0;
+      margin: 2px 0 0 0;
+      padding: 0;
+      pointer-events: none;
+      position: absolute;
+      right: $space-4;
+      top: 20px;
+    }
+  }
+
+  .accordion-section-content {
+    transition: opacity 0.4s, max-height 0.4s, visibility 0.4s;
+    overflow: hidden;
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+
+    &.accordion-expanded {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .list-item {
+      margin-bottom: 1.25rem;
+    }
+    .typography-input-text {
+      color: map-get($colors, 'primary');
+    }
+  }
+
+  .accordion-section-content-wrapper {
+    padding: $space-24 $space-8 $space-8 $space-24;
+    border-top: 1px solid $accordion-border-color;
+  }
+}
+
+.accordion.focus {
+  border-color: hsl(216, 94%, 73%);
+}
+
+.accordion.focus.accordion-category {
+  background-color: hsl(0, 0%, 97%);
+}
+
+.accordion-trigger {
+  background: none;
+  color: white;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  outline: none;
+
+  &:focus,
+  &:hover {
+    background: $accordion-hover-bgcolor;
+  }
+}
+.accordion button::-moz-focus-inner {
+  border: 0;
+}
+
+/* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+.accordion-section-content[hidden] {
+  display: none;
+}

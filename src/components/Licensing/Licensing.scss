@@ -1,0 +1,12 @@
+.licensing {
+  .licensing-logos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: rem(24px);
+
+    img {
+      margin-right: rem(26px);
+      height: rem(50px);
+    }
+  }
+}

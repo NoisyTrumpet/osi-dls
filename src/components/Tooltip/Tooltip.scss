@@ -1,0 +1,231 @@
+.tooltip-wrapper {
+  width: auto;
+  display: inline-block;
+  position: relative;
+
+  button {
+    background: transparent;
+    border: none;
+  }
+
+  .tooltip {
+    display: inline-block;
+    cursor: pointer;
+
+    .icon {
+      vertical-align: sub;
+      margin-right: rem(12px);
+    }
+
+    .tooltip-title {
+      display: block;
+    }
+
+    .tooltip-content {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+
+      //Default Bottom orientation
+      //Default Center alignment
+      .tooltip-overlay {
+        margin: rem(12px) auto auto;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        background: rgba(map-get($colors, 'brand-black'), 0.64);
+
+        &[data-open='true'] {
+          &.tooltip-overlay {
+            display: block;
+          }
+
+          &[data-animate='modal'] {
+            animation: tooltipFade 0.16s linear forwards 0.08s;
+          }
+        }
+
+        &[data-type='modal'] {
+          background: map-get($colors, 'brand-white');
+          box-shadow: $shadow-1;
+          border-radius: 0;
+          padding: rem(6px) rem(12px);
+          width: rem(200px);
+          transform: translate(0, $space-12);
+
+          .caret {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            overflow: hidden;
+            top: 0;
+            transform: translate(-50%, -100%) rotate(180deg);
+            left: 50%;
+
+            &:after {
+              content: '';
+              position: absolute;
+              background: map-get($colors, 'brand-white');
+              width: 8px;
+              height: 8px;
+              left: 50%;
+              transform: translate(-50%, -50%) rotate(45deg);
+              box-shadow: $shadow-1;
+            }
+          }
+        }
+
+        //Alignment
+        &.left-align {
+          margin: rem(20px) auto auto rem(-2px);
+
+          .caret {
+            transform: translate(0%, -100%) rotate(180deg);
+            left: -1px;
+          }
+
+          &.top {
+            margin: rem(-30px) auto auto rem(-2px);
+
+            .caret {
+              left: -1px;
+              transform: translate(0%, 100%) rotate(0deg);
+            }
+          }
+        }
+
+        &.right-align {
+          margin: rem(20px) rem(-3px) auto auto;
+
+          .caret {
+            right: 0;
+            left: auto;
+            transform: translate(0%, -100%) rotate(180deg);
+          }
+
+          &.top {
+            margin: rem(-30px) rem(-3px) auto auto;
+
+            .caret {
+              left: auto;
+              transform: translate(0%, 100%) rotate(0deg);
+            }
+          }
+        }
+
+        //Text align right
+        &.text-align-right .typography-helper {
+          text-align: right;
+          display: block;
+        }
+
+        //Text align left
+        &.text-align-left .typography-helper {
+          display: block;
+          text-align: left;
+        }
+
+        //Text align center
+        &.text-align-center .typography-helper {
+          text-align: center;
+          display: block;
+        }
+
+        //Top Orientation
+        &.top {
+          margin: rem(-24px) auto auto auto;
+          transform: translate(0, -100%);
+
+          .caret {
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 100%) rotate(0deg);
+            top: auto;
+          }
+        }
+
+        //Right orientation
+        &.right {
+          margin: auto auto auto rem(20px);
+          transform: translate(0, -50%);
+          left: 100%;
+
+          .caret {
+            top: 50%;
+            left: 5px;
+            transform: translate(-100%, -50%) rotate(90deg);
+          }
+        }
+
+        //Left Orientation
+        &.left {
+          margin: auto rem(20px) auto auto;
+          right: 100%;
+          transform: translate(0, -50%);
+
+          .caret {
+            top: 50%;
+            right: 5px;
+            left: auto;
+            transform: translate(100%, -50%) rotate(270deg);
+          }
+        }
+      }
+
+      @keyframes tooltipFade {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    }
+
+    //More alignment
+    &.right-align {
+      .icon {
+        float: right;
+        margin-left: rem(20px);
+        margin-right: 0;
+      }
+
+      .tooltip-content .tooltip-overlay[data-type='modal'] {
+        width: rem(320px);
+      }
+    }
+
+    &.left-align {
+      .tooltip-content .tooltip-overlay[data-type='modal'] {
+        width: rem(320px);
+      }
+    }
+  }
+}
+
+.input-field-container {
+  .tooltip-wrapper
+  .tooltip {
+    &.right-align {
+      .icon {
+        left: -55px;
+        top: 13px;
+      }
+    }
+
+    .tooltip-content 
+    .tooltip-overlay {
+      &.right-align {
+        margin: rem(28px) rem(-3px) auto auto;
+
+        .caret {
+          right: 10px;
+        }
+      }
+    }
+  }
+}

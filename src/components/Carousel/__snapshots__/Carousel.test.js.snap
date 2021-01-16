@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> should render 1`] = `
+<div
+  className="carousel"
+>
+  <div
+    className="glider carousel__track-container"
+  >
+    <List
+      addClass="carousel__track glider-track"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Carousel /> should render with correct number of children 1`] = `
+<div
+  className="carousel"
+>
+  <div
+    className="glider carousel__track-container"
+  >
+    <List
+      addClass="carousel__track glider-track"
+    >
+      <ListItem
+        key=".0"
+      />
+      <ListItem
+        key=".1"
+      />
+      <ListItem
+        key=".2"
+      />
+    </List>
+  </div>
+</div>
+`;

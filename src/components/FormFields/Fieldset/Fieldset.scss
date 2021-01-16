@@ -1,0 +1,11 @@
+.input-fieldset {
+  fieldset {
+    padding: $space-4 $space-12 $space-4;
+  }
+
+  .helper-text {
+    margin-top: 0px;
+    margin-bottom: 6px;
+    padding-left: 13px;
+  }
+}

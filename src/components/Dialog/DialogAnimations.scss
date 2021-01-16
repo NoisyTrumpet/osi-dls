@@ -1,0 +1,126 @@
+[data-open='true'] {
+  // Modal and Toast Animations
+  &[data-animate='modal'] .dialog-wrapper,
+  &[data-animate='feature-modal'] .dialog-wrapper:not(.exposed-trigger),
+  &[data-animate='toast'] .dialog-wrapper {
+    animation: modalSlide 0.16s linear forwards 0.08s;
+  }
+
+  // Drawer Animations
+  &[data-animate='drawer-left'] .dialog-wrapper {
+    animation: openFromLeft 0.24s linear forwards 0.08s;
+  }
+
+  &[data-animate='drawer-right'] .dialog-wrapper {
+    animation: openFromRight 0.24s linear forwards 0.08s;
+  }
+
+  &[data-animate='drawer-bottom'] .dialog-wrapper {
+    animation: openFromBottom 0.24s linear forwards 0.08s;
+  }
+
+  &[data-animate='drawer-top'] .dialog-wrapper {
+    animation: openFromTop 0.24s linear forwards 0.08s;
+  }
+
+  &[data-animate='feature-modal'] {
+    .dialog-wrapper.exposed-trigger {
+      animation: exposedTriggerOpenMobile 0.24s linear forwards 0.08s;
+      
+      @include media($mq-tablet-up) {
+        animation: exposedTriggerOpen 0.24s linear forwards 0.08s;
+      }
+    }
+  }
+
+  @include media($mq-mobile) {
+    &[data-animate='feature-modal'] .dialog-wrapper:not(.exposed-trigger) {
+      animation: openFromBottom 0.24s linear forwards 0.08s;
+    }
+  }
+}
+
+@keyframes exposedTriggerOpen {
+  from {
+    background: map-get($colors, 'brand-white');
+    bottom: 0;
+  }
+
+  to {
+    background: map-get($colors, 'gray0');
+    bottom: 50%;
+    transform: translate(0, 50%);
+  }
+}
+
+@keyframes exposedTriggerOpenMobile {
+  from {
+    background: map-get($colors, 'brand-white');
+    transform: translate(0, calc(100% - 52px));
+  }
+
+  to {
+    background: map-get($colors, 'gray0');
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes openFromBottom {
+  from {
+    opacity: 0;
+    transform: translate(0, 100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes openFromTop {
+  from {
+    opacity: 0;
+    transform: translate(0, -100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes openFromLeft {
+  from {
+    opacity: 0;
+    transform: translate(-100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes openFromRight {
+  from {
+    opacity: 0;
+    transform: translate(100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes modalSlide {
+  from {
+    opacity: 0;
+    transform: translate(0, $space-32);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

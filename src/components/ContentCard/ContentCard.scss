@@ -1,0 +1,57 @@
+.content-card {
+  display: flex;
+  width: 100%;
+
+  .card-container {
+    text-decoration: none;
+    box-shadow: $shadow-1;
+
+    &:focus,
+    &:hover {
+      box-shadow: $shadow-3;
+    }
+
+    .card-content {
+      padding: 12px 20px 20px;
+      height: 180px;
+
+      .card-title {
+        padding-bottom: 8px;
+
+        .typography {
+          display: block;
+        }
+      }
+      
+      .card-copy {
+        .typography {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &.media-card {
+    display: flex;
+
+    .card-asset {
+      height: 305px;
+      overflow: hidden;
+    }
+  }
+
+  &.video-card {
+    display: flex;
+    // Placeholder until we get comps
+  }
+
+  .vertical {
+    display: flex;
+    // Placeholder until we get more comps
+  }
+
+  .horizontal {
+    display: flex;
+    // Placeholder until we get more comps
+  }
+}

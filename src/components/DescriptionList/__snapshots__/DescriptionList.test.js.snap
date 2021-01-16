@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DescriptionList /> should render  1`] = `
+<dl
+  className="description-list has-icons"
+>
+  <DescriptionListItem
+    descriptionText="You can do anything when you set your mind to it."
+    icon="icon"
+    key="Front"
+    titleText="Front"
+  />
+  <DescriptionListItem
+    descriptionText="Can't wait to see what this year brings!"
+    key="Inside"
+    titleText="Inside"
+  />
+  <DescriptionListItem
+    descriptionText="Includes one card and one envelope with a Gold Crown seal. Envelope color may vary."
+    icon="icon"
+    key="Envelope & Seal"
+    titleText="Envelope & Seal"
+  />
+</dl>
+`;

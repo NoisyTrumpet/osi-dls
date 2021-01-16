@@ -1,0 +1,15 @@
+.input-field-checkbox {
+  .input-field {
+    top: 0; // To adjust when error appears
+  }
+
+  .indicator {
+    align-self: flex-start;
+    margin-top: rem(3px);
+    min-width: rem(18px);
+  }
+
+  .typography-field-label {
+    line-height: 1.8;
+  }
+}

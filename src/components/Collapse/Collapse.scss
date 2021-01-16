@@ -1,0 +1,69 @@
+.collapse-container {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  &.fade-preview {
+    flex-flow: column-reverse;
+    &.collapsed {
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        background-image: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) calc(100% - 55px)); /* FF3.6-15 */
+        background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) calc(100% - 55px)); /* Chrome10-25,Safari5.1-6 */
+        background-image: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) calc(100% - 55px)); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      }
+    }
+    .collapse-content {
+      margin-bottom: $space-24;
+      max-height: 250px;
+    }
+  }
+  &.default {
+    padding-bottom: $space-24;
+  }
+  &.collapsed {
+    .collapse-content {
+      overflow: hidden;
+    }
+    .collapse-trigger .icon {
+      transform: scaleY(-1);
+    }
+  }
+  .collapse-preview {
+    margin-top: $space-16;
+  }
+  .collapse-content {
+    transition: max-height $timing-0;
+    overflow: visible;
+    max-height: 0;
+    &.expanding {
+      overflow: hidden;
+    }
+  }
+  .collapse-trigger {
+    position: relative;
+    z-index: 2;
+    background-color: map-get($colors, 'brand-transparent');
+    &.utility-link a {
+      padding: 0;
+      height: auto;
+      border: none;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      span {
+        color: map-get($colors, 'gray5');
+      }
+      .icon:before {
+        padding-bottom: $space-4;
+        color: map-get($colors, 'gray5');
+      }
+    }
+  }
+}

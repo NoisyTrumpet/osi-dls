@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCard Should render 1`] = `
+<div
+  className="content-card vertical media-card"
+  data-theme="vertical"
+  data-type="media"
+>
+  <a
+    className="card-container"
+    href="https://www.hallmark.com"
+    rel=""
+    target="_blank"
+  >
+    <div
+      aria-hidden="true"
+      className="card-icon"
+    />
+    <Picture
+      cardImage={
+        Object {
+          "alt": "Hallmark Logo",
+          "size": Object {
+            "desktop": "https://ideas.hallmark.com/wp-content/uploads/2020/06/2.jpg",
+            "mobile": "https://ideas.hallmark.com/wp-content/uploads/2020/06/2.jpg",
+            "tablet": "https://ideas.hallmark.com/wp-content/uploads/2020/06/2.jpg",
+          },
+        }
+      }
+    />
+    <div
+      className="card-content"
+    >
+      <h2
+        className="card-title"
+      >
+        <Typography
+          variant="eyebrow"
+        >
+          title 1
+        </Typography>
+      </h2>
+      <p
+        className="card-copy"
+      >
+        <Typography
+          variant="body"
+        >
+          copy 1
+        </Typography>
+        <Typography
+          variant="body"
+        >
+          copy 2
+        </Typography>
+        <Typography
+          variant="body"
+        >
+          copy 3
+        </Typography>
+      </p>
+    </div>
+  </a>
+</div>
+`;

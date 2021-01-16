@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion /> should render 1`] = `
+<div
+  className="accordion"
+  onClick={[Function]}
+  role="presentation"
+>
+  <ContextProvider
+    value={null}
+  />
+</div>
+`;
+
+exports[`<Accordion /> should render accordion with 3 sections 1`] = `
+<div
+  className="accordion"
+  onClick={[Function]}
+  role="presentation"
+>
+  <ContextProvider
+    value={null}
+  >
+    <AccordionSection
+      panelId="sect1"
+      title="Section 1"
+      titleID="accordion1id"
+      titleVariant="headline-6"
+    >
+      <span>
+        Text 1
+      </span>
+      <span>
+        Text 2
+      </span>
+    </AccordionSection>
+    <AccordionSection
+      panelId="sect2"
+      title="Section 2"
+      titleID="accordion2id"
+      titleVariant="headline-6"
+    >
+      <img
+        alt="Hallmark"
+        src="https://webfileswest.uswest.os.ctl.io/corporate.hallmark.com/wp-content/uploads/2018/06/Hallmark-Greetings-Logo-black-160x160.jpg"
+      />
+    </AccordionSection>
+    <AccordionSection
+      link="https://www.hallmark.com/"
+      panelId="sect4"
+      title="Section Link"
+      titleID="accordion4id"
+      titleVariant="headline-6"
+    />
+  </ContextProvider>
+</div>
+`;

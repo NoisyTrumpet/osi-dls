@@ -1,0 +1,40 @@
+.input-field-text {
+  padding-top: $space-16;
+  position: relative;
+
+  &.icon-left {
+    .input-field {
+      padding-left: $space-48;
+    }
+
+    .icon {
+      left: $space-16;
+    }
+  }
+
+  &.icon-right {
+    .input-field {
+      padding-right: $space-48;
+    }
+
+    .icon {
+      transform: translate(calc(-100% - 12px), -50%);
+    }
+  }
+
+  &.hidden-label {
+    label {
+      @extend %screen-reader-text;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: rem(42px);
+    transform: translate(0, -50%);
+  }
+}
+
+input::-ms-clear {
+  display: none;
+}

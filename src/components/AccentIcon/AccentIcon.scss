@@ -1,0 +1,12 @@
+.accent-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  .icon-wrapper {
+    position: absolute;
+    padding-top: $space-16;
+    padding-left: rem(1px);
+  }
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleSwitch /> should render  1`] = `
+<Formik
+  initialValues={
+    Object {
+      "toggle": "",
+    }
+  }
+>
+  <Form>
+    <form
+      action="#"
+      onReset={[Function]}
+      onSubmit={[Function]}
+    >
+      <ToggleSwitch
+        checked={false}
+        domId="toggleSwitch"
+        label="Toggle Switch"
+        labelPosition="left"
+        name="toggle"
+      >
+        <div
+          className="toggle-switch no-helpertext"
+        >
+          <Label
+            color=""
+            display="inline"
+            fieldType="checkbox"
+            forId="toggleSwitch"
+            isDisabled={false}
+            required={true}
+          >
+            <label
+              className="input-label checkbox inline"
+              htmlFor="toggleSwitch"
+            >
+              <Typography
+                color=""
+                variant="field-label"
+              >
+                <span
+                  className="typography typography-field-label"
+                >
+                  Toggle Switch
+                </span>
+              </Typography>
+            </label>
+          </Label>
+          <Input
+            checked={false}
+            domId="toggleSwitch"
+            error={false}
+            isChecked={false}
+            name="toggle"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder=""
+            type="checkbox"
+            value=""
+          >
+            <input
+              aria-invalid={false}
+              checked={false}
+              className="input-field"
+              defaultValue=""
+              id="toggleSwitch"
+              name="toggle"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder=""
+              type="checkbox"
+            />
+          </Input>
+          <Indicator
+            type="toggle"
+          >
+            <span
+              aria-hidden="true"
+              className="indicator indicator-toggle"
+            />
+          </Indicator>
+        </div>
+      </ToggleSwitch>
+    </form>
+  </Form>
+</Formik>
+`;

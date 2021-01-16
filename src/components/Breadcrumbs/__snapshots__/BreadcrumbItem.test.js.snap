@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadcrumbItems component matches previous snapshot 1`] = `
+<div>
+  <li
+    class="list-item"
+  >
+    <a
+      class="breadcrumb-link"
+      href="#somewhere"
+      rel="noopener"
+      target="_blank"
+    >
+      <span
+        class="typography typography-breadcrumb"
+      >
+        Page1
+      </span>
+    </a>
+  </li>
+</div>
+`;
