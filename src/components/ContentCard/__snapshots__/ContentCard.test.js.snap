@@ -8,7 +8,7 @@ exports[`ContentCard Should render 1`] = `
 >
   <a
     className="card-container"
-    href="https://www.hallmark.com"
+    href="https://osilife.com"
     rel=""
     target="_blank"
   >

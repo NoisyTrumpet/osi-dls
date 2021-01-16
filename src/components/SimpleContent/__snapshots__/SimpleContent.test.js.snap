@@ -55,7 +55,7 @@ exports[`<SimpleContent /> Should render 1`] = `
         <p>
           <a
             class="text-link"
-            href="https://www.hallmark.com"
+            href="https://osilife.com"
           >
             <span
               class="typography typography-text-link"

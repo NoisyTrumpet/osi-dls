@@ -16,7 +16,7 @@ storiesOf("components/UtilityLink", module)
   .addDecorator(withSmartKnobs({ ignoreProps: ["icon"] }))
   .add("Default", () => (
     <UtilityLink
-      to="https://www.hallmark.com/"
+      to="https://osilife.com/"
       title="Utility Link"
       icon={select("icon", iconArray, "placeholder-bold")}
     />

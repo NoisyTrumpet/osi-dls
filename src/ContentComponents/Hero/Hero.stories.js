@@ -19,12 +19,12 @@ const fullImgSrc = {
 
 const defaultPrimaryCTA = {
   text: "Optional CTA",
-  link: "https://www.hallmark.com/"
+  link: "https://osilife.com/"
 };
 
 const defaultSecondaryCTA = {
   text: "Text Link CTA",
-  link: "https://www.hallmark.com/"
+  link: "https://osilife.com/"
 };
 
 const videoSrc = {

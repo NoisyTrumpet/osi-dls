@@ -25,7 +25,7 @@ const ContentPanelsExample = () => {
           Go to next
         </Button>
         <TextLink
-          to="https://www.hallmark.com/"
+          to="https://osilife.com/"
           title="Text Link"
           icon="placeholder-bold"
         />
@@ -39,7 +39,7 @@ const ContentPanelsExample = () => {
           Go to next
         </Button>
         <TextLink
-          to="https://www.hallmark.com/"
+          to="https://osilife.com/"
           title="Text Link"
           icon="placeholder-bold"
         />

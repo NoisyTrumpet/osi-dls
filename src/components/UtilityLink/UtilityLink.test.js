@@ -18,7 +18,7 @@ describe("UtilityLink", () => {
   test("renders Utility Link component", () => {
     const { container } = render(
       <UtilityLink
-        to="https://www.hallmark.com/"
+        to="https://osilife.com/"
         title="utility link"
         icon="undefined"
       />
@@ -31,7 +31,7 @@ describe("UtilityLink", () => {
     render(
       <UtilityLink
         icon="placeholder-bold"
-        to="https://www.hallmark.com/"
+        to="https://osilife.com/"
         title="util"
       />
     );
@@ -41,7 +41,7 @@ describe("UtilityLink", () => {
   test("tests whether the correct title and icon are rendered in utility link", () => {
     const { container, getByText } = render(
       <UtilityLink
-        to="https://www.hallmark.com/"
+        to="https://osilife.com/"
         title="test"
         icon="placeholder-bold"
       />
@@ -53,7 +53,7 @@ describe("UtilityLink", () => {
           class="utility-link"
         >
           <a
-            href="https://www.hallmark.com/"
+            href="https://osilife.com/"
           >
             <span
               aria-hidden="true"

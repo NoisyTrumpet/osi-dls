@@ -24,28 +24,28 @@ const AccordionExample = (
       <List addClass="list__cta-text-link">
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 1"
             typoVariant="text-link"
           />
         </List.Item>
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 2"
             typoVariant="text-link"
           />
         </List.Item>
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 3"
             typoVariant="text-link"
           />
         </List.Item>
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 4"
             typoVariant="text-link"
           />
@@ -66,7 +66,7 @@ const AccordionExample = (
       title="Section Link"
       titleID="accordion4id"
       panelId="sect4"
-      link="https://www.hallmark.com/"
+      link="https://osilife.com/"
     />
   </Accordion>
 );
@@ -83,28 +83,28 @@ const AccordionExampleTwo = (
       <List addClass="list__cta-text-link">
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 1"
             typoVariant="text-link"
           />
         </List.Item>
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 2"
             typoVariant="text-link"
           />
         </List.Item>
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 3"
             typoVariant="text-link"
           />
         </List.Item>
         <List.Item>
           <TextLink
-            to="https://www.hallmark.com/"
+            to="https://osilife.com/"
             title="Link 4"
             typoVariant="text-link"
           />
@@ -133,7 +133,7 @@ const AccordionExampleTwo = (
       title="Section Link"
       titleID="accordion4id"
       panelId="sect4"
-      link="https://www.hallmark.com/"
+      link="https://osilife.com/"
       titleVariant="body-medium"
       titleColor="primary"
     />

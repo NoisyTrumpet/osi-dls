@@ -5,7 +5,7 @@ exports[`UtilityLink renders Utility Link component 1`] = `
   class="utility-link"
 >
   <a
-    href="https://www.hallmark.com/"
+    href="https://osilife.com/"
   >
     <span
       aria-hidden="true"

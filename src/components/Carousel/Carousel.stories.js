@@ -36,7 +36,7 @@ const exampleStyles = {
   }
 };
 
-// Pictures from https://www.hallmark.com/cards/greeting-cards/assorted-cards-for-all-occasions-in-floral-organizer-box-box-of-24-1BCE4202.html
+// Pictures from https://osilife.com/cards/greeting-cards/assorted-cards-for-all-occasions-in-floral-organizer-box-box-of-24-1BCE4202.html
 storiesOf(storyTitle, module)
   .addParameters(parameters)
   .addDecorator(

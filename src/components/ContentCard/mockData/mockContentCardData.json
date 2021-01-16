@@ -1,6 +1,6 @@
-{ 
+{
   "cards": [
-    { 
+    {
       "title": {
         "title1": "title 1"
       },
@@ -10,7 +10,7 @@
         "copy3": "copy 3"
       },
       "href": {
-        "url": "https://www.hallmark.com",
+        "url": "https://osilife.com",
         "target": "_blank",
         "rel": ""
       },
@@ -34,7 +34,7 @@
         "copy2": "copy 2"
       },
       "href": {
-        "url": "https://www.hallmark.com",
+        "url": "https://osilife.com",
         "target": "_blank",
         "rel": ""
       },
@@ -59,7 +59,7 @@
         "copy3": "copy 3"
       },
       "href": {
-        "url": "https://www.hallmark.com",
+        "url": "https://osilife.com",
         "target": "_blank",
         "rel": ""
       },
@@ -80,7 +80,7 @@
         "copy1": "copy 1"
       },
       "href": {
-        "url": "https://www.hallmark.com",
+        "url": "https://osilife.com",
         "target": "_blank",
         "rel": ""
       },

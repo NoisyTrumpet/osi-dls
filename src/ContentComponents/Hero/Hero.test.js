@@ -31,14 +31,14 @@ const fullImgSrc = {
 const defaultPrimaryCTA = {
   text: "Optional CTA",
   textColor: "primary",
-  link: "https://www.hallmark.com/",
+  link: "https://osilife.com/",
   color: "brand-white",
   style: "primary"
 };
 
 const defaultSecondaryCTA = {
   text: "Text Link CTA",
-  link: "https://www.hallmark.com/",
+  link: "https://osilife.com/",
   color: "brand-white",
   style: "text-link"
 };

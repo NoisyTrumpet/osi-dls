@@ -21,7 +21,7 @@ const content = [
     <TextLink
       typo-variant="text-link"
       title="Past And Presents Card Gifts &amp; Home"
-      to="https://www.hallmark.com"
+      to="https://osilife.com"
     />
   </p>,
   <Typography key="address" variant="body">

@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import InlineSVG from "../../components/InlineSVG/InlineSVG";
+import Typography from "../../components/Typography/Typography";
+
 import {
   LogoHoriz,
   LogoHorizWhite,
@@ -28,7 +30,8 @@ const Logo = ({
   description,
   className,
   addClass,
-  animated
+  animated,
+  tagline
 }) => {
   const classes = classNames(
     className || "logo",
@@ -95,6 +98,11 @@ const Logo = ({
         role="img"
         className={classes}
       />
+      {variant === "horizontal" && tagline && (
+        <div style={{ textAlign: "right", marginTop: "-7%" }}>
+          <Typography variant="headline-4">{tagline}</Typography>
+        </div>
+      )}
     </div>
   );
 };
@@ -105,6 +113,7 @@ Logo.defaultProps = {
 
 Logo.propTypes = {
   variant: PropTypes.oneOf(["regular", "horizontal", "mark"]),
+  tagline: PropTypes.string,
   color: PropTypes.oneOf(["black", "white", "blue", "orange"]),
   animated: PropTypes.bool,
   title: PropTypes.string,
