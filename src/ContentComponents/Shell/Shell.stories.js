@@ -6,4 +6,5 @@ import { Shell } from "./";
 
 storiesOf("Content Components/Shell", module)
   .addDecorator(withSmartKnobs())
-  .add("w/Knobs", () => <Shell>Hello</Shell>);
+  .add("Full Width", () => <Shell>Full Width</Shell>)
+  .add("Contained", () => <Shell contained>contained coontent</Shell>);

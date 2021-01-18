@@ -1,15 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import classNames from "classnames";
 import { Nav } from "../../components/Nav";
 import { Footer } from "../../components/Footer";
 import { Wrapper } from "../../components/Wrapper";
 
 import "./Shell.scss";
 
-const Shell = ({ children }) => {
+const Shell = ({ children, contained }) => {
+  const classes = classNames(contained ? "shell-contained" : "shell");
+
   return (
-    <Wrapper addClass="shell">
+    <Wrapper addClass={classes}>
       <Nav />
       {children}
       <Footer />
@@ -20,8 +22,8 @@ const Shell = ({ children }) => {
 Shell.defaultProps = {};
 
 Shell.propTypes = {
-  children: PropTypes.node
-  // @TODO: Max width inner container? Full width versus max-width
+  children: PropTypes.node,
+  contained: PropTypes.bool
 };
 
 export default Shell;
