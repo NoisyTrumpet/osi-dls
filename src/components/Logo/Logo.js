@@ -31,7 +31,8 @@ const Logo = ({
   className,
   addClass,
   animated,
-  tagline
+  tagline,
+  to
 }) => {
   const classes = classNames(
     className || "logo",
@@ -89,6 +90,30 @@ const Logo = ({
     }
     return LogoRegular;
   }
+
+  if (to) {
+    return (
+      <div className="logo-wrapper">
+        <a href={to}>
+          <InlineSVG
+            path={`${variantChoice()}`}
+            title={title}
+            description={description}
+            role="img"
+            className={classes}
+          />
+          {variant === "horizontal" && tagline && (
+            <div className="tagline-wrapper">
+              <Typography variant="body" color="primary">
+                {tagline}
+              </Typography>
+            </div>
+          )}
+        </a>
+      </div>
+    );
+  }
+
   return (
     <div className="logo-wrapper">
       <InlineSVG
@@ -99,8 +124,10 @@ const Logo = ({
         className={classes}
       />
       {variant === "horizontal" && tagline && (
-        <div style={{ textAlign: "right", marginTop: "-7%" }}>
-          <Typography variant="headline-4">{tagline}</Typography>
+        <div className="tagline-wrapper">
+          <Typography variant="body" color="primary">
+            {tagline}
+          </Typography>
         </div>
       )}
     </div>
@@ -119,7 +146,8 @@ Logo.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   className: PropTypes.string,
-  addClass: PropTypes.string
+  addClass: PropTypes.string,
+  to: PropTypes.string
 };
 
 export default Logo;

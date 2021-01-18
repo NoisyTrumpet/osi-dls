@@ -1,10 +1,28 @@
 .logo-wrapper {
-  max-width: fit-content;
+  width: min-content;
+  min-width: fit-content;
+  position: relative;
+  max-height: 100%;
+
+  .logo, .logo_horiz {
+    max-width: 100%!important;
+    max-height: 100%!important;
+    width: auto;
+  }
+
+  a {
+    text-decoration: none;
+    height: 4rem;
+  }
+
+  .tagline-wrapper {
+    text-align: right;
+    text-decoration: none;
+    margin-top: -$space-16;
+
+  }
 }
 
-.logo {
-  max-width: 100%;
-}
 
 // Animations
 

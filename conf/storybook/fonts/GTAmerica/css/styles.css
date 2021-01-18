@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'GT America';
+    font-family: 'GT America Bold';
     src: url('../fonts/GTAmerica-Bold.eot');
     src: url('../fonts/GTAmerica-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/GTAmerica-Bold.woff2') format('woff2'),
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: 'GT America';
+    font-family: 'GT America Bold-Italic';
     src: url('../fonts/GTAmerica-BoldItalic.eot');
     src: url('../fonts/GTAmerica-BoldItalic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/GTAmerica-BoldItalic.woff2') format('woff2'),
