@@ -27,7 +27,7 @@ exports[`<Overview /> Should render 1`] = `
   <Typography
     variant="body-medium"
   >
-    DLS v1.5.0
+    DLS v1.8.0
   </Typography>
 </div>
 `;

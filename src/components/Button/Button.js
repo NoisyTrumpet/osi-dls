@@ -52,6 +52,12 @@ const Button = React.forwardRef(
         color: color || "primary",
         typoVariant: typoVariant || "cta"
       },
+      // osi-button
+      osi: {
+        iconSize: 20,
+        color: color || "secondary",
+        typoVariant: typoVariant || "cta"
+      },
       tertiary: {
         iconSize: 10,
         color: color || "primary",
@@ -144,6 +150,7 @@ Button.defaultProps = {
 Button.propTypes = {
   mode: PropTypes.oneOf([
     "primary",
+    "osi",
     "secondary",
     "tertiary",
     "quick-action-deactivated",
