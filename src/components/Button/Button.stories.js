@@ -24,4 +24,15 @@ storiesOf('components/Button', module)
     >
       Label
     </Button>
+  )))
+  .add('OsiBtn', (() => (
+    <Button
+      disabled={boolean('disabled', false)}
+      iconLeft={select('iconLeft', optionalIconArray, '')}
+      iconRight={select('iconRight', optionalIconArray, '')}
+      mode='osi'
+    >
+      Label
+    </Button>
   )));
+

@@ -25,7 +25,18 @@
   }
 
   &-osi {
-    background: map-get($colors, 'secondary');
+    background: map-get($colors, 'accentA');
+    border-color: map-get($colors, 'accentA');
+    border-top-left-radius: $space-24;
+    border-bottom-left-radius: $space-24;
+    border-bottom-right-radius: $space-24;
+    border-top-right-radius: 0;
+
+    &:hover {
+      background: map-get($colors, 'accentA1');
+      border-color: map-get($colors, 'accentA1');
+      border-top-right-radius: $space-24;
+    }
   }
 
   &-primary {
