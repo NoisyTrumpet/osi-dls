@@ -43,14 +43,14 @@ const Footer = ({ backgroundColor, businessName, footerText }) => {
 };
 
 Footer.defaultProps = {
-  backgroundColor: "primary",
+  backgroundColor: "brand-blue",
   businessName: "Osi Vision LLC dba OsiLife",
   footerText:
     "The health information contained on this website is for educational purposes only and does not constitute medical advice or a guaranty of treatment, outcome, or cure. Please consult with your healthcare provider for specific medical advice. This information is not intended to create a physician-patient relationship between OsiLife or any physician and the reader."
 };
 
 Footer.propTypes = {
-  backgroundColor: PropTypes.oneOf(["primary", "primary1", "secondary"]),
+  backgroundColor: PropTypes.oneOf(["brand-blue", "brand-orange", "secondary"]),
   businessName: PropTypes.string,
   footerText: PropTypes.string
   // Links Prop

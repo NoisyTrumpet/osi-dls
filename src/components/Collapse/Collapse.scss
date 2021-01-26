@@ -58,11 +58,11 @@
       flex-direction: row-reverse;
       justify-content: space-between;
       span {
-        color: map-get($colors, 'gray5');
+        color: map-get($colors, 'brand-grey');
       }
       .icon:before {
         padding-bottom: $space-4;
-        color: map-get($colors, 'gray5');
+        color: map-get($colors, 'brand-grey');
       }
     }
   }

@@ -4,7 +4,7 @@
 .glider-dot:hover,
 .glider-dot:focus,
 .glider-dot.active {
-  background-color: map-get($colors, 'primary1');
+  background-color: map-get($colors, 'brand-blue');
 }
 
 .glider-dot {
@@ -15,7 +15,7 @@
 }
 
 .glider-dot.active {
-  background-color: map-get($colors, 'primary1');
+  background-color: map-get($colors, 'brand-blue');
 }
 
 // https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp

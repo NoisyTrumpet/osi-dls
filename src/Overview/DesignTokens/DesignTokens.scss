@@ -16,7 +16,7 @@ pre {
   display: flex;
   width: 100%;
   @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
-  color: rgba(map-get($colors, 'primary'), 1.0);
+  color: rgba(map-get($colors, 'brand-blue'), 1.0);
 
 
   &:before {
@@ -60,7 +60,7 @@ pre {
   display: flex;
   width: 100%;
   @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
-  color: rgba(map-get($colors, 'primary'), 1.0);
+  color: rgba(map-get($colors, 'brand-blue'), 1.0);
 
   &:before {
     box-sizing: border-box;
@@ -83,18 +83,18 @@ pre {
   display: flex;
   width: 100%;
   @include fontSans($baloo, $baloo, 'sans-serif', 114, 700);
-  color: rgba(map-get($colors, 'primary'), 1.0);
+  color: rgba(map-get($colors, 'brand-blue'), 1.0);
 
   &:before {
-    background-color: rgba(map-get($colors, 'primary'), 1.0);
+    background-color: rgba(map-get($colors, 'brand-blue'), 1.0);
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     bottom: 4px;
-    box-shadow: rgba(map-get($colors, 'primary'), 0.7) 4px 4px 0px 0px, rgba(map-get($colors, 'primary'), 0.5) 8px 8px 0px 0px;
+    box-shadow: rgba(map-get($colors, 'brand-blue'), 0.7) 4px 4px 0px 0px, rgba(map-get($colors, 'brand-blue'), 0.5) 8px 8px 0px 0px;
     box-sizing: border-box;
-    color: rgba(map-get($colors, 'primary'), 1.0);
+    color: rgba(map-get($colors, 'brand-blue'), 1.0);
     content: "";
     display: block;
     height: 16px;
@@ -208,15 +208,15 @@ pre {
       border-bottom: 1px solid #ccc;
 
       &:before {
-        background-color: rgba(map-get($colors, 'primary'), 1.0);
+        background-color: rgba(map-get($colors, 'brand-blue'), 1.0);
         border-bottom-left-radius: 2px;
         border-bottom-right-radius: 2px;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
         bottom: 4px;
-        box-shadow: rgba(map-get($colors, 'primary'), 0.7) 4px 4px 0px 0px, rgba(map-get($colors, 'primary'), 0.5) 8px 8px 0px 0px;
+        box-shadow: rgba(map-get($colors, 'brand-blue'), 0.7) 4px 4px 0px 0px, rgba(map-get($colors, 'brand-blue'), 0.5) 8px 8px 0px 0px;
         box-sizing: border-box;
-        color: rgba(map-get($colors, 'primary'), 1.0);
+        color: rgba(map-get($colors, 'brand-blue'), 1.0);
         content: "";
         display: block;
         height: 16px;
@@ -235,7 +235,7 @@ pre {
     // border: solid #ccc;
     // border-width: 1px 1px 0 1px;
     border: none;
-    color: rgba(map-get($colors, 'primary'), 1.0);
+    color: rgba(map-get($colors, 'brand-blue'), 1.0);
   }
 
   .tab-content {
@@ -254,7 +254,7 @@ pre {
   border-radius: 4px;
   margin: 10px 0;
   @include fontSans($baloo, $baloo, 'sans-serif', 114, 300);
-  color: rgba(map-get($colors, 'primary'), 0.8);
+  color: rgba(map-get($colors, 'brand-blue'), 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,7 +264,7 @@ pre {
 
   span {
     transition: all ease 0.3s 1;
-    color: rgba(map-get($colors, 'primary'), 1.0)
+    color: rgba(map-get($colors, 'brand-blue'), 1.0)
   }
 
   &:hover {
@@ -282,7 +282,7 @@ pre {
 
 
   .width4 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-4;
@@ -290,7 +290,7 @@ pre {
   }
 
   .width8 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-8;
@@ -298,7 +298,7 @@ pre {
   }
 
   .width12 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-12;
@@ -306,7 +306,7 @@ pre {
   }
 
   .width16 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-16;
@@ -314,7 +314,7 @@ pre {
   }
 
   .width24 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-24;
@@ -322,7 +322,7 @@ pre {
   }
 
   .width32 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-32;
@@ -330,7 +330,7 @@ pre {
   }
 
   .width40 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-40;
@@ -338,7 +338,7 @@ pre {
   }
 
   .width48 {
-    border: solid 1px rgba(map-get($colors, 'primary'), 1.0);
+    border: solid 1px rgba(map-get($colors, 'brand-blue'), 1.0);
     margin: 0 0 $space-4 0;
     border-width: 0 1px 1px 1px;
     width: $space-48;
@@ -350,7 +350,7 @@ pre {
   margin: $space-8 0;
 
   .h4 {
-    color: rgba(map-get($colors, 'primary'), 1.0)
+    color: rgba(map-get($colors, 'brand-blue'), 1.0)
   }
 
 }

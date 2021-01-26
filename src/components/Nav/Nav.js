@@ -19,7 +19,7 @@ const Nav = () => {
               title="Contact"
               typoVariant="cta-tertiary"
               addClass="btn btn-tertiary"
-              color="primary"
+              color="brand-blue"
             />
           </List.Item>
         </List>

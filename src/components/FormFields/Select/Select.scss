@@ -1,5 +1,5 @@
 .input-field {
-  color: map-get($colors, 'gray5');
+  color: map-get($colors, 'brand-grey');
   border: rem(2px) solid map-get($colors, 'gray3');
   border-radius: $space-8;
   order: 1;
@@ -8,7 +8,7 @@
   width: 100%;
 
   &:focus {
-    border-color: map-get($colors, 'primary');
+    border-color: map-get($colors, 'brand-blue');
     outline: none;
   }
 

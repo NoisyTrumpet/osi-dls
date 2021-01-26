@@ -20,5 +20,5 @@ storiesOf("components/InfoBadge", module)
     <InfoBadge info="I am a Error info badge" preset="error" />
   ))
   .add("Custom", () => (
-    <InfoBadge info="I am Custom info badge" icon="star-bold" color="primary" />
+    <InfoBadge info="I am Custom info badge" icon="star-bold" color="brand-blue" />
   ));

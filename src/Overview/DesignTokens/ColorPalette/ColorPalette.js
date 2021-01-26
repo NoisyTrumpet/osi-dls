@@ -12,7 +12,7 @@ const ColorPalette = ({ theme }) => {
     ColorPaletteSwatches.push(ColorSwatch);
 
     // Adds line break after last color in group
-    const LastColorInGroup = new Set(['primary1', 'gray0', 'accentA1', 'accentB1']);
+    const LastColorInGroup = new Set(['brand-grey', 'primary1', 'gray0', 'accentA1', 'accentB1']);
 
     // Adds line break after each color group based on hardcoded values in LastColorInGroup
     if (LastColorInGroup.has(key)) {

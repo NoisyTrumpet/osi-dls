@@ -60,7 +60,7 @@
       width: auto;
       font-size: rem(13px);
       line-height: rem(20px);
-      color: map-get($colors, 'primary');
+      color: map-get($colors, 'brand-blue');
       @include fontSans($beam-114, $beam-vf, 'sans-serif', 114, 700);
     }
 
@@ -87,7 +87,7 @@
       z-index: 1;
     }
     option {
-      color: map-get($colors, "gray5"); // FF/IE fix
+      color: map-get($colors, "brand-grey"); // FF/IE fix
     }
     .input-label {
       z-index: 1;

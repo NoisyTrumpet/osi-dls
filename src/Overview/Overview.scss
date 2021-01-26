@@ -8,7 +8,7 @@
 
 
   a {
-    color: rgba(map-get($colors, 'primary'), 1.0);
+    color: rgba(map-get($colors, 'brand-blue'), 1.0);
 
     &:hover {
       text-decoration: none;

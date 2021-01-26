@@ -41,7 +41,7 @@ const Icon = ({
 
 Icon.defaultProps = {
   size: 24,
-  badgeColor: 'primary',
+  badgeColor: 'brand-blue',
   testId: 'icon',
 };
 

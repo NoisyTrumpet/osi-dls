@@ -29,8 +29,8 @@
   }
 
   &-primary {
-    background: map-get($colors, 'primary');
-    border-color: map-get($colors, 'primary');
+    background: map-get($colors, 'brand-blue');
+    border-color: map-get($colors, 'brand-blue');
 
     &:hover {
       background: map-get($colors, 'primary1');
@@ -50,10 +50,10 @@
 
   &-secondary {
     background: map-get($colors, 'brand-transparent');
-    border-color: map-get($colors, 'primary');
+    border-color: map-get($colors, 'brand-blue');
 
     .typography {
-      color: map-get($colors, 'primary');
+      color: map-get($colors, 'brand-blue');
     }
 
     &:hover {
@@ -81,7 +81,7 @@
     height: $space-32;
 
     .typography {
-      color: map-get($colors, 'primary');
+      color: map-get($colors, 'brand-blue');
     }
 
     &:hover {
@@ -115,8 +115,8 @@
   }
 
   &-quick-action-deactivated {
-    color: map-get($colors, 'primary');
-    border-color: map-get($colors, 'primary');
+    color: map-get($colors, 'brand-blue');
+    border-color: map-get($colors, 'brand-blue');
 
     &:hover {
       border-color: map-get($colors, 'primary1');
@@ -134,7 +134,7 @@
 
   &-quick-action-activated {
     border-color: map-get($colors, 'gray2');
-    color: map-get($colors, 'primary');
+    color: map-get($colors, 'brand-blue');
 
     &:hover {
       color: map-get($colors, 'primary1');

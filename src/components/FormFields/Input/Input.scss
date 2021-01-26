@@ -1,5 +1,5 @@
 .input-field {
-  color: map-get($colors, 'gray5');
+  color: map-get($colors, 'brand-grey');
   border: rem(2px) solid map-get($colors, 'gray3');
   border-radius: $space-8;
   order: 1;
@@ -7,7 +7,7 @@
   @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
 
   &:focus {
-    border-color: map-get($colors, 'primary');
+    border-color: map-get($colors, 'brand-blue');
     outline: none;
   }
 
@@ -92,7 +92,7 @@
   .input-field {
     &:checked {
       ~ .indicator {
-        background-color: map-get($colors, 'primary');
+        background-color: map-get($colors, 'brand-blue');
 
         &:after {
           opacity: 1;

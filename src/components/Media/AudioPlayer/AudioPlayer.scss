@@ -16,7 +16,7 @@
         transform: rotate(-90deg);
         transform-origin: 50% 50%;
         stroke-linecap: round;
-        stroke: map-get($colors, 'primary');
+        stroke: map-get($colors, 'brand-blue');
         fill: transparent;
       }
     }

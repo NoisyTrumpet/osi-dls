@@ -1,6 +1,6 @@
 .indicator {
   background-color: map-get($colors, 'brand-transparent');
-  border: rem(2px) solid map-get($colors, 'primary');
+  border: rem(2px) solid map-get($colors, 'brand-blue');
   height: rem(18px);
   width: rem(18px);
   transition: $timing-0;
@@ -40,7 +40,7 @@
 .input-field-radio {
 
   .indicator:after {
-    background: map-get($colors, 'primary');
+    background: map-get($colors, 'brand-blue');
     border: solid rem(2px) map-get($colors, 'brand-white');
     border-radius: 50%;
     height: rem(10px);
@@ -62,7 +62,7 @@
   -webkit-transition: $timing-1;
   transition: $timing-1;
   border-radius: $space-12;
-  border: rem(2px) solid map-get($colors, 'primary');
+  border: rem(2px) solid map-get($colors, 'brand-blue');
 
   &:before {
     position: absolute;
@@ -71,7 +71,7 @@
     width: $space-16;
     left: rem(2px);
     bottom: rem(2px);
-    background-color: map-get($colors, 'primary');
+    background-color: map-get($colors, 'brand-blue');
     -webkit-transition: $timing-1;
     transition: $timing-1;
     border-radius: 50%;
@@ -79,7 +79,7 @@
 }
 
 .input-field:checked + .indicator-toggle {
-  background-color: map-get($colors, 'primary');
+  background-color: map-get($colors, 'brand-blue');
 
   &:before {
     background-color: map-get($colors, 'gray1');

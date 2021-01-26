@@ -33,11 +33,11 @@
     border: rem(1px) solid map-get($colors, 'gray3');
 
     &:hover {
-      border: rem(1px) solid map-get($colors, 'primary');
+      border: rem(1px) solid map-get($colors, 'brand-blue');
     }
 
     &:checked {
-      border: rem(2px) solid map-get($colors, 'primary');
+      border: rem(2px) solid map-get($colors, 'brand-blue');
     }
   }
 

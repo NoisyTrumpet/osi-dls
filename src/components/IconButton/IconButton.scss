@@ -71,7 +71,7 @@
   filter: drop-shadow(0 0 $space-4 map-get($colors, 'gray2'));
 
   &:hover {
-    filter: drop-shadow(0 0 $space-4 map-get($colors, 'primary'));
+    filter: drop-shadow(0 0 $space-4 map-get($colors, 'brand-blue'));
   }
 
   &:disabled {

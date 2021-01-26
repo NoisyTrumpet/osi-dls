@@ -1,5 +1,8 @@
 const themes = {
   main: {
+    "brand-blue": "#00adbc",
+    "brand-orange": "#ffa500",
+    "brand-grey": "#5b6770",
     primary: "#00ADBB",
     primary1: "#00ABB8",
     gray5: "#48464f",
@@ -16,6 +19,9 @@ const themes = {
     "util-success": "#2c8636"
   },
   xmas: {
+    "brand-blue": "#00adbc",
+    "brand-orange": "#ffa500",
+    "brand-grey": "#5b6770",
     primary: "#1FB105",
     primary1: "#37D41B",
     gray5: "#48464f",

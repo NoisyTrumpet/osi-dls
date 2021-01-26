@@ -23,6 +23,9 @@ const colorChoices = [
   "brand-black",
   "brand-white",
   "brand-transparent",
+  "brand-blue",
+  "brand-orange",
+  "brand-grey",
   "disabled"
 ];
 

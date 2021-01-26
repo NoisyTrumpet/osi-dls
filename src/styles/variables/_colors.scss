@@ -1,4 +1,5 @@
-$base-colors: (primary: #00adbb,
+$base-colors: (
+  primary: #00adbb,
   primary1: #00ABB8,
   gray5: #48464f,
   gray4: #74717e,
@@ -14,7 +15,11 @@ $base-colors: (primary: #00adbb,
   util-success: #2c8636,
 );
 
-$extended-colors: (brand-black: #000000,
+$extended-colors: (
+  brand-blue: #00adbc,
+  brand-orange: #ffa500,
+  brand-grey: #5b6770,
+  brand-black: #000000,
   brand-white: #ffffff,
   brand-transparent: transparent,
   disabled: map-get($base-colors, 'gray3'),

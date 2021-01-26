@@ -16,7 +16,7 @@
 }
 
 .percentage-bar {
-  background: map-get($colors, 'primary');
+  background: map-get($colors, 'brand-blue');
   height: 100%;
   border-radius: $space-4 0 0 $space-4;
   transition: $timing-0;

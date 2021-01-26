@@ -18,19 +18,22 @@
         "util-error": "#F05D5E",
         "util-success": "#65bd6f",
         "brand-white": "#ffffff",
-        "brand-transparent": "transparent"
+        "brand-transparent": "transparent",
+        "brand-blue": "#00adbc",
+        "brand-orange": "#ffa500",
+        "brand-grey": "#5b6770"
       },
       "buttons": {
         "primary": {
           "standard": {
             "background": {
-              "color": "primary"
+              "color": "brand-blue"
             },
             "text": {
               "color": "brand-white"
             },
             "border": {
-              "color": "primary"
+              "color": "brand-blue"
             }
           },
           "hover": {
@@ -62,10 +65,10 @@
               "color": "brand-transparent"
             },
             "text": {
-              "color": "primary"
+              "color": "brand-blue"
             },
             "border": {
-              "color": "primary"
+              "color": "brand-blue"
             }
           },
           "hover": {
@@ -97,7 +100,7 @@
               "color": "brand-transparent"
             },
             "text": {
-              "color": "primary"
+              "color": "brand-blue"
             },
             "border": {
               "color": "gray2"
@@ -145,19 +148,22 @@
         "util-error": "#F05D5E",
         "util-success": "#65bd6f",
         "brand-white": "#ffffff",
-        "brand-transparent": "transparent"
+        "brand-transparent": "transparent",
+        "brand-blue": "#00adbc",
+        "brand-orange": "#ffa500",
+        "brand-grey": "#5b6770"
       },
       "buttons": {
         "primary": {
           "standard": {
             "background": {
-              "color": "primary"
+              "color": "brand-blue"
             },
             "text": {
               "color": "brand-white"
             },
             "border": {
-              "color": "primary"
+              "color": "brand-blue"
             }
           },
           "hover": {
@@ -189,10 +195,10 @@
               "color": "brand-transparent"
             },
             "text": {
-              "color": "primary"
+              "color": "brand-blue"
             },
             "border": {
-              "color": "primary"
+              "color": "brand-blue"
             }
           },
           "hover": {
@@ -224,7 +230,7 @@
               "color": "brand-transparent"
             },
             "text": {
-              "color": "primary"
+              "color": "brand-blue"
             },
             "border": {
               "color": "gray2"

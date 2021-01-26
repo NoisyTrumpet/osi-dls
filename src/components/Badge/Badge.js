@@ -21,7 +21,7 @@ const Badge = ({ count, color }) => {
 };
 
 Badge.defaultProps = {
-  color: "primary"
+  color: "brand-blue"
 };
 
 Badge.propTypes = {
