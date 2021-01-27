@@ -1,6 +1,6 @@
 // Body
 .typography-body {
-  color: map-get($colors, 'gray5');
+  color: map-get($colors, 'brand-grey');
   font-size: rem(15px);
   letter-spacing: 0px;
   @include fontSans($gtAmerican, $gtAmerican, 'sans-serif', 84, 700);

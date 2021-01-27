@@ -81,7 +81,7 @@ exports[`<Dropdown /> Should render Default 1`] = `
             </label>
           </Label>
           <Icon
-            badgeColor="primary"
+            badgeColor="brand-blue"
             name="arrows-norgiedown-bold"
             size={8}
             testId="icon"
@@ -252,7 +252,7 @@ exports[`<Dropdown /> Should render Font Dropdown 1`] = `
             </label>
           </Label>
           <Icon
-            badgeColor="primary"
+            badgeColor="brand-blue"
             name="arrows-norgiedown-bold"
             size={8}
             testId="icon"

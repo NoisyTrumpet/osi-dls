@@ -2,8 +2,8 @@
 
 exports[`<Badge /> renders 1`] = `
 <div
-  class="badge background-color-primary"
-  color="primary"
+  class="badge background-color-brand-blue"
+  color="brand-blue"
 >
   <span
     class="typography typography-caption color-brand-white"

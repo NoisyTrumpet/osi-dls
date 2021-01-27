@@ -1,6 +1,6 @@
 .btn {
   align-items: center;
-  border-radius: $space-8;
+  border-radius: $space-24 0 $space-24 $space-24;
   border-style: solid;
   border-width: rem(2px);
   display: flex;
@@ -33,8 +33,11 @@
     border-color: map-get($colors, 'brand-blue');
 
     &:hover {
-      background: map-get($colors, 'primary1');
-      border-color: map-get($colors, 'primary1');
+      background: map-get($colors, 'brand-transparent');
+      border-color: map-get($colors, 'brand-blue');
+      .typography {
+        color: map-get($colors, 'brand-blue');
+      }
     }
 
     &:disabled {
@@ -57,10 +60,10 @@
     }
 
     &:hover {
-      border-color: map-get($colors, 'primary1');
+      border-color: map-get($colors, 'brand-orange');
 
       .typography {
-        color: map-get($colors, 'primary1');
+        color: map-get($colors, 'brand-orange');
       }
     }
 

@@ -7,7 +7,7 @@
 
       &:hover,
       &:hover span {
-        color: map-get($colors, 'primary');
+        color: map-get($colors, 'brand-blue');
       }
 
       &:active,
