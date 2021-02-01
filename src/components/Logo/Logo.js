@@ -19,7 +19,17 @@ import {
   LogoMarkWhite,
   LogoMarkBlue,
   LogoMarkOrange,
-  LogoHorizBlack
+  LogoHorizBlack,
+  LogoHorizTagline,
+  LogoHorizTaglineBlack,
+  LogoHorizTaglineWhite,
+  LogoHorizTaglineBlue,
+  LogoHorizTaglineOrange,
+  LogoTagline,
+  LogoTaglineBlack,
+  LogoTaglineWhite,
+  LogoTaglineBlue,
+  LogoTaglineOrange,
 } from "../../assets/svg";
 import "./Logo.scss";
 
@@ -87,8 +97,40 @@ const Logo = ({
       if (color === "orange") {
         return LogoRegularOrange;
       }
+      return LogoRegular;
     }
-    return LogoRegular;
+    // Horizontal Tagline
+    if (variant === "horizontalTagline") {
+      if (color === "black") {
+        return LogoHorizTaglineBlack;
+      }
+      if (color === "white") {
+        return LogoHorizTaglineWhite;
+      }
+      if (color === "blue") {
+        return LogoHorizTaglineBlue;
+      }
+      if (color === "orange") {
+        return LogoHorizTaglineOrange;
+      }
+      return LogoHorizTagline;
+    }
+    // Stacked Tagline
+    if (variant === "regularTagline") {
+      if (color === "black") {
+        return LogoTaglineBlack;
+      }
+      if (color === "white") {
+        return LogoTaglineWhite;
+      }
+      if (color === "blue") {
+        return LogoTaglineBlue;
+      }
+      if (color === "orange") {
+        return LogoTaglineOrange;
+      }
+      return LogoTagline;
+    }
   }
 
   if (to) {
@@ -139,7 +181,7 @@ Logo.defaultProps = {
 };
 
 Logo.propTypes = {
-  variant: PropTypes.oneOf(["regular", "horizontal", "mark"]),
+  variant: PropTypes.oneOf(["regular", "horizontal", "mark", "horizontalTagline", "regularTagline"]),
   tagline: PropTypes.string,
   color: PropTypes.oneOf(["black", "white", "blue", "orange"]),
   animated: PropTypes.bool,

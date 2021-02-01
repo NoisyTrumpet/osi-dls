@@ -30,6 +30,20 @@ storiesOf(storyTitle, module)
       description="Logo Description"
     />
   ))
+  .add("Horizontal Tagline", () => (
+    <Logo
+      variant="horizontalTagline"
+      title="Logo Title"
+      description="Logo Description"
+    />
+  ))
+  .add("Regular Tagline", () => (
+    <Logo
+      variant="regularTagline"
+      title="Logo Title"
+      description="Logo Description"
+    />
+  ))
   .add("Mark", () => (
     <Logo variant="mark" title="Logo Title" description="Logo Description" />
   ))
