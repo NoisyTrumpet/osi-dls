@@ -8,7 +8,6 @@
 
 .typography-breadcrumb,
 .typography-body-medium,
-.typography-cta-tertiary,
 .typography-caption,
 .typography-eyebrow,
 .typography-helper,
@@ -38,6 +37,7 @@
   color: map-get($colors, 'brand-blue');
   font-size: rem(14px);
   letter-spacing: 0px;
+  @include fontSerif;
 }
 
 //Caption

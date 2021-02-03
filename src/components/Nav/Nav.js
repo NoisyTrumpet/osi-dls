@@ -15,10 +15,19 @@ const Nav = () => {
         <List horizontal>
           <List.Item>
             <TextLink
-              to="/contact"
-              title="Contact"
+              to="#about"
+              title="About"
               typoVariant="cta-tertiary"
-              addClass="btn btn-tertiary"
+              addClass="nav-item"
+              color="brand-blue"
+            />
+          </List.Item>
+          <List.Item>
+            <TextLink
+              to="#benefits"
+              title="Benefits"
+              typoVariant="cta-tertiary"
+              addClass="nav-item"
               color="brand-blue"
             />
           </List.Item>

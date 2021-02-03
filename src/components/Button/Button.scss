@@ -33,10 +33,11 @@
     border-color: map-get($colors, 'brand-blue');
 
     &:hover {
-      background: map-get($colors, 'brand-transparent');
-      border-color: map-get($colors, 'brand-blue');
+      border-radius: $space-24;
+      background: map-get($colors, 'primary1');
+    border-color: map-get($colors, 'primary1');
       .typography {
-        color: map-get($colors, 'brand-blue');
+        color: map-get($colors, 'brand-white');
       }
     }
 
@@ -52,18 +53,20 @@
   }
 
   &-secondary {
-    background: map-get($colors, 'brand-transparent');
-    border-color: map-get($colors, 'brand-blue');
+    background: map-get($colors, 'accentA');
+    border-color: map-get($colors, 'accentA');
 
     .typography {
-      color: map-get($colors, 'brand-blue');
+      color: map-get($colors, 'brand-white');
     }
 
     &:hover {
-      border-color: map-get($colors, 'brand-orange');
+      border-radius: $space-24;
+      background: map-get($colors, 'accentA1');
+    border-color: map-get($colors, 'accentA1');
 
       .typography {
-        color: map-get($colors, 'brand-orange');
+        color: map-get($colors, 'brand-white');
       }
     }
 

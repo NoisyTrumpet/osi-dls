@@ -19,23 +19,23 @@ const Footer = ({ backgroundColor, businessName, footerText }) => {
         <List.Item>
           <TextLink
             to="/terms"
-            title="Terms & Conditions"
-            typoVariant="body-medium"
+            title={`Terms & Conditions `}
+            typoVariant="text-link"
             color="brand-white"
-            addClass="bold"
+            addClass="bold footer-item typography-headline6"
           />
         </List.Item>
         <List.Item>
           <TextLink
             to="/privacy"
             title="Privacy Policy"
-            typoVariant="body-medium"
+            typoVariant="text-link"
             color="brand-white"
-            addClass="bold"
+            addClass="bold footer-item typography-headline6"
           />
         </List.Item>
       </List>
-      <Typography variant="body" color="brand-white">
+      <Typography variant="licensing" color="brand-white">
         {footerText}
       </Typography>
     </footer>

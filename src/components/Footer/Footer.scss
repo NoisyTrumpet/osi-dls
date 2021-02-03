@@ -2,6 +2,11 @@
     padding: $space-32 $space-16 $space-32 $space-40;
     margin-left: $space-40;
     border-top-left-radius: $space-40;
+
+    .footer-item {
+        margin-right: $space-16;
+    }
+
 }
 
 .bold {
