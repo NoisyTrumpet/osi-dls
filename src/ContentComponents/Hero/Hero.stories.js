@@ -117,6 +117,17 @@ storiesOf("Content Components/Hero", module)
       />
     </div>
   ))
+  .add("OsiLife Splash Hero", () => (
+    <div className="sb-no-padding">
+      <Hero
+        presetLayout="50/50, Osi"
+        imageAltText="Test Alt Text"
+        headline1="Remote patient monitoring technology with a human touch"
+        bodySubtitleWidth
+        bodySubtitle=""
+      />
+    </div>
+  ))
   // .add("Full Width, Headline Artwork", () => (
   //   <div className="sb-no-padding">
   //     <Hero

@@ -6,6 +6,19 @@
   gap: 0px 0px;
   position: relative;
 
+  .hero-svg {
+    max-width: 100%;
+    position: absolute;
+    right: rem(-300px);
+    top: rem(-28px);
+    @include media($mq-mobile) {
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+  }
+
+
   .body-sub {
     padding: 0 $space-24;
     margin-bottom: $space-32;
@@ -17,6 +30,7 @@
 
   .inline-svg {
     margin: 0 $space-24;
+    max-width: 100%;
   }
 
 
@@ -64,7 +78,7 @@
 
     &.max {
       align-items: center;
-      max-width: rem(432px);
+      max-width: rem(405px);
     }
   }
 

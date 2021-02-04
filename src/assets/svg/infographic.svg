@@ -1,0 +1,93 @@
+<svg id="infographic" xmlns="http://www.w3.org/2000/svg" width="843" height="auto" viewBox="0 0 843 846.945">
+  <text id="Patient_Care_Partners_" data-name="Patient Care Partners " transform="translate(0 694.945)" fill="orange" font-size="61.695" font-family="Baloo2-Medium, 'Baloo \32 '" font-weight="500"><tspan x="132.99" y="65">Patient Care Partners </tspan></text>
+  <text id="Remote_Patient_Monitoring_Services" data-name="Remote Patient
+Monitoring Services" transform="translate(415.191 451.448)" fill="#00adbc" font-size="40.293" font-family="Baloo2-SemiBold, 'Baloo \32 '" font-weight="600" letter-spacing="-0.012em"><tspan x="-134.881" y="0">Remote Patient</tspan><tspan x="-174.025" y="37.246">Monitoring Services</tspan></text>
+  <g id="Group_85" data-name="Group 85" transform="translate(-96.282 -651.043)">
+    <text id="OsiLIFE_Care_Managers" data-name="OsiLIFE Care
+Managers" transform="translate(211.134 1290.017)" fill="#00adbc" font-size="35.168" font-family="Baloo2-SemiBold, 'Baloo \32 '" font-weight="600"><tspan x="-96.712" y="0">OsiLIFE Care</tspan><tspan x="-76.525" y="32.533">Managers</tspan></text>
+  </g>
+  <g id="Group_86" data-name="Group 86" transform="translate(-96.282 -651.043)">
+    <text id="Healthcare_Providers" data-name="Healthcare
+Providers" transform="translate(507.812 688.043)" fill="#00adbc" font-size="35.168" font-family="Baloo2-SemiBold, 'Baloo \32 '" font-weight="600"><tspan x="-85.511" y="0">Healthcare</tspan><tspan x="-74.626" y="32.533">Providers</tspan></text>
+  </g>
+  <g id="Group_87" data-name="Group 87" transform="translate(-96.282 -651.043)">
+    <text id="Patients" transform="translate(803.259 1290.017)" fill="#00adbc" font-size="35.44" font-family="Baloo2-SemiBold, 'Baloo \32 '" font-weight="600"><tspan x="-65.422" y="0">Patients</tspan></text>
+  </g>
+  <g id="Group_88" data-name="Group 88" transform="translate(-96.282 -651.043)">
+    <path id="Path_104" data-name="Path 104" d="M506.7,752.988,505.056,857.37c0,10.756-2.834,12.668-2.834,0l-1.64-104.382a7.06,7.06,0,1,1,6.117,0" fill="orange" fill-rule="evenodd" class="svg-infographic-1"></path>
+    <path id="Path_105" data-name="Path 105" d="M508.831,755.517v16.427l2.23.585c2.319.673,5.719,1.946,8.016.739a2.906,2.906,0,0,0,1.35-1.09,5.861,5.861,0,0,0,5.464.444c1.6-.821,2.1-2.656,2.5-4.238a9.472,9.472,0,0,0,2.946,1.542,9.29,9.29,0,0,0,2.767.439,8.5,8.5,0,0,0,2.138-.184,5.934,5.934,0,0,0,4.822-5.239,8.427,8.427,0,0,0,6.888-.673,4.378,4.378,0,0,0,1.986-4.115c5.759,1.393,13.453-.849,16.388-6.3h-26.6a44.354,44.354,0,0,1-12.137-1.6c-2.243-.63-4.155-1.632-6.433-2.281a10.184,10.184,0,0,0-3.347-.449,5.176,5.176,0,0,0-2.483.707c-1.747,1.034-1.282,2.151-2.2,3.438-1.369,1.922-1.742,2.193-4.291,1.85" fill="orange" fill-rule="evenodd" class="svg-infographic-2"></path>
+    <path id="Path_106" data-name="Path 106" d="M498.443,755.517v16.427c-.736.194-1.483.391-2.228.585-2.315.673-5.718,1.946-8.012.739a2.917,2.917,0,0,1-1.354-1.09,5.852,5.852,0,0,1-5.46.444c-1.606-.821-2.1-2.656-2.5-4.238a9.478,9.478,0,0,1-2.951,1.542,9.266,9.266,0,0,1-2.759.439,8.548,8.548,0,0,1-2.143-.184,5.925,5.925,0,0,1-4.817-5.239,8.442,8.442,0,0,1-6.894-.673,4.391,4.391,0,0,1-1.986-4.115c-5.755,1.393-13.454-.849-16.387-6.3h26.6a44.316,44.316,0,0,0,12.136-1.6c2.247-.63,4.161-1.632,6.437-2.281a10.188,10.188,0,0,1,3.352-.449,5.182,5.182,0,0,1,2.478.707c1.749,1.034,1.279,2.151,2.2,3.438,1.372,1.922,1.741,2.193,4.288,1.85" fill="orange" fill-rule="evenodd" class="svg-infographic-3"></path>
+    <path id="Path_107" data-name="Path 107" d="M491.974,775.866c-2.9-.542-7.9.159-10.4,1.917-2.222,1.555-2.879,3.772-2.775,6.37a8.55,8.55,0,0,0,2.5,5.484c7.292,8.332,16.089,6.527,25.022,8.587,8,1.845,4.36,5.947-.462,8.457-1.763.922-3.624,1.675-5.4,2.584-.649.332-1.29.675-1.928,1.024-1.536.834-3.352,1.544-4.91,2.538-4.028,2.569-4.36,6.846-2.2,10.8,1.09,2,2.757,2.986,5.075,3.818,2.183.789,4.488,1.26,6.665,2.2a8.052,8.052,0,0,1,2.994,2.009,2.963,2.963,0,0,1,.505,1.114,8.57,8.57,0,0,1-1.127,5.357c-2.385,4.57-12.19,14.029-12.551,15.053,1.47.327,3.379-.752,3.626-.893,3.509-1.992,8.031-6.413,9.159-7.452,2.456-2.26,7.047-7.184,7.467-10.674.864-7.2-5.463-8.146-10.525-10.166a8.473,8.473,0,0,1-4.4-3.4,3.534,3.534,0,0,1-.1-3.594c1.749-3.185,5.333-3.467,8.643-4.456,4.144-1.242,8.422-2.007,10.782-5.5,6.482-9.571-6.407-16.589-15.485-16.983-4.621-.2-11.767-.619-15.763-3.794-1.2-.954-2.129-2.432-1.066-3.857a1.548,1.548,0,0,1,1.731-.548c.625.157,2.81,2.029,3.961,2.531a7.617,7.617,0,0,0,6.152.112c1.571-.694,1.287-2.677.521-4.357a7.31,7.31,0,0,0-3-3.294,8.45,8.45,0,0,0-2.7-.992" fill="orange" fill-rule="evenodd" class="svg-infographic-4"></path>
+    <path id="Path_108" data-name="Path 108" d="M494.414,779.223c-.71-.346-1.47-.388-1.7-.1s.149.8.854,1.151,1.467.388,1.7.1-.151-.806-.853-1.151" fill="orange" fill-rule="evenodd" class="svg-infographic-5"></path>
+    <path id="Path_109" data-name="Path 109" d="M497.343,784.417c-.979-.407-2.571-.893-3.183-1.773.306.81,1.388,1.483,1.694,2.291a6.043,6.043,0,0,0,1.489-.518" fill="orange" fill-rule="evenodd" class="svg-infographic-6"></path>
+    <path id="Path_110" data-name="Path 110" d="M515.3,775.865c2.9-.542,7.9.162,10.4,1.917,2.22,1.555,2.876,3.772,2.773,6.372a8.562,8.562,0,0,1-2.5,5.482c-7.289,8.335-16.086,6.527-25.022,8.59-8,1.842-4.362,5.947.46,8.454,1.766.922,3.627,1.675,5.4,2.587.649.329,1.292.675,1.927,1.023,1.54.832,3.353,1.545,4.916,2.539,4.022,2.571,4.355,6.843,2.2,10.8-1.088,2-2.755,2.986-5.07,3.823-2.183.787-4.5,1.255-6.673,2.191a8.057,8.057,0,0,0-2.988,2.012,3.011,3.011,0,0,0-.508,1.114,8.579,8.579,0,0,0,1.127,5.354c2.39,4.57,12.19,14.029,12.554,15.056-1.47.329-3.379-.758-3.629-.894-3.507-1.991-8.026-6.412-9.156-7.452-2.456-2.262-7.045-7.183-7.465-10.676-.867-7.205,5.463-8.143,10.52-10.166a8.5,8.5,0,0,0,4.4-3.393,3.56,3.56,0,0,0,.1-3.6c-1.749-3.183-5.333-3.467-8.648-4.456-4.142-1.239-8.417-2.005-10.775-5.493-6.482-9.57,6.407-16.589,15.48-16.982,4.621-.2,11.767-.622,15.763-3.794,1.207-.954,2.129-2.435,1.071-3.86a1.554,1.554,0,0,0-1.736-.545c-.622.154-2.813,2.026-3.959,2.531a7.634,7.634,0,0,1-6.154.109c-1.566-.691-1.289-2.675-.521-4.358a7.364,7.364,0,0,1,3.007-3.291,8.454,8.454,0,0,1,2.7-.994" fill="orange" fill-rule="evenodd" class="svg-infographic-7"></path>
+    <path id="Path_111" data-name="Path 111" d="M512.868,779.223c.707-.346,1.465-.388,1.7-.1s-.149.8-.859,1.151-1.462.388-1.7.1.149-.806.856-1.151" fill="orange" fill-rule="evenodd" class="svg-infographic-8"></path>
+    <path id="Path_112" data-name="Path 112" d="M509.937,784.417c.981-.407,2.568-.893,3.182-1.773-.3.81-1.39,1.483-1.693,2.291a6,6,0,0,1-1.489-.518" fill="orange" fill-rule="evenodd" class="svg-infographic-9"></path>
+    <path id="Path_113" data-name="Path 113" d="M497.158,780.622a.66.66,0,0,0-.071.032l.071-.032" fill="#00adbc" fill-rule="evenodd" class="svg-infographic-10"></path>
+  </g>
+  <g id="Group_89" data-name="Group 89" transform="translate(-96.282 -651.043)">
+    <path id="Path_114" data-name="Path 114" d="M501.412,983.817l12.673-35.7a3.478,3.478,0,0,1,6.543-.033l9.706,24.75,12.677-21.2a3.461,3.461,0,0,1,5.746-.312l0,0,14.4,19.07a3.434,3.434,0,0,1,.48.871c9.319-14.675,15.144-29.35,15.144-44.025a37.07,37.07,0,0,0-37.058-37.058c-18.527,0-27.794,9.267-37.058,27.795a77.5,77.5,0,0,0-10.131-16.023Z" fill="orange" fill-rule="evenodd" class="svg-infographic-11"></path>
+    <path id="Path_115" data-name="Path 115" d="M452.654,948.488a3.461,3.461,0,0,1,4.894-.16,3.424,3.424,0,0,1,.935,1.485l.018-.007,3.67,11.634,22.089-67.725a36.24,36.24,0,0,0-16.655-3.54,37.069,37.069,0,0,0-37.054,37.058c0,11.527,3.584,23.049,9.639,34.576Z" fill="orange" fill-rule="evenodd" class="svg-infographic-12"></path>
+    <path id="Path_116" data-name="Path 116" d="M557.608,974.57,546.32,959.62l-13.577,22.71a3.521,3.521,0,0,1-1.8,1.593,3.48,3.48,0,0,1-4.5-1.98l-8.921-22.733-14.9,41.978a3.479,3.479,0,0,1-6.8-.729l-8-95.259-22.345,68.514a3.482,3.482,0,0,1-6.689.16l-5.143-16.312-9.074,9.7a3.339,3.339,0,0,1-.915.7c14.057,23.481,37.523,46.966,61,70.446,20.823-20.816,41.639-41.635,55.89-62.455a3.469,3.469,0,0,1-2.944-1.381" fill="orange" fill-rule="evenodd" class="svg-infographic-13"></path>
+    <path id="Path_117" data-name="Path 117" d="M588.142,973.207a31.12,31.12,0,0,1,10.641,60.989,30.5,30.5,0,0,1-23.447-2.706,1.1,1.1,0,0,0-1.646.3q-8.652,10.081-17.358,20.116c-2.077,2.4-3.759,2.531-6.148.476-.689-.6-1.385-1.176-2.059-1.782a3.489,3.489,0,0,1-.39-5.267c1.507-1.786,3.055-3.532,4.585-5.3q6.566-7.6,13.145-15.185c.566-.647.685-1.06.1-1.831a31.1,31.1,0,0,1,17.53-48.971c1.652-.4,3.364-.569,5.046-.841m.681,9.476a21.666,21.666,0,1,0,23.135,20.027,21.558,21.558,0,0,0-23.135-20.027" fill="orange" class="svg-infographic-14"></path>
+  </g>
+  <g id="Group_98" data-name="Group 98" transform="translate(-96.282 -651.043)">
+    <path id="Path_118" data-name="Path 118" d="M222.773,1195.481H197.747c-15.381,0-27.849,16.466-27.849,36.778v1.55c0,6.555,4.273,11.869,9.543,11.869h61.637c5.271,0,9.543-5.314,9.543-11.869v-1.55C250.621,1211.947,238.153,1195.481,222.773,1195.481Z" fill="orange" class="svg-infographic-15"></path>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="23.285" cy="23.285" r="23.285" transform="translate(187.497 1154.597)" fill="orange" stroke="#fff" stroke-miterlimit="10" stroke-width="1" class="svg-infographic-16"></circle>
+    <g id="Group_91" data-name="Group 91">
+      <g id="Group_90" data-name="Group 90">
+        <path id="Path_119" data-name="Path 119" d="M287.26,1146.409a23.089,23.089,0,0,0-46.136-.421c-.011.335-.021.67-.021,1.005a22.744,22.744,0,0,0,3.306,11.834l-4.161,12.288,12.785-4.064a23.114,23.114,0,0,0,34.238-20.058C287.271,1146.8,287.271,1146.6,287.26,1146.409Zm-23.073,19.842a19.331,19.331,0,0,1-10.678-3.188l-7.457,2.378,2.421-7.155a19.061,19.061,0,0,1-3.7-11.293,17.863,17.863,0,0,1,.1-1.87,19.417,19.417,0,0,1,38.657.367c.044.5.065.995.065,1.5A19.355,19.355,0,0,1,264.187,1166.251Z" fill="orange" fill-rule="evenodd" class="svg-infographic-17"></path>
+        <path id="Path_120" data-name="Path 120" d="M274.767,1151.618c-.573-.28-3.35-1.643-3.869-1.826s-.9-.281-1.276.281-1.469,1.826-1.794,2.194-.658.421-1.231.14a15.291,15.291,0,0,1-4.55-2.788,16.786,16.786,0,0,1-3.145-3.88c-.324-.562-.032-.864.249-1.146.259-.259.562-.659.853-.983.076-.1.14-.184.205-.27a6.28,6.28,0,0,0,.357-.67,1.012,1.012,0,0,0-.043-.984c-.14-.281-1.275-3.047-1.751-4.171s-.94-.93-1.275-.93-.7-.054-1.081-.054a2.1,2.1,0,0,0-1.513.7,6.3,6.3,0,0,0-1.977,4.691,7.171,7.171,0,0,0,.291,1.913,12.762,12.762,0,0,0,2.021,3.891c.281.367,3.913,6.224,9.662,8.483,5.76,2.238,5.76,1.492,6.8,1.395s3.35-1.352,3.814-2.67a4.638,4.638,0,0,0,.335-2.669C275.707,1152.04,275.328,1151.9,274.767,1151.618Z" fill="orange" fill-rule="evenodd" class="svg-infographic-18"></path>
+      </g>
+    </g>
+    <g id="Group_97" data-name="Group 97">
+      <g id="Group_93" data-name="Group 93">
+        <g id="Group_92" data-name="Group 92">
+          <path id="Path_121" data-name="Path 121" d="M242.177,1201.819l3.875-9.706a6.936,6.936,0,0,1-.194-1.579V1182.7a7.356,7.356,0,0,1,7.347-7.347h19.521a7.356,7.356,0,0,1,7.349,7.347v7.831a7.356,7.356,0,0,1-7.349,7.349H254Z" fill="orange" class="svg-infographic-19"></path>
+        </g>
+      </g>
+      <g id="Group_94" data-name="Group 94">
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="2.751" cy="2.751" r="2.751" transform="translate(252.135 1183.009)" fill="#fff" class="svg-infographic-20"></circle>
+      </g>
+      <g id="Group_95" data-name="Group 95">
+        <circle id="Ellipse_17" data-name="Ellipse 17" cx="2.751" cy="2.751" r="2.751" transform="translate(260.043 1183.009)" fill="#fff" class="svg-infographic-21"></circle>
+      </g>
+      <g id="Group_96" data-name="Group 96">
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="2.751" cy="2.751" r="2.751" transform="translate(267.951 1183.009)" fill="#fff" class="svg-infographic-22"></circle>
+      </g>
+    </g>
+  </g>
+  <g id="Group_99" data-name="Group 99" transform="translate(-96.282 -651.043)">
+    <path id="Path_122" data-name="Path 122" d="M832.781,1163.219,805.438,1188.1a33.444,33.444,0,0,1,7.7,5.482l22.765-20.735,27.637,25.345v-12.474l-24.517-22.5a4.647,4.647,0,0,0-6.241,0" fill="orange" class="svg-infographic-23"></path>
+    <path id="Path_123" data-name="Path 123" d="M854.078,1216.772c-.255-8.159-.514-23.626-.514-23.626L835.9,1177.078l-20.7,18.833.017,27.509,16.091.122v-22.883h9.483v22.954l9.709.073C853.626,1223.772,854.231,1221.639,854.078,1216.772Z" fill="orange" class="svg-infographic-24"></path>
+    <path id="Path_124" data-name="Path 124" d="M807.5,1195.294H782.768c-15.2,0-27.526,16.275-27.526,36.352v1.532c0,6.479,4.223,11.731,9.432,11.731H825.6c5.209,0,9.432-5.252,9.432-11.731v-1.532C835.029,1211.569,822.706,1195.294,807.5,1195.294Z" fill="orange" stroke="#fff" stroke-miterlimit="10" stroke-width="1" class="svg-infographic-25"></path>
+    <circle id="Ellipse_19" data-name="Ellipse 19" cx="23.015" cy="23.015" r="23.015" transform="translate(772.637 1154.884)" fill="orange" stroke="#fff" stroke-miterlimit="10" stroke-width="1" class="svg-infographic-26"></circle>
+  </g>
+  <g id="Group_102" data-name="Group 102" transform="translate(-96.282 -651.043)">
+    <line id="Line_4" data-name="Line 4" x2="346.053" transform="translate(337.868 1209.636)" fill="none" stroke="#00adbc" stroke-miterlimit="10" stroke-width="7" class="svg-infographic-27"></line>
+    <g id="Group_100" data-name="Group 100">
+      <path id="Path_125" data-name="Path 125" d="M357.528,1235.558l-11.012-25.922,11.012-25.922-61.448,25.922Z" fill="#00adbc" class="svg-infographic-28"></path>
+    </g>
+    <g id="Group_101" data-name="Group 101">
+      <path id="Path_126" data-name="Path 126" d="M664.261,1235.558l11.013-25.922-11.013-25.922,61.448,25.922Z" fill="#00adbc" class="svg-infographic-29"></path>
+    </g>
+  </g>
+  <g id="Group_105" data-name="Group 105" transform="translate(-96.282 -651.043)">
+    <line id="Line_5" data-name="Line 5" x2="160.388" y2="265.441" transform="translate(592.033 825.495)" fill="none" stroke="#00adbc" stroke-miterlimit="10" stroke-width="7" class="svg-infographic-30"></line>
+    <g id="Group_103" data-name="Group 103">
+      <path id="Path_127" data-name="Path 127" d="M580.015,855.727,596.505,832.9l27.882-3.98-53.965-39.187Z" fill="#00adbc" class="svg-infographic-31"></path>
+    </g>
+    <g id="Group_104" data-name="Group 104">
+      <path id="Path_128" data-name="Path 128" d="M720.068,1087.515l27.882-3.98L764.44,1060.7l9.592,66Z" fill="#00adbc" class="svg-infographic-32"></path>
+    </g>
+  </g>
+  <g id="Group_108" data-name="Group 108" transform="translate(-96.282 -651.043)">
+    <line id="Line_6" data-name="Line 6" x1="160.388" y2="265.441" transform="translate(249.807 825.495)" fill="none" stroke="#00adbc" stroke-miterlimit="10" stroke-width="7" class="svg-infographic-33"></line>
+    <g id="Group_106" data-name="Group 106">
+      <path id="Path_129" data-name="Path 129" d="M377.842,828.916l27.882,3.98,16.491,22.831,9.592-66Z" fill="#00adbc" class="svg-infographic-34"></path>
+    </g>
+    <g id="Group_107" data-name="Group 107">
+      <path id="Path_130" data-name="Path 130" d="M237.788,1060.7l16.491,22.831,27.882,3.98L228.2,1126.7Z" fill="#00adbc" class="svg-infographic-35"></path>
+    </g>
+  </g>
+</svg>
