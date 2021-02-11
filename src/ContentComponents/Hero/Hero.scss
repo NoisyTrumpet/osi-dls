@@ -5,6 +5,7 @@
   grid-template-rows: 1fr;
   gap: 0px 0px;
   position: relative;
+  overflow-x: hidden;
 
   .hero-svg {
     max-width: 100%;

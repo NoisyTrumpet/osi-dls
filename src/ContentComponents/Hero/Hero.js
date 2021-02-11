@@ -355,8 +355,12 @@ const Hero = ({
             </Image>
           )
         )}
-        {presetLayout === "50/50, Osi" && (
-          <InlineSVG path={HeroSVG} className="hero-svg" title={imageAltText} />
+        {presetLayout === "50/50, Osi" && isDesktop && (
+          <InlineSVG
+            path={HeroSVG}
+            className={`hero-svg ${isDesktop && "hero-desktop-class"}`}
+            title={imageAltText}
+          />
         )}
       </div>
       {wave && (
