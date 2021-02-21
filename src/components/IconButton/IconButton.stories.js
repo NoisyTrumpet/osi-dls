@@ -12,7 +12,7 @@ const parameters = {
   jest: ["IconButton"]
 };
 
-storiesOf("components/IconButton", module)
+storiesOf("components | IconButton", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["disabled", "icon"] }))
   .add("Default", () => (

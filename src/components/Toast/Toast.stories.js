@@ -52,7 +52,7 @@ const ToastStory = () => {
   );
 };
 
-storiesOf("components/Toast", module)
+storiesOf("components | Toast", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: [] }))
   .add("Modal", () => <ToastStory />);

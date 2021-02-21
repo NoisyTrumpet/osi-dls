@@ -11,7 +11,7 @@ const parameters = {
   jest: ["ToggleSwitch"]
 };
 
-storiesOf("components/Form Fields/ToggleSwitch", module)
+storiesOf("components | Form Fields/ToggleSwitch", module)
   .addParameters(parameters)
   .addDecorator(
     withSmartKnobs({

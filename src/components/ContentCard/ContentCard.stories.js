@@ -20,6 +20,6 @@ const parameters = {
   jest: ["CotentCard"]
 };
 
-storiesOf("components/ContentCard", module)
+storiesOf("components | ContentCard", module)
   .addParameters(parameters)
   .add("Default", () => <Grid grid={4}>{cards}</Grid>);

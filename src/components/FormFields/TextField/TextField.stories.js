@@ -14,7 +14,7 @@ const TextFieldParameters = {
   jest: ["TextField"]
 };
 
-storiesOf("components/Form Fields/Text Field", module)
+storiesOf("components | Form Fields/Text Field", module)
   .addParameters(TextFieldParameters)
   .addDecorator(
     withSmartKnobs({

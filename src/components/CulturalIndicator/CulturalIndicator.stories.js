@@ -10,7 +10,7 @@ const parameters = {
   jest: ["CulturalIndicator"]
 };
 
-storiesOf("components/CulturalIndicator", module)
+storiesOf("components | CulturalIndicator", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: "onClick" }))
   .add("Default", () => (

@@ -22,7 +22,7 @@ const videoSrc = {
     "http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4"
 };
 
-storiesOf("components/Media/VideoPlayer", module)
+storiesOf("components | Media/VideoPlayer", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["isDecoration", "mute"] }))
   .add("Default (No Poster)", () => (
@@ -51,7 +51,7 @@ storiesOf("components/Media/VideoPlayer", module)
     />
   ));
 
-storiesOf("components/Media/VideoPlayer", module)
+storiesOf("components | Media/VideoPlayer", module)
   .addParameters(parameters)
   .add("Multiple Videos", () => (
     <div>

@@ -12,7 +12,7 @@ const parameters = {
   jest: ["Dialog"]
 };
 
-storiesOf("components/Dialog", module)
+storiesOf("components | Dialog", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["type", "children"] }))
   .add("Modal", () => (

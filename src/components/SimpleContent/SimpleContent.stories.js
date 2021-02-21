@@ -7,7 +7,7 @@ import { Typography } from "../Typography";
 import { TextLink } from "../TextLink";
 import iconArray from "../Icon/helpers/getIconArray";
 
-const storyTitle = "components/SimpleContent"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
+const storyTitle = "components | SimpleContent"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
 
 const SimpleContentParameters = {
   component: SimpleContent,

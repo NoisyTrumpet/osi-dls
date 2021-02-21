@@ -8,7 +8,7 @@ import { RadioButton } from "../RadioButton";
 import { Checkbox } from "../Checkbox";
 import { Image } from "../../Image";
 
-const storyTitle = "components/Form Fields/Fieldset";
+const storyTitle = "components | Form Fields/Fieldset";
 
 const FieldsetParameters = {
   component: Fieldset,

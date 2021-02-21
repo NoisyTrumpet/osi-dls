@@ -20,7 +20,7 @@ const store = {
   zip: "78756"
 };
 
-storiesOf("components/Address", module)
+storiesOf("components | Address", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: [] }))
   .add("Default", () => (

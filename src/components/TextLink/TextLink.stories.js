@@ -11,7 +11,7 @@ const parameters = {
   jest: ["TextLink"]
 };
 
-storiesOf("components/TextLink", module)
+storiesOf("components | TextLink", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["icon"] }))
   .add("Default", () => (
@@ -22,7 +22,7 @@ storiesOf("components/TextLink", module)
     />
   ));
 
-storiesOf("components/TextLink", module)
+storiesOf("components | TextLink", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["icon"] }))
   .add("Quick Link", () => (
@@ -36,7 +36,7 @@ storiesOf("components/TextLink", module)
     />
   ));
 
-storiesOf("components/TextLink", module)
+storiesOf("components | TextLink", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["icon"] }))
   .add("icon-right", () => (
@@ -48,7 +48,7 @@ storiesOf("components/TextLink", module)
     />
   ));
 
-storiesOf("components/TextLink", module)
+storiesOf("components | TextLink", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["icon"] }))
   .add("icon-left", () => (

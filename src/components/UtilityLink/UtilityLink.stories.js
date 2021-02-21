@@ -11,7 +11,7 @@ const parameters = {
   jest: ["UtilityLink"]
 };
 
-storiesOf("components/UtilityLink", module)
+storiesOf("components | UtilityLink", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["icon"] }))
   .add("Default", () => (

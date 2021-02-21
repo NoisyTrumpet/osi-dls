@@ -17,7 +17,7 @@ const exampleObj = '{ "cart": { "productId": "12345" }}';
 const exampleArray =
   '{ "eventInfo": { "eventName": "Find a store", "eventAction": "Show More" }}';
 
-storiesOf("components/DataLayer", module)
+storiesOf("components | DataLayer", module)
   .addParameters(parameters)
   .add("Default", () => (
     <div>

@@ -3,7 +3,7 @@ import { storiesOf } from "@storybook/react";
 import { withSmartKnobs } from "storybook-addon-smart-knobs";
 import { ProgressBar } from "./";
 
-const storyTitle = "components/ProgressBar"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
+const storyTitle = "components | ProgressBar"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
 
 const parameters = {
   component: ProgressBar,

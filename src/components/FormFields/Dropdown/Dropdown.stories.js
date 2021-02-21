@@ -130,7 +130,7 @@ const DropdownOptions = [
 //   }
 // ];
 
-storiesOf("components/Form Fields/Dropdown", module)
+storiesOf("components | Form Fields/Dropdown", module)
   .addParameters(DropdownParameters)
   .addDecorator(
     withSmartKnobs({ ignoreProps: ["children", "storybookErrorPreview"] })

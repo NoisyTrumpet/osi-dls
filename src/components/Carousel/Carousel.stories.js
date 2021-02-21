@@ -4,7 +4,7 @@ import { withSmartKnobs } from "storybook-addon-smart-knobs";
 import Carousel from "./Carousel";
 import { Typography } from "../Typography";
 
-const storyTitle = "components/Carousel"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
+const storyTitle = "components | Carousel"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
 
 const parameters = {
   component: Carousel,

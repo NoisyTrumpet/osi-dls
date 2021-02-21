@@ -9,7 +9,7 @@ const parameters = {
   jest: ["AudioPlayer"]
 };
 
-storiesOf("components/Media/AudioPlayer", module)
+storiesOf("components | Media/AudioPlayer", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["children"] }))
   .add("MP3 Audio", () => (

@@ -5,7 +5,7 @@ import { RadioButton } from "./";
 import { Image } from "../../Image";
 import { Button } from "../../Button";
 
-const storyTitle = "components/Form Fields/Radio Button"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
+const storyTitle = "components | Form Fields/Radio Button"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
 
 const RadioButtonParameters = {
   component: RadioButton,

@@ -10,7 +10,7 @@ const parameters = {
   jest: ["InfoBadge"]
 };
 
-storiesOf("components/InfoBadge", module)
+storiesOf("components | InfoBadge", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: [] }))
   .add("Success", () => (
@@ -20,5 +20,9 @@ storiesOf("components/InfoBadge", module)
     <InfoBadge info="I am a Error info badge" preset="error" />
   ))
   .add("Custom", () => (
-    <InfoBadge info="I am Custom info badge" icon="star-bold" color="brand-blue" />
+    <InfoBadge
+      info="I am Custom info badge"
+      icon="star-bold"
+      color="brand-blue"
+    />
   ));

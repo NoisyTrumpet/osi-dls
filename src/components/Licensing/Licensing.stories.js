@@ -4,7 +4,7 @@ import { Licensing } from "./";
 import BvSLogo from "../../../conf/storybook/images/batman-vs-superman-color_pdp@1x.png";
 import DCLogo from "../../../conf/storybook/images/dc-comics_pdp@1x.png";
 
-const storyTitle = "components/Licensing"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
+const storyTitle = "components | Licensing"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
 
 const LicensingParameters = {
   component: Licensing,

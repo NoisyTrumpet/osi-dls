@@ -145,7 +145,7 @@ const CollapseUseExampleComponentWithCheckbox = ({
   );
 };
 
-storiesOf("components/Collapse", module)
+storiesOf("components | Collapse", module)
   .addParameters(parameters)
   .addDecorator(withKnobs())
   .add("Button Trigger", () => (

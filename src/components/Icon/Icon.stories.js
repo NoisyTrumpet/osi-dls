@@ -13,7 +13,7 @@ const parameters = {
   jest: ["Icon"]
 };
 
-storiesOf("components/Icon", module)
+storiesOf("components | Icon", module)
   .addParameters(parameters)
   .add("Labels", () => (
     <div className="sb-icon-container labels">
@@ -36,7 +36,7 @@ storiesOf("components/Icon", module)
       ))}
     </div>
   ));
-storiesOf("components/Icon", module)
+storiesOf("components | Icon", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs())
   .add("With Badge", () => <Icon name="notification-default" badgeCount={1} />);

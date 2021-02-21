@@ -10,7 +10,7 @@ const parameters = {
   jest: ["SubBranding"]
 };
 
-storiesOf("components/SubBranding", module)
+storiesOf("components | SubBranding", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: "onClick" }))
   .add("Default", () => (

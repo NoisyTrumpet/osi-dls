@@ -18,7 +18,7 @@ const resourceUrl2 =
 const exampleDataLayer =
   'const dataLayer = { siteType: "responsive", siteID: "hallmark.com", page: { attributes: { length: "test" }, pageInfo: { recommendationDetails: { length: "test" }, pageURL: window.location.href, referringURL: document.referrer, sysEnv: "Production", language: navigator.language, IP: "75.179.128.124", adminView: "No", level1: "Home" } }, modal: { event: { length: "test" }, attributes: { length: "test" }, level1: "test", store: { storeInfo: "test" } }, transaction: { transactionID: "test", total: { basePrice: "test" }, item: { length: "test", productInfo: { length: "test", productID: "test", productInfoShown: { productID: "test" } } }, total: { cartTotal: "test", shippingInfo: { shippingTotal: "test" } }  }, store: { storeInfo: "test" }, lists: { item: { length: "test" } }, cart: { price: { orderLevelDiscountCodes: { length: "test" }, discountInfo: { length: "test" }, basePrice: "test" }, item: { length: "test", productInfo: { productID: "test", productInfoShown: { productID: "test", averageRating: { length: "test" } } } } }, user: { profile: { customerGroup: { length: "test" } } }, event: { length: "test" } }';
 
-storiesOf("components/Script", module)
+storiesOf("components | Script", module)
   .addParameters(parameters)
   .add("Default", () => (
     <div>

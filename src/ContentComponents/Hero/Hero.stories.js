@@ -39,7 +39,7 @@ const videoSrc = {
 const headline2Text =
   "Optional body subtitle ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
-storiesOf("Content Components/Hero", module)
+storiesOf("Content Components | Hero", module)
   .addDecorator(withSmartKnobs())
   .add("w/Knobs", () => (
     <div className="sb-no-padding">
@@ -57,7 +57,7 @@ storiesOf("Content Components/Hero", module)
     </div>
   ));
 
-storiesOf("Content Components/Hero", module)
+storiesOf("Content Components | Hero", module)
   .add("50/50, Image Right", () => (
     <div className="sb-no-padding">
       <Hero

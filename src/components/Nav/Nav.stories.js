@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react";
 import { withSmartKnobs } from "storybook-addon-smart-knobs";
 import { Nav } from "./";
 
-const storyTitle = "components/Nav"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
+const storyTitle = "components | Nav"; // Stories can be organized in a nested structure using ”/” as a separator, and can be given a top-level heading using a ”|” root separator
 
 const NavParameters = {
   component: Nav,

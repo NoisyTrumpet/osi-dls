@@ -57,7 +57,7 @@ const ContentPanelsExample = () => {
   );
 };
 
-storiesOf("components/ContentPanels", module)
+storiesOf("components | ContentPanels", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: [] }))
   .add("Default", () => (

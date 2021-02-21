@@ -12,7 +12,7 @@ const parameters = {
   jest: ["AccentIcon"]
 };
 
-storiesOf("components/AccentIcon", module)
+storiesOf("components | AccentIcon", module)
   .addParameters(parameters)
   .addDecorator(
     withSmartKnobs({ ignoreProps: ["icon", "accent", "accentColor"] })

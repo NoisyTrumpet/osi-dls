@@ -10,7 +10,7 @@ import { ContentCard } from "../../components/ContentCard";
 import { Grid } from "../../components/Grid";
 import * as mockContentCardData from "../../components/ContentCard/mockData/mockContentCardData.json";
 
-storiesOf("Content Components/Tabs", module)
+storiesOf("Content Components | Tabs", module)
   .add("2 Tabs", () => (
     <div className="sb-no-padding">
       <Tabs ariaLabel="example tabs">

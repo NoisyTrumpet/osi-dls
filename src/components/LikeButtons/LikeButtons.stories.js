@@ -12,7 +12,7 @@ const parameters = {
 
 const count = { likes: 10, dislikes: 0 };
 
-storiesOf("components/Like Buttons", module)
+storiesOf("components | Like Buttons", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: ["disabled", "icon"] }))
   .add("Default", () => (

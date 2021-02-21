@@ -20,7 +20,7 @@ const parameters = {
   jest: ["SegmentedControl"]
 };
 
-storiesOf("components/Form Fields/SegmentedControl", module)
+storiesOf("components | Form Fields/SegmentedControl", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({}))
   .addDecorator(withFormik)

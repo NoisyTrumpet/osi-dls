@@ -9,7 +9,7 @@ const parameters = {
   jest: ["Typography"]
 };
 
-storiesOf("components/Typography", module)
+storiesOf("components | Typography", module)
   .addParameters(parameters)
   .addDecorator(withSmartKnobs({ ignoreProps: [] }))
   .add("Default ", () => (

@@ -139,7 +139,7 @@ const AccordionExampleTwo = (
     />
   </Accordion>
 );
-storiesOf("components/Accordion", module)
+storiesOf("components | Accordion", module)
   .addParameters(parameters)
   .add("Default", () => AccordionExample)
   .add("Accordion contained in a 320px wide <div>", () => (
