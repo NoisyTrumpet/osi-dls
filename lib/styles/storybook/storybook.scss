@@ -52,7 +52,7 @@
 }
 
 .sb-icon-name {
-  color: map-get($colors, 'primary');
+  color: map-get($colors, 'brand-blue');
   font-size: rem(10px);
   @include fontSans($beam-84, $beam-vf, 'sans-serif', 84, 700);
 }
