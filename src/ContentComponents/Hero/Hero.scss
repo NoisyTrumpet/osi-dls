@@ -7,6 +7,14 @@
   position: relative;
   overflow-x: hidden;
 
+  &.osi-hero {
+    @include media($mq-mobile) {
+      .image {
+        display: none;
+      }
+    }
+  }
+
   .hero-svg {
     max-width: 100%;
     position: absolute;
@@ -18,7 +26,6 @@
       top: 0;
     }
   }
-
 
   .body-sub {
     padding: 0 $space-24;
@@ -33,7 +40,6 @@
     margin: 0 $space-24;
     max-width: 100%;
   }
-
 
   &.no-sub {
     .content {
@@ -54,7 +60,7 @@
   }
 
   .tint {
-    background-color: rgba(96, 64, 153, 0.3)
+    background-color: rgba(96, 64, 153, 0.3);
   }
 
   .typoWrapper {
@@ -79,7 +85,16 @@
 
     &.max {
       align-items: center;
-      max-width: rem(405px);
+      max-width: 100%;
+      @include media($mq-tablet-up) {
+        .typography {
+          line-height: 60px;
+        }
+      }
+
+      .inline-svg {
+        max-width: rem(405px);
+      }
     }
   }
 
@@ -168,9 +183,8 @@
 
   // // Safari Grid height fix
   /* Safari 10.1+ (alternate method) */
-  @media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) {
-
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
       &.hero50 {
         display: flex;
 
@@ -205,15 +219,11 @@
 
   // Default Hero 50/50
   &.hero50 {
-
-
-
     @include media($mq-mobile) {
       grid-template-rows: 1fr;
     }
 
     .image50 {
-
       @include media($mq-mobile) {
         width: 100%;
         order: 1;
@@ -313,7 +323,6 @@
         place-items: center;
         width: max-content;
 
-
         .ctaButton {
           padding: 0;
           width: max-content;
@@ -325,8 +334,6 @@
       }
     }
   }
-
-
 
   //  Default Hero Full
   &.hero-full {
@@ -340,14 +347,11 @@
 
     // Full Left
     &.hero-full-left {
-
       .content {
         @include media($mq-mobile) {
           padding-top: $space-48;
         }
       }
-
-
 
       .typoWrapper {
         width: 50%;
@@ -365,7 +369,6 @@
 
         @include media($mq-mobile) {
           width: 100%;
-
         }
 
         .cta-wrapper {
@@ -394,8 +397,6 @@
       }
     }
 
-
-
     .typoWrapper {
       width: 50%;
       display: grid;
@@ -403,7 +404,6 @@
 
       @include media($mq-mobile) {
         width: 100%;
-
       }
 
       .typography-headline:last-of-type {
@@ -432,7 +432,6 @@
       flex-direction: column;
     }
   }
-
 
   // Headline Styles
   .typoOverride {

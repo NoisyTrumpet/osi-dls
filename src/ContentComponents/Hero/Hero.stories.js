@@ -3,7 +3,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { withSmartKnobs } from "storybook-addon-smart-knobs";
 import { Hero } from "./";
-// import heroSVG from "../../../conf/storybook/images/hero-headline.svg";
+import { InfoGraph } from "../../assets/svg";
 
 const defaultImgSrc = {
   imageDesktop: "https://picsum.photos/645/640",
@@ -120,10 +120,13 @@ storiesOf("Content Components | Hero", module)
   .add("OsiLife Splash Hero", () => (
     <div className="sb-no-padding">
       <Hero
-        presetLayout="50/50, Osi"
+        image={defaultImgSrc}
+        heroSVG={InfoGraph}
+        headlineFontStyle="h1"
         imageAltText="Test Alt Text"
+        presetLayout="50/50, Osi"
         headline1="Remote patient monitoring technology with a human touch"
-        bodySubtitleWidth
+        bodySubtitleWidth="false"
         bodySubtitle=""
       />
     </div>

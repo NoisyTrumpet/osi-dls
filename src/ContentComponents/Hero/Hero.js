@@ -10,7 +10,6 @@ import { VideoPlayer } from "../../components/Media/VideoPlayer";
 import CTA from "./Fragments/CTA";
 import Headline from "./Fragments/Headline";
 import { Typography } from "../../components/Typography";
-import { Infographic, HeroSVG } from "../../assets/svg";
 
 const Hero = ({
   // layout
@@ -29,6 +28,8 @@ const Hero = ({
   // Body
   bodySubtitle,
   bodySubtitleWidth,
+  // Osi Hero SVG
+  heroSVG,
   // Text
   textAlign,
   textPlacementDesktop,
@@ -170,6 +171,7 @@ const Hero = ({
 
   const classes = classNames(
     "hero",
+    { "osi-hero": presetLayout === "50/50, Osi" },
     { hero50: presetLayoutDetails[presetLayout].layout === "50/50" },
     {
       "hero-full": presetLayoutDetails[presetLayout].layout === "Full"
@@ -308,9 +310,9 @@ const Hero = ({
           <div className={ctaClasses}>
             {presetLayout === "50/50, Osi" && (
               <InlineSVG
-                path={Infographic}
+                path={heroSVG}
                 className="inline-svg infogrpahic-svg"
-                title={imageAltText}
+                title={headline1}
               />
             )}
             {primaryCTAText && primaryCTALink && (
@@ -342,25 +344,16 @@ const Hero = ({
         {video ? (
           <VideoPlayer isDecoration videoSrc={video} />
         ) : (
-          presetLayout !== "50/50, Osi" && (
-            <Image src={image.imageDesktop} alt={imageAltText}>
-              <Image.Source
-                media="(max-width:767px)"
-                srcSet={image.imageMobile}
-              />
-              <Image.Source
-                media="(max-width:1024px)"
-                srcSet={image.imageTablet}
-              />
-            </Image>
-          )
-        )}
-        {presetLayout === "50/50, Osi" && isDesktop && (
-          <InlineSVG
-            path={HeroSVG}
-            className={`hero-svg ${isDesktop && "hero-desktop-class"}`}
-            title={imageAltText}
-          />
+          <Image src={image.imageDesktop} alt={imageAltText}>
+            <Image.Source
+              media="(max-width:767px)"
+              srcSet={image.imageMobile}
+            />
+            <Image.Source
+              media="(max-width:1024px)"
+              srcSet={image.imageTablet}
+            />
+          </Image>
         )}
       </div>
       {wave && (
@@ -412,6 +405,7 @@ Hero.propTypes = {
     "Bottom-center",
     "Bottom-right"
   ]),
+  heroSVG: PropTypes.string,
   textPlacementMobile: PropTypes.oneOf(["Top", "Center", "Bottom"]),
   textShadow: PropTypes.bool,
   textBackgroundColor: PropTypes.oneOf([

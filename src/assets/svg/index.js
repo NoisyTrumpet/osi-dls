@@ -1,9 +1,6 @@
 import AccentCircle from "./accent-circle.svg";
 import DesktopModalCurveBottom from "./desktop-modal-curve-bottom.svg";
 import DesktopModalCurveTop from "./desktop-modal-curve-top.svg";
-
-import Infographic from "./infographic.svg";
-
 import LogoHoriz from "./logo_horiz.svg";
 import LogoHorizBlack from "./logo-horiz_black.svg";
 import LogoHorizWhite from "./logo-horiz_white.svg";
@@ -33,18 +30,16 @@ import LogoTaglineBlack from "./logo-tagline-black.svg";
 import LogoTaglineWhite from "./logo-tagline-white.svg";
 import LogoTaglineBlue from "./logo-tagline-blue.svg";
 import LogoTaglineOrange from "./logo-tagline-orange.svg";
-
+import InfoGraph from "./infographic.svg";
 import MobileModalCurveTop from "./mobile-modal-curve-top.svg";
 import TabBrushStroke from "./tabs-brush-stroke.svg";
 import WaveSVG from "./wave.svg";
-import HeroSVG from "./hero.svg";
 
 export {
   AccentCircle,
   DesktopModalCurveBottom,
   DesktopModalCurveTop,
-  HeroSVG,
-  Infographic,
+  InfoGraph,
   LogoHoriz,
   LogoHorizBlack,
   LogoHorizWhite,
