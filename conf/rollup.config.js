@@ -6,10 +6,6 @@ import svg from "rollup-plugin-svg";
 import json from "@rollup/plugin-json";
 import copy from "rollup-plugin-copy";
 
-import react from "react";
-import reactDom from "react-dom";
-import PropTypes from "prop-types";
-
 export const buildPath = "lib";
 
 export default [
@@ -30,14 +26,7 @@ export default [
       }),
       svg(),
       commonjs({
-        include: "node_modules/**",
-        namedExports: {
-          react: Object.keys(react),
-          "react-dom": Object.keys(reactDom),
-          "react-responsive": ["useMediaQuery"],
-          "prop-types": Object.keys(PropTypes),
-          "node_modules/react-is/index.js": ["isValidElementType"]
-        }
+        include: "node_modules/**"
       }),
       copy({
         targets: [{ src: "src/styles", dest: "lib" }]
@@ -46,6 +35,7 @@ export default [
     external: [
       "react",
       "react-dom",
+      "react-router",
       "react-router-dom",
       "prop-types",
       "formik",
@@ -70,14 +60,7 @@ export default [
       }),
       svg(),
       commonjs({
-        include: "node_modules/**",
-        namedExports: {
-          react: Object.keys(react),
-          "react-dom": Object.keys(reactDom),
-          "react-responsive": ["useMediaQuery"],
-          "prop-types": Object.keys(PropTypes),
-          "node_modules/react-is/index.js": ["isValidElementType"]
-        }
+        include: "node_modules/**"
       })
     ],
     external: [
@@ -99,7 +82,7 @@ export default [
   //   },
   //   plugins: [
   //     json(),
-  //     resolve(),
+  //     nodeResolve(),
   //     scss({
   //       output: `${buildPath}/widgets/index.css`,
   //     }),
@@ -109,13 +92,6 @@ export default [
   //     svg(),
   //     commonjs({
   //       include: 'node_modules/**',
-  //       namedExports: {
-  //         react: Object.keys(react),
-  //         'react-dom': Object.keys(reactDom),
-  //         'react-responsive': ['useMediaQuery'],
-  //         'prop-types': Object.keys(PropTypes),
-  //         'node_modules/react-is/index.js': ['isValidElementType'],
-  //       },
   //     })
   //   ],
   //   external: [
