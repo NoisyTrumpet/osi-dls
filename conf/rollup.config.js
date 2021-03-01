@@ -1,6 +1,6 @@
-import babel from "rollup-plugin-babel";
-import resolve from "rollup-plugin-node-resolve";
-import commonjs from "rollup-plugin-commonjs";
+import { babel } from "@rollup/plugin-babel";
+import { nodeResolve } from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
 import scss from "rollup-plugin-scss";
 import svg from "rollup-plugin-svg";
 import json from "@rollup/plugin-json";
@@ -21,7 +21,7 @@ export default [
     },
     plugins: [
       json(),
-      resolve(),
+      nodeResolve(),
       scss({
         output: `${buildPath}/index.css`
       }),
@@ -61,7 +61,7 @@ export default [
     },
     plugins: [
       json(),
-      resolve(),
+      nodeResolve(),
       scss({
         output: `${buildPath}/ContentComponents/index.css`
       }),
