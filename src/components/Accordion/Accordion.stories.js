@@ -4,7 +4,6 @@ import { Accordion } from "./";
 import { TextLink } from "../TextLink";
 import { withNoPadding } from "../../util";
 import { List } from "../List";
-import { Logo } from "../Logo";
 
 const parameters = {
   component: Accordion,
@@ -53,7 +52,7 @@ const AccordionExample = (
       </List>
     </Accordion.Section>
     <Accordion.Section title="Section 2" titleID="accordion2id" panelId="sect2">
-      <Logo />
+      <>Test</>
     </Accordion.Section>
     <Accordion.Section
       title={overflowSectionTitle}
@@ -118,7 +117,7 @@ const AccordionExampleTwo = (
       titleVariant="body-medium"
       titleColor="primary"
     >
-      <Logo />
+      <>Test</>
     </Accordion.Section>
     <Accordion.Section
       title={overflowSectionTitle}

@@ -9,7 +9,7 @@ const Headline = ({ text1, text2, text3, color, state, headlineTag }) => {
     if (isMobile) {
       return "headline-4";
     }
-    return "headline-1";
+    return "headline-3";
   };
   return (
     <Typography
