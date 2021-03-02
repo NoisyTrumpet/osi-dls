@@ -1,8 +1,8 @@
-import jsonData from '../../../helpers/fonts/icons/icomoon/selection.json';
+import jsonData from "../../../../conf/storybook/fonts/icons/icomoon/selection.json";
 
 const iconList = jsonData.icons;
 
-const createIconArray = (json) => {
+const createIconArray = json => {
   const icons = [];
 
   for (let i = 0; i < json.length; i += 1) {

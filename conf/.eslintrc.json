@@ -1,5 +1,9 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react"],
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
   "env": {
     "browser": true,
     "jest": true
@@ -9,7 +13,8 @@
     "document": true,
     "expect": true,
     "jest": true,
-    "test": true
+    "test": true,
+    "_satellite": true
   },
   "rules": {
     "max-len": "warn",
@@ -26,7 +31,15 @@
         }
       }
     ],
-    "import/export": 0
+    "import/export": 0,
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_satellite"
+        ]
+      }
+    ]
   },
   "parser": "babel-eslint"
 }

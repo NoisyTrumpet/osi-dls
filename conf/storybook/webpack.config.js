@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path");
 
 // Export a function. Accept the base config as the only param.
 module.exports = async ({ config, mode }) => {
@@ -10,14 +10,14 @@ module.exports = async ({ config, mode }) => {
   config.module.rules.push({
     test: /\.scss$/,
     use: [
-      'style-loader',
-      'css-loader',
+      "style-loader",
+      "css-loader",
       {
         loader: "sass-loader",
         options: {
           prependData: '@import "./shared.scss";',
           sassOptions: {
-            includePaths: [path.resolve(__dirname, '../../src/styles')]
+            includePaths: [path.resolve(__dirname, "../../src/styles")]
           }
         }
       }
@@ -26,8 +26,8 @@ module.exports = async ({ config, mode }) => {
 
   config.module.rules.push({
     test: /\.stories\.jsx?$/,
-    loaders: [require.resolve('@storybook/source-loader')],
-    enforce: 'pre',
+    loaders: [require.resolve("@storybook/source-loader")],
+    enforce: "pre"
   });
 
   // Return the altered config
