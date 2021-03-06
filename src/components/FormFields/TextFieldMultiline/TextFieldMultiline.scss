@@ -1,0 +1,66 @@
+.textarea-wrapper {
+  padding: 1.15rem 0.75rem;
+}
+
+.input-field-textarea {
+  border: none;
+  width: 100%;
+}
+
+.input-field-textarea:focus {
+  outline: none;
+}
+
+.input-field-textarea::-webkit-scrollbar {
+  opacity: 1;
+  -webkit-appearance: none;
+  width: 7px;
+  height: 3px;
+}
+.input-field-textarea::-webkit-scrollbar-thumb {
+  opacity: 1;
+  border-radius: 99px;
+  background-color: rgba(156, 156, 156, 0.25);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+.input-field-text {
+  padding-top: $space-16;
+  position: relative;
+
+  &.icon-left {
+    .input-field {
+      padding-left: $space-48;
+    }
+
+    .icon {
+      left: $space-16;
+    }
+  }
+
+  &.icon-right {
+    .input-field {
+      padding-right: $space-48;
+    }
+
+    .icon {
+      transform: translate(calc(-100% - 12px), -50%);
+    }
+  }
+
+  &.hidden-label {
+    label {
+      @extend %screen-reader-text;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    top: rem(42px);
+    transform: translate(0, -50%);
+  }
+}
+
+input::-ms-clear {
+  display: none;
+}
